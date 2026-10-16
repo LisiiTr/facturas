@@ -1,0 +1,555 @@
+{
+  "facturas": [
+    {
+      "tipo_comprobante": "FACTURA",
+      "letra": "A",
+      "codigo_comprobante": "001",
+      "punto_venta": "06455",
+      "numero_comprobante": "00001076",
+      "fecha_emision": "2026-09-04",
+      "fecha_vencimiento_pago": "2026-09-04",
+      "emisor": {
+        "razon_social": "LOGISTICA LA SERENISIMA S.A.",
+        "nombre_comercial": null,
+        "cuit": "30707210385",
+        "condicion_iva": "IVA RESPONSABLE INSCRIPTO",
+        "domicilio": "FRENCH 135",
+        "localidad": "LONGCHAMPS",
+        "provincia": "BUENOS AIRES",
+        "codigo_postal": null,
+        "ingresos_brutos": "9010435074",
+        "inicio_actividades": "2000-10-01"
+      },
+      "receptor": {
+        "razon_social": "EL ROBLE SOCIEDAD SIMPLE S. CAP I SECC I",
+        "cuit": "30719352681",
+        "dni": null,
+        "condicion_iva": "IVA RESPONSABLE INSCRIPTO",
+        "domicilio": "CALLE 18 4607",
+        "localidad": "BERISSO",
+        "provincia": "BUENOS AIRES",
+        "codigo_postal": "1923"
+      },
+      "moneda": "ARS",
+      "tipo_cambio": null,
+      "items": [
+        {
+          "codigo": "393100",
+          "codigo_ean": null,
+          "descripcion": "CALSA LPF CLASICA 50GR.",
+          "cantidad_original": "20",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1",
+          "cantidad": "20",
+          "precio_unitario_sin_iva_sin_descuento": "501.86",
+          "precio_unitario_sin_iva": "501.86",
+          "importe_neto_linea": "10037.20",
+          "ajustes_linea": [],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "117000",
+          "codigo_ean": null,
+          "descripcion": "CREMA LS TETRA TOP 200 CC",
+          "cantidad_original": "6",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1",
+          "cantidad": "6",
+          "precio_unitario_sin_iva_sin_descuento": "1917.00",
+          "precio_unitario_sin_iva": "1821.15",
+          "importe_neto_linea": "10926.90",
+          "ajustes_linea": [
+            {
+              "tipo": "descuento_porcentaje",
+              "valor": "5.00"
+            }
+          ],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "141600",
+          "codigo_ean": null,
+          "descripcion": "CREMA LS CULINARIA TETRA TOP 200 CC",
+          "cantidad_original": "6",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1",
+          "cantidad": "6",
+          "precio_unitario_sin_iva_sin_descuento": "1827.00",
+          "precio_unitario_sin_iva": "1735.65",
+          "importe_neto_linea": "10413.90",
+          "ajustes_linea": [
+            {
+              "tipo": "descuento_porcentaje",
+              "valor": "5.00"
+            }
+          ],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "141900",
+          "codigo_ean": null,
+          "descripcion": "CREMA LS LIVIANA TETRA TOP 200 CC",
+          "cantidad_original": "6",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1",
+          "cantidad": "6",
+          "precio_unitario_sin_iva_sin_descuento": "1638.00",
+          "precio_unitario_sin_iva": "1638.00",
+          "importe_neto_linea": "9828.00",
+          "ajustes_linea": [],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "172200",
+          "codigo_ean": null,
+          "descripcion": "BEB.DE LECHE LS UAT PROTEIN CACAO S200CC",
+          "cantidad_original": "4",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1",
+          "cantidad": "4",
+          "precio_unitario_sin_iva_sin_descuento": "997.00",
+          "precio_unitario_sin_iva": "897.3",
+          "importe_neto_linea": "3589.20",
+          "ajustes_linea": [
+            {
+              "tipo": "descuento_porcentaje",
+              "valor": "10.00"
+            }
+          ],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "348000",
+          "codigo_ean": null,
+          "descripcion": "LECHE LS ULTRA PARC.DESC 1% FORT SACH 1L",
+          "cantidad_original": "10",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1",
+          "cantidad": "10",
+          "precio_unitario_sin_iva_sin_descuento": "1356.00",
+          "precio_unitario_sin_iva": "1356.00",
+          "importe_neto_linea": "13560.00",
+          "ajustes_linea": [],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "348300",
+          "codigo_ean": null,
+          "descripcion": "LECHE LS ULTRA ENTERA 3% FORT SACHET 1L",
+          "cantidad_original": "17",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1",
+          "cantidad": "17",
+          "precio_unitario_sin_iva_sin_descuento": "1356.00",
+          "precio_unitario_sin_iva": "1356.00",
+          "importe_neto_linea": "23052.00",
+          "ajustes_linea": [],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "358600",
+          "codigo_ean": null,
+          "descripcion": "LECHE LS UAT DESCREMADA PROTEIN PET 1L",
+          "cantidad_original": "6",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1",
+          "cantidad": "6",
+          "precio_unitario_sin_iva_sin_descuento": "1814.00",
+          "precio_unitario_sin_iva": "1814.00",
+          "importe_neto_linea": "10884.00",
+          "ajustes_linea": [],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "333600",
+          "codigo_ean": null,
+          "descripcion": "LECHE LS UAT PARC.DESC ZERO LACTOS PET1L",
+          "cantidad_original": "6",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1",
+          "cantidad": "6",
+          "precio_unitario_sin_iva_sin_descuento": "1814.00",
+          "precio_unitario_sin_iva": "1814.00",
+          "importe_neto_linea": "10884.00",
+          "ajustes_linea": [],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "335600",
+          "codigo_ean": null,
+          "descripcion": "LECHE LS UAT PARC.DESC 1% FORT PET 1L",
+          "cantidad_original": "6",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1",
+          "cantidad": "6",
+          "precio_unitario_sin_iva_sin_descuento": "1747.00",
+          "precio_unitario_sin_iva": "1747.00",
+          "importe_neto_linea": "10482.00",
+          "ajustes_linea": [],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "436200",
+          "codigo_ean": null,
+          "descripcion": "L.POLVO LS DES.INST.F.VIT. BOLSA 200GR",
+          "cantidad_original": "10",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1",
+          "cantidad": "10",
+          "precio_unitario_sin_iva_sin_descuento": "2413.00",
+          "precio_unitario_sin_iva": "2171.7",
+          "importe_neto_linea": "21717.00",
+          "ajustes_linea": [
+            {
+              "tipo": "descuento_porcentaje",
+              "valor": "10.00"
+            }
+          ],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "625300",
+          "codigo_ean": null,
+          "descripcion": "DULCE DE LECHE LS CLASICO POTE 400GR",
+          "cantidad_original": "6",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1",
+          "cantidad": "6",
+          "precio_unitario_sin_iva_sin_descuento": "2276.00",
+          "precio_unitario_sin_iva": "2048.4",
+          "importe_neto_linea": "12290.40",
+          "ajustes_linea": [
+            {
+              "tipo": "descuento_porcentaje",
+              "valor": "10.00"
+            }
+          ],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "387800",
+          "codigo_ean": null,
+          "descripcion": "DULCE DE LECHE SER POTE 400 GR",
+          "cantidad_original": "3",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1",
+          "cantidad": "3",
+          "precio_unitario_sin_iva_sin_descuento": "2548.00",
+          "precio_unitario_sin_iva": "2548.00",
+          "importe_neto_linea": "7644.00",
+          "ajustes_linea": [],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "222900",
+          "codigo_ean": null,
+          "descripcion": "QUESO LS RALLADO SOBRE 35GR",
+          "cantidad_original": "20",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1",
+          "cantidad": "20",
+          "precio_unitario_sin_iva_sin_descuento": "1086.00",
+          "precio_unitario_sin_iva": "977.4",
+          "importe_neto_linea": "19548.00",
+          "ajustes_linea": [
+            {
+              "tipo": "descuento_porcentaje",
+              "valor": "10.00"
+            }
+          ],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "223000",
+          "codigo_ean": null,
+          "descripcion": "QUESO LS RALLADO SOBRE 70GR",
+          "cantidad_original": "20",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1",
+          "cantidad": "20",
+          "precio_unitario_sin_iva_sin_descuento": "2096.00",
+          "precio_unitario_sin_iva": "1886.4",
+          "importe_neto_linea": "37728.00",
+          "ajustes_linea": [
+            {
+              "tipo": "descuento_porcentaje",
+              "valor": "10.00"
+            }
+          ],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "172100",
+          "codigo_ean": null,
+          "descripcion": "BEB.DE LECHE LS UAT PROTEIN CACAO BRIK1L",
+          "cantidad_original": "3",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1",
+          "cantidad": "3",
+          "precio_unitario_sin_iva_sin_descuento": "2856.00",
+          "precio_unitario_sin_iva": "2570.4",
+          "importe_neto_linea": "7711.20",
+          "ajustes_linea": [
+            {
+              "tipo": "descuento_porcentaje",
+              "valor": "10.00"
+            }
+          ],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "352100",
+          "codigo_ean": null,
+          "descripcion": "LECHE LS ULTRA DESC PROTEIN S1L",
+          "cantidad_original": "3",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1",
+          "cantidad": "3",
+          "precio_unitario_sin_iva_sin_descuento": "1512.00",
+          "precio_unitario_sin_iva": "1512.00",
+          "importe_neto_linea": "4536.00",
+          "ajustes_linea": [],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "613600",
+          "codigo_ean": null,
+          "descripcion": "QUESO CREMA CASANCREM ENTERO VIT 290GR",
+          "cantidad_original": "3",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1",
+          "cantidad": "3",
+          "precio_unitario_sin_iva_sin_descuento": "4104.40",
+          "precio_unitario_sin_iva": "3116.06",
+          "importe_neto_linea": "9348.18",
+          "ajustes_linea": [
+            {
+              "tipo": "descuento_porcentaje",
+              "valor": "24.08"
+            }
+          ],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "919507",
+          "codigo_ean": null,
+          "descripcion": "LECHE CINDOR CHOCOLATADA BRIK 200CM3",
+          "cantidad_original": "3",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1",
+          "cantidad": "3",
+          "precio_unitario_sin_iva_sin_descuento": "1867.95",
+          "precio_unitario_sin_iva": "1867.95",
+          "importe_neto_linea": "5603.85",
+          "ajustes_linea": [],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "610013",
+          "codigo_ean": null,
+          "descripcion": "LSNA YOGUR FFS FIRME ENTERO 120G VAI",
+          "cantidad_original": "6",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1",
+          "cantidad": "6",
+          "precio_unitario_sin_iva_sin_descuento": "984.33",
+          "precio_unitario_sin_iva": "596.898333",
+          "importe_neto_linea": "3581.39",
+          "ajustes_linea": [
+            {
+              "tipo": "descuento_porcentaje",
+              "valor": "39.36"
+            }
+          ],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "610012",
+          "codigo_ean": null,
+          "descripcion": "LSNA YOGUR FFS FIRME ENTERO 120G FRU",
+          "cantidad_original": "6",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1",
+          "cantidad": "6",
+          "precio_unitario_sin_iva_sin_descuento": "984.33",
+          "precio_unitario_sin_iva": "596.898333",
+          "importe_neto_linea": "3581.39",
+          "ajustes_linea": [
+            {
+              "tipo": "descuento_porcentaje",
+              "valor": "39.36"
+            }
+          ],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "937801",
+          "codigo_ean": null,
+          "descripcion": "YOGUR SER POTE FIRME 190GR VAINILLA",
+          "cantidad_original": "4",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1",
+          "cantidad": "4",
+          "precio_unitario_sin_iva_sin_descuento": "2262.31",
+          "precio_unitario_sin_iva": "2262.31",
+          "importe_neto_linea": "9049.24",
+          "ajustes_linea": [],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "656119",
+          "codigo_ean": null,
+          "descripcion": "YOGURISIMO BATIDO NATURAL 190 GR ENDULZ",
+          "cantidad_original": "6",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1",
+          "cantidad": "6",
+          "precio_unitario_sin_iva_sin_descuento": "2106.93",
+          "precio_unitario_sin_iva": "1790.89",
+          "importe_neto_linea": "10745.34",
+          "ajustes_linea": [
+            {
+              "tipo": "descuento_porcentaje",
+              "valor": "15.00"
+            }
+          ],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "656502",
+          "codigo_ean": null,
+          "descripcion": "YOGURISIMO GRIEGO 125 GR FRUTILLA",
+          "cantidad_original": "4",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1",
+          "cantidad": "4",
+          "precio_unitario_sin_iva_sin_descuento": "2267.66",
+          "precio_unitario_sin_iva": "1927.51",
+          "importe_neto_linea": "7710.04",
+          "ajustes_linea": [
+            {
+              "tipo": "descuento_porcentaje",
+              "valor": "15.00"
+            }
+          ],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "958102",
+          "codigo_ean": null,
+          "descripcion": "ACTIMEL ENTERO FS 100GR FRUTILLA",
+          "cantidad_original": "6",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1",
+          "cantidad": "6",
+          "precio_unitario_sin_iva_sin_descuento": "1690.34",
+          "precio_unitario_sin_iva": "1690.34",
+          "importe_neto_linea": "10142.04",
+          "ajustes_linea": [],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "656419",
+          "codigo_ean": null,
+          "descripcion": "YOGURISIMO NATURAL BIG POT 300 GR ENDULZ",
+          "cantidad_original": "4",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1",
+          "cantidad": "4",
+          "precio_unitario_sin_iva_sin_descuento": "3198.81",
+          "precio_unitario_sin_iva": "3198.81",
+          "importe_neto_linea": "12795.24",
+          "ajustes_linea": [],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "656412",
+          "codigo_ean": null,
+          "descripcion": "YOGURISIMO NATURAL BIG POT 300 GR S/END",
+          "cantidad_original": "2",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1",
+          "cantidad": "2",
+          "precio_unitario_sin_iva_sin_descuento": "3198.81",
+          "precio_unitario_sin_iva": "3198.81",
+          "importe_neto_linea": "6397.62",
+          "ajustes_linea": [],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "953907",
+          "codigo_ean": null,
+          "descripcion": "DANETTE POSTRE LA COPA 100GR CHOCOLATE",
+          "cantidad_original": "4",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1",
+          "cantidad": "4",
+          "precio_unitario_sin_iva_sin_descuento": "1988.82",
+          "precio_unitario_sin_iva": "1988.82",
+          "importe_neto_linea": "7955.28",
+          "ajustes_linea": [],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "914001",
+          "codigo_ean": null,
+          "descripcion": "POSTRE SERENITO FG POTE 120G VAINILLA",
+          "cantidad_original": "3",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1",
+          "cantidad": "3",
+          "precio_unitario_sin_iva_sin_descuento": "1849.16",
+          "precio_unitario_sin_iva": "1849.16",
+          "importe_neto_linea": "5547.48",
+          "ajustes_linea": [],
+          "alicuota_iva": "21.0"
+        }
+      ],
+      "iva": [
+        {
+          "alicuota": "21.0",
+          "base_imponible": "317288.89",
+          "importe": "66630.66"
+        }
+      ],
+      "tributos": [
+        {
+          "descripcion": "PERCEPCION IVA CF",
+          "jurisdiccion": null,
+          "alicuota": "3.000",
+          "base_imponible": "249761.89",
+          "importe": "7492.86"
+        },
+        {
+          "descripcion": "PER.IIBB BS AS",
+          "jurisdiccion": "BUENOS AIRES",
+          "alicuota": "1.500",
+          "base_imponible": "317288.89",
+          "importe": "4759.33"
+        }
+      ],
+      "totales": {
+        "subtotal": "317288.89",
+        "neto_gravado": "317288.89",
+        "no_gravado": null,
+        "exento": null,
+        "iva": "66630.66",
+        "tributos": "12252.19",
+        "percepciones": "12252.19",
+        "descuentos": null,
+        "recargos": null,
+        "total": "396171.74"
+      },
+      "cae": "86361563159340",
+      "caea": null,
+      "vencimiento_cae": "2026-09-14",
+      "vencimiento_caea": null,
+      "qr_afip_url": null,
+      "condicion_venta": "CONTADO",
+      "forma_pago": null,
+      "orden_compra": null,
+      "remito": null,
+      "advertencias": []
+    }
+  ]
+}

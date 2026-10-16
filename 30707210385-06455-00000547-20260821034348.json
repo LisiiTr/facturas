@@ -1,0 +1,306 @@
+{
+  "facturas": [
+    {
+      "tipo_comprobante": "FACTURA",
+      "letra": "A",
+      "codigo_comprobante": "001",
+      "punto_venta": "06455",
+      "numero_comprobante": "00000547",
+      "fecha_emision": "2026-08-19",
+      "fecha_vencimiento_pago": "2026-08-19",
+      "emisor": {
+        "razon_social": "LOGISTICA LA SERENISIMA S.A.",
+        "nombre_comercial": null,
+        "cuit": "30707210385",
+        "condicion_iva": "IVA RESPONSABLE INSCRIPTO",
+        "domicilio": "FRENCH 135",
+        "localidad": "LONGCHAMPS",
+        "provincia": "BUENOS AIRES",
+        "codigo_postal": null,
+        "ingresos_brutos": "9010435074",
+        "inicio_actividades": "2000-10-01"
+      },
+      "receptor": {
+        "razon_social": "EL ROBLE SOCIEDAD SIMPLE S. CAP I SECC I",
+        "cuit": "30719352681",
+        "dni": null,
+        "condicion_iva": "IVA RESPONSABLE INSCRIPTO",
+        "domicilio": "CALLE 18 4607",
+        "localidad": "BERISSO",
+        "provincia": "BUENOS AIRES",
+        "codigo_postal": "1923"
+      },
+      "moneda": "ARS",
+      "tipo_cambio": null,
+      "items": [
+        {
+          "codigo": "348300",
+          "codigo_ean": null,
+          "descripcion": "LECHE LS ULTRA ENTERA 3% FORT SACHET 1L",
+          "cantidad_original": "17",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1",
+          "cantidad": "17",
+          "precio_unitario_sin_iva_sin_descuento": "1304.00",
+          "precio_unitario_sin_iva": "1304.00",
+          "importe_neto_linea": "22168.00",
+          "ajustes_linea": [],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "141100",
+          "codigo_ean": null,
+          "descripcion": "CREMA LS TETRA TOP 330 CC",
+          "cantidad_original": "6",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1",
+          "cantidad": "6",
+          "precio_unitario_sin_iva_sin_descuento": "2824.00",
+          "precio_unitario_sin_iva": "2541.6",
+          "importe_neto_linea": "15249.60",
+          "ajustes_linea": [
+            {
+              "tipo": "descuento_porcentaje",
+              "valor": "10.00"
+            }
+          ],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "141700",
+          "codigo_ean": null,
+          "descripcion": "CREMA LS CULINARIA TETRA TOP 330 CC",
+          "cantidad_original": "6",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1",
+          "cantidad": "6",
+          "precio_unitario_sin_iva_sin_descuento": "2694.00",
+          "precio_unitario_sin_iva": "2424.6",
+          "importe_neto_linea": "14547.60",
+          "ajustes_linea": [
+            {
+              "tipo": "descuento_porcentaje",
+              "valor": "10.00"
+            }
+          ],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "141600",
+          "codigo_ean": null,
+          "descripcion": "CREMA LS CULINARIA TETRA TOP 200 CC",
+          "cantidad_original": "6",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1",
+          "cantidad": "6",
+          "precio_unitario_sin_iva_sin_descuento": "1757.00",
+          "precio_unitario_sin_iva": "1581.3",
+          "importe_neto_linea": "9487.80",
+          "ajustes_linea": [
+            {
+              "tipo": "descuento_porcentaje",
+              "valor": "10.00"
+            }
+          ],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "141900",
+          "codigo_ean": null,
+          "descripcion": "CREMA LS LIVIANA TETRA TOP 200 CC",
+          "cantidad_original": "4",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1",
+          "cantidad": "4",
+          "precio_unitario_sin_iva_sin_descuento": "1575.00",
+          "precio_unitario_sin_iva": "1575.00",
+          "importe_neto_linea": "6300.00",
+          "ajustes_linea": [],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "625300",
+          "codigo_ean": null,
+          "descripcion": "DULCE DE LECHE LS CLASICO POTE 400GR",
+          "cantidad_original": "12",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1",
+          "cantidad": "12",
+          "precio_unitario_sin_iva_sin_descuento": "2188.00",
+          "precio_unitario_sin_iva": "1859.8",
+          "importe_neto_linea": "22317.60",
+          "ajustes_linea": [
+            {
+              "tipo": "descuento_porcentaje",
+              "valor": "15.00"
+            }
+          ],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "625200",
+          "codigo_ean": null,
+          "descripcion": "DULCE DE LECHE LS COLONIAL POTE 400GR",
+          "cantidad_original": "3",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1",
+          "cantidad": "3",
+          "precio_unitario_sin_iva_sin_descuento": "2426.00",
+          "precio_unitario_sin_iva": "2183.4",
+          "importe_neto_linea": "6550.20",
+          "ajustes_linea": [
+            {
+              "tipo": "descuento_porcentaje",
+              "valor": "10.00"
+            }
+          ],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "610021",
+          "codigo_ean": null,
+          "descripcion": "LSNA YOGUR FIRME ENTERO 190G FRUTILLA",
+          "cantidad_original": "3",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1",
+          "cantidad": "3",
+          "precio_unitario_sin_iva_sin_descuento": "1431.60",
+          "precio_unitario_sin_iva": "1045.066667",
+          "importe_neto_linea": "3135.20",
+          "ajustes_linea": [
+            {
+              "tipo": "descuento_porcentaje",
+              "valor": "27.00"
+            }
+          ],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "958510",
+          "codigo_ean": null,
+          "descripcion": "ACTIMEL CITRUS VIT C BOT 100 GR NARANJA",
+          "cantidad_original": "4",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1",
+          "cantidad": "4",
+          "precio_unitario_sin_iva_sin_descuento": "1609.24",
+          "precio_unitario_sin_iva": "1609.24",
+          "importe_neto_linea": "6436.96",
+          "ajustes_linea": [],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "958102",
+          "codigo_ean": null,
+          "descripcion": "ACTIMEL ENTERO FS 100GR FRUTILLA",
+          "cantidad_original": "4",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1",
+          "cantidad": "4",
+          "precio_unitario_sin_iva_sin_descuento": "1609.24",
+          "precio_unitario_sin_iva": "1609.24",
+          "importe_neto_linea": "6436.96",
+          "ajustes_linea": [],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "610041",
+          "codigo_ean": null,
+          "descripcion": "YOGURISIMO GRIEGO FIRME 180 GR VAINILLA",
+          "cantidad_original": "3",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1",
+          "cantidad": "3",
+          "precio_unitario_sin_iva_sin_descuento": "1730.34",
+          "precio_unitario_sin_iva": "1543.81",
+          "importe_neto_linea": "4631.43",
+          "ajustes_linea": [
+            {
+              "tipo": "descuento_porcentaje",
+              "valor": "10.78"
+            }
+          ],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "610026",
+          "codigo_ean": null,
+          "descripcion": "LSNA YOGUR ENTERO CON CEREALES 159GR",
+          "cantidad_original": "3",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1",
+          "cantidad": "3",
+          "precio_unitario_sin_iva_sin_descuento": "1939.28",
+          "precio_unitario_sin_iva": "1576.83",
+          "importe_neto_linea": "4730.49",
+          "ajustes_linea": [
+            {
+              "tipo": "descuento_porcentaje",
+              "valor": "18.69"
+            }
+          ],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "953906",
+          "codigo_ean": null,
+          "descripcion": "DANETTE POSTRE LA COPA 100GR DDL",
+          "cantidad_original": "3",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1",
+          "cantidad": "3",
+          "precio_unitario_sin_iva_sin_descuento": "1885.14",
+          "precio_unitario_sin_iva": "1885.14",
+          "importe_neto_linea": "5655.42",
+          "ajustes_linea": [],
+          "alicuota_iva": "21.0"
+        }
+      ],
+      "iva": [
+        {
+          "alicuota": "21.0",
+          "base_imponible": "127647.26",
+          "importe": "26805.93"
+        }
+      ],
+      "tributos": [
+        {
+          "descripcion": "PERCEPCIÓN IVA CF",
+          "jurisdiccion": null,
+          "alicuota": "3.000",
+          "base_imponible": "127647.26",
+          "importe": "3829.42"
+        },
+        {
+          "descripcion": "PER.IIBB BS AS",
+          "jurisdiccion": "BUENOS AIRES",
+          "alicuota": "1.500",
+          "base_imponible": "127647.26",
+          "importe": "1914.71"
+        }
+      ],
+      "totales": {
+        "subtotal": "127647.26",
+        "neto_gravado": "127647.26",
+        "no_gravado": null,
+        "exento": null,
+        "iva": "26805.93",
+        "tributos": "5744.13",
+        "percepciones": "5744.13",
+        "descuentos": null,
+        "recargos": null,
+        "total": "160197.32"
+      },
+      "cae": "86339090972635",
+      "caea": null,
+      "vencimiento_cae": "2026-08-29",
+      "vencimiento_caea": null,
+      "qr_afip_url": null,
+      "condicion_venta": "CONTADO",
+      "forma_pago": null,
+      "orden_compra": null,
+      "remito": null,
+      "advertencias": []
+    }
+  ]
+}

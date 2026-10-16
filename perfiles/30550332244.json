@@ -1,0 +1,11 @@
+{
+  "cuit_emisor": "30550332244",
+  "razon_social": "BODEGAS Y VIÑEDOS LOPEZ S.A.I.C.",
+  "reglas": {
+    "cantidad": "unidad_comercial",
+    "iva": "por_item",
+    "descuentos": "por_item",
+    "percepciones": true
+  },
+  "notas": "Nombre comercial BODEGAS LOPEZ. Emisor en encabezado como IMAGEN (leer razon social, CUIT 30-55033224-4, domicilio Godoy Cruz 2000 CABA por OCR/visual; el texto del PDF trae el receptor). Layout por linea: Codigo | Descripcion | P.Unit | Importe | IVA% | Cantidad | Dto1- | Dto2- . Cantidad = unidad comercial (factor 1): la descripcion puede traer 'NxM' (ej '2x6 Litros') pero es presentacion; verificar factor por conciliacion N=Importe/(Cantidad*P.Unit*prod(1-dto))~=1. Descuentos por item, pueden ser DOS sucesivos (ej 10% y 5%) con signo '-': cargarlos como dos ajustes_linea descuento_porcentaje en orden, NO sumarlos (0,90*0,95=0,855). precio_unitario_sin_iva_sin_descuento = P.Unit; precio_unitario_sin_iva = Importe/Cantidad; importe_neto_linea = Importe. IVA por item (columna, 21,00). Sin EAN. Un mismo producto (mismo codigo) puede aparecer en varias lineas: mantenerlas separadas. Percepcion Ing.Brutos en 'DETALLE DE PERCEPCIONES ING. BRUTOS' -> tributos[]. Suele venir Original + Duplicado: deduplicar."
+}

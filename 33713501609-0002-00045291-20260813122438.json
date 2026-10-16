@@ -1,0 +1,107 @@
+{
+  "facturas": [
+    {
+      "tipo_comprobante": "FACTURA",
+      "letra": "A",
+      "codigo_comprobante": "01",
+      "punto_venta": "0002",
+      "numero_comprobante": "00045291",
+      "fecha_emision": "2026-08-12",
+      "fecha_vencimiento_pago": null,
+      "emisor": {
+        "razon_social": "ALTINPA SA",
+        "nombre_comercial": null,
+        "cuit": "33713501609",
+        "condicion_iva": "IVA Responsable Inscripto",
+        "domicilio": "123 161 - ENTRE LAS CALLES: 35 y 35 BIS",
+        "localidad": "ENSENADA",
+        "provincia": "BUENOS AIRES",
+        "codigo_postal": null,
+        "ingresos_brutos": null,
+        "inicio_actividades": "2017-08-02"
+      },
+      "receptor": {
+        "razon_social": "EL ROBLE SOCIEDAD SIMPLE",
+        "cuit": "30719352681",
+        "dni": null,
+        "condicion_iva": "INSCRIPTO",
+        "domicilio": "CALLE 18 Nro. (ESQUINA MONTEVIDEO 4603)",
+        "localidad": "LA PLATA",
+        "provincia": null,
+        "codigo_postal": null
+      },
+      "moneda": null,
+      "tipo_cambio": null,
+      "items": [
+        {
+          "codigo": "534",
+          "codigo_ean": null,
+          "descripcion": "CONITOS 5G QUESO SLICES x900 gr",
+          "cantidad_original": "3",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1",
+          "cantidad": "3",
+          "precio_unitario_sin_iva_sin_descuento": "10386.40",
+          "precio_unitario_sin_iva": "9347.76",
+          "importe_neto_linea": "28043.28",
+          "ajustes_linea": [
+            {
+              "tipo": "descuento_porcentaje",
+              "valor": "10"
+            }
+          ],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "524",
+          "codigo_ean": null,
+          "descripcion": "PAPAS FRITAS PAY SLICES x1000 gr",
+          "cantidad_original": "1",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1",
+          "cantidad": "1",
+          "precio_unitario_sin_iva_sin_descuento": "9064.69",
+          "precio_unitario_sin_iva": "8158.22",
+          "importe_neto_linea": "8158.22",
+          "ajustes_linea": [
+            {
+              "tipo": "descuento_porcentaje",
+              "valor": "10"
+            }
+          ],
+          "alicuota_iva": "21.0"
+        }
+      ],
+      "iva": [
+        {
+          "alicuota": "21.0",
+          "base_imponible": "36201.50",
+          "importe": "7602.32"
+        }
+      ],
+      "tributos": [],
+      "totales": {
+        "subtotal": null,
+        "neto_gravado": "36201.50",
+        "no_gravado": null,
+        "exento": null,
+        "iva": "7602.32",
+        "tributos": null,
+        "percepciones": null,
+        "descuentos": null,
+        "recargos": null,
+        "total": "43803.82"
+      },
+      "cae": "86328084576244",
+      "caea": null,
+      "vencimiento_cae": "2026-08-22",
+      "vencimiento_caea": null,
+      "qr_afip_url": null,
+      "condicion_venta": "CONTADO NETO",
+      "forma_pago": null,
+      "orden_compra": "084-925-YF",
+      "remito": null,
+      "advertencias": []
+    }
+  ]
+}

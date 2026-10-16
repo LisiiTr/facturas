@@ -1,0 +1,319 @@
+{
+  "facturas": [
+    {
+      "tipo_comprobante": "Factura",
+      "letra": "A",
+      "codigo_comprobante": "01",
+      "punto_venta": "0010",
+      "numero_comprobante": "00025259",
+      "fecha_emision": "2026-08-18",
+      "fecha_vencimiento_pago": null,
+      "emisor": {
+        "razon_social": "Pietra Hnos. Distribuidora SRL",
+        "nombre_comercial": "PIETRA DISTRIBUIDORA",
+        "cuit": "30709818364",
+        "condicion_iva": "IVA Responsable Inscripto",
+        "domicilio": "Calle 34 N° 250",
+        "localidad": "Berisso",
+        "provincia": "Buenos Aires",
+        "codigo_postal": null,
+        "ingresos_brutos": "30709818364",
+        "inicio_actividades": "2006-10-01"
+      },
+      "receptor": {
+        "razon_social": "TOTORA LEONARDO",
+        "cuit": "30719352681",
+        "dni": null,
+        "condicion_iva": "Responsable Inscripto",
+        "domicilio": "18 4603",
+        "localidad": "BERISSO",
+        "provincia": null,
+        "codigo_postal": null
+      },
+      "moneda": "ARS",
+      "tipo_cambio": null,
+      "items": [
+        {
+          "codigo": "0003020",
+          "codigo_ean": null,
+          "descripcion": "NATURA SALSA GOLF 12X250 GR",
+          "cantidad_original": "1.000",
+          "tipo_cantidad_original": "unidad_logistica",
+          "factor_unidades": "12.00",
+          "cantidad": "12.00",
+          "precio_unitario_sin_iva_sin_descuento": "1378.91",
+          "precio_unitario_sin_iva": "1254.8075",
+          "importe_neto_linea": "15057.69",
+          "ajustes_linea": [
+            {
+              "tipo": "bonificacion_porcentaje",
+              "valor": "9.00"
+            }
+          ],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "0003010",
+          "codigo_ean": null,
+          "descripcion": "NATURA MOSTAZA 12X250 GR",
+          "cantidad_original": "1.000",
+          "tipo_cantidad_original": "unidad_logistica",
+          "factor_unidades": "12.00",
+          "cantidad": "12.00",
+          "precio_unitario_sin_iva_sin_descuento": "877.82",
+          "precio_unitario_sin_iva": "728.593333",
+          "importe_neto_linea": "8743.12",
+          "ajustes_linea": [
+            {
+              "tipo": "bonificacion_porcentaje",
+              "valor": "17.00"
+            }
+          ],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "0003000",
+          "codigo_ean": null,
+          "descripcion": "NATURA KETCHUP 12X250 GR",
+          "cantidad_original": "1.000",
+          "tipo_cantidad_original": "unidad_logistica",
+          "factor_unidades": "12.00",
+          "cantidad": "12.00",
+          "precio_unitario_sin_iva_sin_descuento": "1311.34",
+          "precio_unitario_sin_iva": "1088.410833",
+          "importe_neto_linea": "13060.93",
+          "ajustes_linea": [
+            {
+              "tipo": "bonificacion_porcentaje",
+              "valor": "17.00"
+            }
+          ],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "0000588",
+          "codigo_ean": null,
+          "descripcion": "MOCOVI LARGO FINO 10X500 GR",
+          "cantidad_original": "1.000",
+          "tipo_cantidad_original": "unidad_logistica",
+          "factor_unidades": "10.00",
+          "cantidad": "10.00",
+          "precio_unitario_sin_iva_sin_descuento": "497.34",
+          "precio_unitario_sin_iva": "452.577",
+          "importe_neto_linea": "4525.77",
+          "ajustes_linea": [
+            {
+              "tipo": "bonificacion_porcentaje",
+              "valor": "9.00"
+            }
+          ],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "0003892",
+          "codigo_ean": null,
+          "descripcion": "MAMA COC. REBOZADOR FREIR 12X5",
+          "cantidad_original": "1.000",
+          "tipo_cantidad_original": "unidad_logistica",
+          "factor_unidades": "12.00",
+          "cantidad": "12.00",
+          "precio_unitario_sin_iva_sin_descuento": "849.74",
+          "precio_unitario_sin_iva": "773.265833",
+          "importe_neto_linea": "9279.19",
+          "ajustes_linea": [
+            {
+              "tipo": "bonificacion_porcentaje",
+              "valor": "9.00"
+            }
+          ],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "0000407",
+          "codigo_ean": null,
+          "descripcion": "DOS HNOS GALLETAS SALADAS 12X1",
+          "cantidad_original": "1.000",
+          "tipo_cantidad_original": "unidad_logistica",
+          "factor_unidades": "12.00",
+          "cantidad": "12.00",
+          "precio_unitario_sin_iva_sin_descuento": "886.71",
+          "precio_unitario_sin_iva": "806.901667",
+          "importe_neto_linea": "9682.82",
+          "ajustes_linea": [
+            {
+              "tipo": "bonificacion_porcentaje",
+              "valor": "9.00"
+            }
+          ],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "0003841",
+          "codigo_ean": null,
+          "descripcion": "CANUELAS ACEITE 12X900 CC",
+          "cantidad_original": "1.000",
+          "tipo_cantidad_original": "unidad_logistica",
+          "factor_unidades": "12.00",
+          "cantidad": "12.00",
+          "precio_unitario_sin_iva_sin_descuento": "3375.84",
+          "precio_unitario_sin_iva": "3072.016667",
+          "importe_neto_linea": "36864.20",
+          "ajustes_linea": [
+            {
+              "tipo": "bonificacion_porcentaje",
+              "valor": "9.00"
+            }
+          ],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "0006090",
+          "codigo_ean": null,
+          "descripcion": "NATURA ROCIO VEGETAL 12X120 CC",
+          "cantidad_original": "1.000",
+          "tipo_cantidad_original": "unidad_logistica",
+          "factor_unidades": "12.00",
+          "cantidad": "12.00",
+          "precio_unitario_sin_iva_sin_descuento": "3261.43",
+          "precio_unitario_sin_iva": "2706.985833",
+          "importe_neto_linea": "32483.83",
+          "ajustes_linea": [
+            {
+              "tipo": "bonificacion_porcentaje",
+              "valor": "17.00"
+            }
+          ],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "0003871",
+          "codigo_ean": null,
+          "descripcion": "PASEO CRACKERS 14X300 GR",
+          "cantidad_original": "1.000",
+          "tipo_cantidad_original": "unidad_logistica",
+          "factor_unidades": "14.00",
+          "cantidad": "14.00",
+          "precio_unitario_sin_iva_sin_descuento": "946.48",
+          "precio_unitario_sin_iva": "861.293571",
+          "importe_neto_linea": "12058.11",
+          "ajustes_linea": [
+            {
+              "tipo": "bonificacion_porcentaje",
+              "valor": "9.00"
+            }
+          ],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "0003877",
+          "codigo_ean": null,
+          "descripcion": "PASEO 5 SEMILLAS 14X300 GR",
+          "cantidad_original": "1.000",
+          "tipo_cantidad_original": "unidad_logistica",
+          "factor_unidades": "14.00",
+          "cantidad": "14.00",
+          "precio_unitario_sin_iva_sin_descuento": "1175.11",
+          "precio_unitario_sin_iva": "1069.352857",
+          "importe_neto_linea": "14970.94",
+          "ajustes_linea": [
+            {
+              "tipo": "bonificacion_porcentaje",
+              "valor": "9.00"
+            }
+          ],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "0004430",
+          "codigo_ean": null,
+          "descripcion": "TARAGUI TE 10X25 SAQ",
+          "cantidad_original": "1.000",
+          "tipo_cantidad_original": "unidad_logistica",
+          "factor_unidades": "10.00",
+          "cantidad": "10.00",
+          "precio_unitario_sin_iva_sin_descuento": "759.47",
+          "precio_unitario_sin_iva": "691.117",
+          "importe_neto_linea": "6911.17",
+          "ajustes_linea": [
+            {
+              "tipo": "bonificacion_porcentaje",
+              "valor": "9.00"
+            }
+          ],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "0000761",
+          "codigo_ean": null,
+          "descripcion": "MALTIFE FRASCO 6X170 GR",
+          "cantidad_original": "1.000",
+          "tipo_cantidad_original": "unidad_logistica",
+          "factor_unidades": "6.00",
+          "cantidad": "6.00",
+          "precio_unitario_sin_iva_sin_descuento": "2109.74",
+          "precio_unitario_sin_iva": "1919.866667",
+          "importe_neto_linea": "11519.20",
+          "ajustes_linea": [
+            {
+              "tipo": "bonificacion_porcentaje",
+              "valor": "9.00"
+            }
+          ],
+          "alicuota_iva": "21.0"
+        }
+      ],
+      "iva": [
+        {
+          "alicuota": "21.0",
+          "base_imponible": "175156.98",
+          "importe": "36782.96"
+        }
+      ],
+      "tributos": [
+        {
+          "descripcion": "Percepción RG 5329",
+          "jurisdiccion": null,
+          "alicuota": null,
+          "base_imponible": null,
+          "importe": "5254.71"
+        },
+        {
+          "descripcion": "Perc.IIBB",
+          "jurisdiccion": null,
+          "alicuota": null,
+          "base_imponible": null,
+          "importe": "2627.35"
+        }
+      ],
+      "totales": {
+        "subtotal": "175156.98",
+        "neto_gravado": "175156.98",
+        "no_gravado": null,
+        "exento": null,
+        "iva": "36782.96",
+        "tributos": null,
+        "percepciones": "7882.06",
+        "descuentos": null,
+        "recargos": null,
+        "total": "219822.00"
+      },
+      "cae": "86338842085082",
+      "caea": null,
+      "vencimiento_cae": "2026-08-28",
+      "vencimiento_caea": null,
+      "qr_afip_url": null,
+      "condicion_venta": null,
+      "forma_pago": null,
+      "orden_compra": null,
+      "remito": null,
+      "advertencias": [
+        "Comprobante presentado en dos copias con idéntico contenido; se consolidó en una sola factura de 12 ítems.",
+        "Datos del emisor (razón social, CUIT, domicilio, IIBB, inicio de actividades) tomados del encabezado en imagen; no estaban en el texto del PDF.",
+        "Moneda no indicada explícitamente; se asume ARS.",
+        "Venta por bulto: cantidad_original en bultos; factor_unidades deducido por conciliación Importe/(P.Unit×(1−bonif)×Cantidad), entero exacto y confirmado por el 'NxM' de la descripción. U.Final incluye IVA, por eso precio_unitario_sin_iva = Importe/cantidad.",
+        "La suma de los importes de línea da 175156.97 y el Subtotal impreso es 175156.98 (diferencia de 0.01 por redondeo). Se conservaron los valores impresos.",
+        "El comprobante informa las dos percepciones por separado (RG 5329 y Perc.IIBB) sin totalizarlas ni indicar alícuota ni base; totales.percepciones es la suma de ambos importes impresos y reconcilia con el TOTAL."
+      ]
+    }
+  ]
+}

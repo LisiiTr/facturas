@@ -1,0 +1,107 @@
+{
+  "facturas": [
+    {
+      "tipo_comprobante": "FACTURA",
+      "letra": "A",
+      "codigo_comprobante": "01",
+      "punto_venta": "0005",
+      "numero_comprobante": "00008225",
+      "fecha_emision": "2026-09-08",
+      "fecha_vencimiento_pago": null,
+      "emisor": {
+        "razon_social": "AXEL MAXIMILIANO KUZEMKA",
+        "nombre_comercial": "KUBBER DISTRIBUIDORA",
+        "cuit": "23345067469",
+        "condicion_iva": "IVA Responsable Inscripto",
+        "domicilio": "Calle 12 nro. 3399 Esquina 162 norte",
+        "localidad": "Berisso",
+        "provincia": "Buenos Aires",
+        "codigo_postal": "1923",
+        "ingresos_brutos": "23345067469",
+        "inicio_actividades": "2020-05-01"
+      },
+      "receptor": {
+        "razon_social": "EL ROBLE SOCIEDAD SIMPLE S. CAP I SECC IV",
+        "cuit": "30719352681",
+        "dni": null,
+        "condicion_iva": "Responsable Inscripto",
+        "domicilio": "18 Y MONTEVIDEO N 4607",
+        "localidad": "BERISSO",
+        "provincia": null,
+        "codigo_postal": null
+      },
+      "moneda": "ARS",
+      "tipo_cambio": null,
+      "items": [
+        {
+          "codigo": "793",
+          "codigo_ean": null,
+          "descripcion": "FRUTOS TUCUMANOS X 1 KGS.",
+          "cantidad_original": "1.00",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1.00",
+          "cantidad": "1.00",
+          "precio_unitario_sin_iva_sin_descuento": "10869.93",
+          "precio_unitario_sin_iva": "10869.93",
+          "importe_neto_linea": "10869.93",
+          "ajustes_linea": [],
+          "alicuota_iva": "10.5"
+        },
+        {
+          "codigo": "135",
+          "codigo_ean": null,
+          "descripcion": "POSTRE TIRAMISU X 600 GRS.",
+          "cantidad_original": "1.00",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1.00",
+          "cantidad": "1.00",
+          "precio_unitario_sin_iva_sin_descuento": "15223.07",
+          "precio_unitario_sin_iva": "15223.07",
+          "importe_neto_linea": "15223.07",
+          "ajustes_linea": [],
+          "alicuota_iva": "21.0"
+        }
+      ],
+      "iva": [
+        {
+          "alicuota": "10.5",
+          "base_imponible": "10869.93",
+          "importe": "1141.34"
+        },
+        {
+          "alicuota": "21.0",
+          "base_imponible": "15223.07",
+          "importe": "3196.84"
+        }
+      ],
+      "tributos": [],
+      "totales": {
+        "subtotal": "26093.00",
+        "neto_gravado": "26093.00",
+        "no_gravado": null,
+        "exento": "0.00",
+        "iva": "4338.19",
+        "tributos": null,
+        "percepciones": "0.00",
+        "descuentos": "0.00",
+        "recargos": null,
+        "total": "30431.19"
+      },
+      "cae": "86362010385695",
+      "caea": null,
+      "vencimiento_cae": "2026-09-18",
+      "vencimiento_caea": null,
+      "qr_afip_url": null,
+      "condicion_venta": "Cuenta Corriente",
+      "forma_pago": null,
+      "orden_compra": null,
+      "remito": null,
+      "advertencias": [
+        "El IVA se informa como un unico importe global ('Iva Inscripto' 4338,19), sin columna de IVA por item ni desglose por alicuota. Las alicuotas por item (793 FRUTOS TUCUMANOS al 10,5% y 135 POSTRE TIRAMISU al 21%) y el desglose de iva[] fueron DEDUCIDOS por conciliacion combinatoria, verificada UNICA con un barrido exhaustivo sobre el conjunto {10,5; 21}: una sola de las 4 combinaciones reconcilia el IVA total (10869,93 x 10,5% + 15223,07 x 21% = 4338,18735 -> 4338,19). Solo el neto gravado 26093,00 y el IVA total 4338,19 son valores impresos.",
+        "Las bases imponibles de iva[] surgen de agrupar los importes de linea segun la alicuota deducida. Sus importes redondeados (1141,34 + 3196,84 = 4338,18) suman un centavo menos que el IVA impreso (4338,19), porque el emisor redondea el total y no cada alicuota por separado. En totales.iva se conservo el valor impreso 4338,19.",
+        "Comprobante en pesos (ARS); moneda no indicada explicitamente.",
+        "Bonificacion general, Exento, P.I.B.Bs.As. y T.I.S.H. figuran impresos en 0,00; no hay percepciones ni descuentos aplicados, por lo que tributos[] queda vacio."
+      ]
+    }
+  ]
+}

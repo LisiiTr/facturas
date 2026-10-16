@@ -1,0 +1,107 @@
+{
+  "facturas": [
+    {
+      "tipo_comprobante": "FACTURA",
+      "letra": "A",
+      "codigo_comprobante": "01",
+      "punto_venta": "0002",
+      "numero_comprobante": "00050007",
+      "fecha_emision": "2026-09-16",
+      "fecha_vencimiento_pago": null,
+      "emisor": {
+        "razon_social": "ALTINPA SA",
+        "nombre_comercial": null,
+        "cuit": "33713501609",
+        "condicion_iva": "IVA Responsable Inscripto",
+        "domicilio": "123 161 - ENTRE LAS CALLES: 35 y 35 BIS",
+        "localidad": "ENSENADA",
+        "provincia": "BUENOS AIRES",
+        "codigo_postal": null,
+        "ingresos_brutos": null,
+        "inicio_actividades": "2017-08-02"
+      },
+      "receptor": {
+        "razon_social": "EL ROBLE SOCIEDAD SIMPLE",
+        "cuit": "30719352681",
+        "dni": null,
+        "condicion_iva": "INSCRIPTO",
+        "domicilio": "CALLE 18 Nro. (ESQUINA MONTEVIDEO 4603)",
+        "localidad": "LA PLATA",
+        "provincia": null,
+        "codigo_postal": null
+      },
+      "moneda": null,
+      "tipo_cambio": null,
+      "items": [
+        {
+          "codigo": "942557",
+          "codigo_ean": null,
+          "descripcion": "DONUTS BLANCAS BONAFIDE x78 gr",
+          "cantidad_original": "12",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1",
+          "cantidad": "12",
+          "precio_unitario_sin_iva_sin_descuento": "1629.05",
+          "precio_unitario_sin_iva": "1466.15",
+          "importe_neto_linea": "17593.80",
+          "ajustes_linea": [
+            {
+              "tipo": "descuento_porcentaje",
+              "valor": "10"
+            }
+          ],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "942556",
+          "codigo_ean": null,
+          "descripcion": "DONUTS CHOCO LECHE BONAFIDE x78 gr",
+          "cantidad_original": "12",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1",
+          "cantidad": "12",
+          "precio_unitario_sin_iva_sin_descuento": "1629.05",
+          "precio_unitario_sin_iva": "1466.15",
+          "importe_neto_linea": "17593.80",
+          "ajustes_linea": [
+            {
+              "tipo": "descuento_porcentaje",
+              "valor": "10"
+            }
+          ],
+          "alicuota_iva": "21.0"
+        }
+      ],
+      "iva": [
+        {
+          "alicuota": "21.0",
+          "base_imponible": "35187.60",
+          "importe": "7389.40"
+        }
+      ],
+      "tributos": [],
+      "totales": {
+        "subtotal": null,
+        "neto_gravado": "35187.60",
+        "no_gravado": null,
+        "exento": null,
+        "iva": "7389.40",
+        "tributos": null,
+        "percepciones": null,
+        "descuentos": null,
+        "recargos": null,
+        "total": "42577.00"
+      },
+      "cae": "86373331510139",
+      "caea": null,
+      "vencimiento_cae": "2026-09-26",
+      "vencimiento_caea": null,
+      "qr_afip_url": null,
+      "condicion_venta": "CAMBIO DE CONDICION POR PAGO",
+      "forma_pago": null,
+      "orden_compra": "092-893-ZE",
+      "remito": null,
+      "advertencias": []
+    }
+  ]
+}

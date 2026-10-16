@@ -1,0 +1,316 @@
+{
+  "facturas": [
+    {
+      "tipo_comprobante": "FACTURA",
+      "letra": "A",
+      "codigo_comprobante": "001",
+      "punto_venta": "06455",
+      "numero_comprobante": "00000922",
+      "fecha_emision": "2026-08-31",
+      "fecha_vencimiento_pago": "2026-08-31",
+      "emisor": {
+        "razon_social": "LOGISTICA LA SERENISIMA S.A.",
+        "nombre_comercial": null,
+        "cuit": "30707210385",
+        "condicion_iva": "IVA RESPONSABLE INSCRIPTO",
+        "domicilio": "FRENCH 135",
+        "localidad": "LONGCHAMPS",
+        "provincia": "BUENOS AIRES",
+        "codigo_postal": null,
+        "ingresos_brutos": "9010435074",
+        "inicio_actividades": "2000-10-01"
+      },
+      "receptor": {
+        "razon_social": "EL ROBLE SOCIEDAD SIMPLE S. CAP I SECC I",
+        "cuit": "30719352681",
+        "dni": null,
+        "condicion_iva": "IVA RESPONSABLE INSCRIPTO",
+        "domicilio": "CALLE 18 4607",
+        "localidad": "BERISSO",
+        "provincia": "BUENOS AIRES",
+        "codigo_postal": "1923"
+      },
+      "moneda": "ARS",
+      "tipo_cambio": null,
+      "items": [
+        {
+          "codigo": "324000",
+          "codigo_ean": null,
+          "descripcion": "QUESO LS FINLANDIA MAS LIVIANO P 180GR",
+          "cantidad_original": "3",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1",
+          "cantidad": "3",
+          "precio_unitario_sin_iva_sin_descuento": "2187.00",
+          "precio_unitario_sin_iva": "1968.30",
+          "importe_neto_linea": "5904.90",
+          "ajustes_linea": [
+            {
+              "tipo": "descuento_porcentaje",
+              "valor": "10.00"
+            }
+          ],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "373900",
+          "codigo_ean": null,
+          "descripcion": "QUESO LS CREMON ORIGINAL POTE 280GR",
+          "cantidad_original": "3",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1",
+          "cantidad": "3",
+          "precio_unitario_sin_iva_sin_descuento": "2534.00",
+          "precio_unitario_sin_iva": "2280.60",
+          "importe_neto_linea": "6841.80",
+          "ajustes_linea": [
+            {
+              "tipo": "descuento_porcentaje",
+              "valor": "10.00"
+            }
+          ],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "373800",
+          "codigo_ean": null,
+          "descripcion": "QUESO LS CREMON RED CALORIAS P 280GR",
+          "cantidad_original": "3",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1",
+          "cantidad": "3",
+          "precio_unitario_sin_iva_sin_descuento": "2534.00",
+          "precio_unitario_sin_iva": "2280.60",
+          "importe_neto_linea": "6841.80",
+          "ajustes_linea": [
+            {
+              "tipo": "descuento_porcentaje",
+              "valor": "10.00"
+            }
+          ],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "141100",
+          "codigo_ean": null,
+          "descripcion": "CREMA LS TETRA TOP 330 CC",
+          "cantidad_original": "6",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1",
+          "cantidad": "6",
+          "precio_unitario_sin_iva_sin_descuento": "2937.00",
+          "precio_unitario_sin_iva": "2790.15",
+          "importe_neto_linea": "16740.90",
+          "ajustes_linea": [
+            {
+              "tipo": "descuento_porcentaje",
+              "valor": "5.00"
+            }
+          ],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "141700",
+          "codigo_ean": null,
+          "descripcion": "CREMA LS CULINARIA TETRA TOP 330 CC",
+          "cantidad_original": "6",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1",
+          "cantidad": "6",
+          "precio_unitario_sin_iva_sin_descuento": "2802.00",
+          "precio_unitario_sin_iva": "2661.90",
+          "importe_neto_linea": "15971.40",
+          "ajustes_linea": [
+            {
+              "tipo": "descuento_porcentaje",
+              "valor": "5.00"
+            }
+          ],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "352100",
+          "codigo_ean": null,
+          "descripcion": "LECHE LS ULTRA DESC PROTEIN S1L",
+          "cantidad_original": "4",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1",
+          "cantidad": "4",
+          "precio_unitario_sin_iva_sin_descuento": "1512.00",
+          "precio_unitario_sin_iva": "1512.00",
+          "importe_neto_linea": "6048.00",
+          "ajustes_linea": [],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "656541",
+          "codigo_ean": null,
+          "descripcion": "YOGURISIMO GRIEGO 125 GR ARANDANOS",
+          "cantidad_original": "4",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1",
+          "cantidad": "4",
+          "precio_unitario_sin_iva_sin_descuento": "2267.66",
+          "precio_unitario_sin_iva": "1927.51",
+          "importe_neto_linea": "7710.04",
+          "ajustes_linea": [
+            {
+              "tipo": "descuento_porcentaje",
+              "valor": "15.00"
+            }
+          ],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "610041",
+          "codigo_ean": null,
+          "descripcion": "YOGURISIMO GRIEGO FIRME 180 GR VAINILLA",
+          "cantidad_original": "3",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1",
+          "cantidad": "3",
+          "precio_unitario_sin_iva_sin_descuento": "1817.55",
+          "precio_unitario_sin_iva": "1605.986667",
+          "importe_neto_linea": "4817.96",
+          "ajustes_linea": [
+            {
+              "tipo": "descuento_porcentaje",
+              "valor": "11.64"
+            }
+          ],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "939712",
+          "codigo_ean": null,
+          "descripcion": "YOGUR SER PROTEIN BAT 175 GR NATURAL",
+          "cantidad_original": "3",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1",
+          "cantidad": "3",
+          "precio_unitario_sin_iva_sin_descuento": "2752.95",
+          "precio_unitario_sin_iva": "2752.95",
+          "importe_neto_linea": "8258.85",
+          "ajustes_linea": [],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "939770",
+          "codigo_ean": null,
+          "descripcion": "YOGUR SER PROTEIN BAT 175 GR FRU ROJOS",
+          "cantidad_original": "3",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1",
+          "cantidad": "3",
+          "precio_unitario_sin_iva_sin_descuento": "2752.95",
+          "precio_unitario_sin_iva": "2752.95",
+          "importe_neto_linea": "8258.85",
+          "ajustes_linea": [],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "610022",
+          "codigo_ean": null,
+          "descripcion": "LSNA YOGUR FIRME ENTERO 190G VAINILLA",
+          "cantidad_original": "5",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1",
+          "cantidad": "5",
+          "precio_unitario_sin_iva_sin_descuento": "1496.02",
+          "precio_unitario_sin_iva": "1092.094",
+          "importe_neto_linea": "5460.47",
+          "ajustes_linea": [
+            {
+              "tipo": "descuento_porcentaje",
+              "valor": "27.00"
+            }
+          ],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "656119",
+          "codigo_ean": null,
+          "descripcion": "YOGURISIMO BATIDO NATURAL 190 GR ENDULZ",
+          "cantidad_original": "3",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1",
+          "cantidad": "3",
+          "precio_unitario_sin_iva_sin_descuento": "2106.93",
+          "precio_unitario_sin_iva": "1790.89",
+          "importe_neto_linea": "5372.67",
+          "ajustes_linea": [
+            {
+              "tipo": "descuento_porcentaje",
+              "valor": "15.00"
+            }
+          ],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "656112",
+          "codigo_ean": null,
+          "descripcion": "YOGURISIMO BATIDO NATURAL 190 GR S/END",
+          "cantidad_original": "6",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1",
+          "cantidad": "6",
+          "precio_unitario_sin_iva_sin_descuento": "2106.93",
+          "precio_unitario_sin_iva": "1790.89",
+          "importe_neto_linea": "10745.34",
+          "ajustes_linea": [
+            {
+              "tipo": "descuento_porcentaje",
+              "valor": "15.00"
+            }
+          ],
+          "alicuota_iva": "21.0"
+        }
+      ],
+      "iva": [
+        {
+          "alicuota": "21.0",
+          "base_imponible": "108972.98",
+          "importe": "22884.33"
+        }
+      ],
+      "tributos": [
+        {
+          "descripcion": "PERCEPCION IVA CF",
+          "jurisdiccion": null,
+          "alicuota": "3.000",
+          "base_imponible": "108972.98",
+          "importe": "3269.19"
+        },
+        {
+          "descripcion": "PER.IIBB BS AS",
+          "jurisdiccion": "BUENOS AIRES",
+          "alicuota": "1.500",
+          "base_imponible": "108972.98",
+          "importe": "1634.59"
+        }
+      ],
+      "totales": {
+        "subtotal": "108972.98",
+        "neto_gravado": "108972.98",
+        "no_gravado": null,
+        "exento": null,
+        "iva": "22884.33",
+        "tributos": "4903.78",
+        "percepciones": "4903.78",
+        "descuentos": null,
+        "recargos": null,
+        "total": "136761.09"
+      },
+      "cae": "86350818217234",
+      "caea": null,
+      "vencimiento_cae": "2026-09-10",
+      "vencimiento_caea": null,
+      "qr_afip_url": null,
+      "condicion_venta": "CONTADO",
+      "forma_pago": null,
+      "orden_compra": null,
+      "remito": null,
+      "advertencias": []
+    }
+  ]
+}

@@ -1,0 +1,341 @@
+{
+  "facturas": [
+    {
+      "tipo_comprobante": "FACTURA",
+      "letra": "A",
+      "codigo_comprobante": "001",
+      "punto_venta": "06455",
+      "numero_comprobante": "00000619",
+      "fecha_emision": "2026-08-21",
+      "fecha_vencimiento_pago": "2026-08-21",
+      "emisor": {
+        "razon_social": "LOGISTICA LA SERENISIMA S.A.",
+        "nombre_comercial": null,
+        "cuit": "30707210385",
+        "condicion_iva": "IVA RESPONSABLE INSCRIPTO",
+        "domicilio": "FRENCH 135",
+        "localidad": "LONGCHAMPS",
+        "provincia": "BUENOS AIRES",
+        "codigo_postal": null,
+        "ingresos_brutos": "9010435074",
+        "inicio_actividades": "2000-10-01"
+      },
+      "receptor": {
+        "razon_social": "EL ROBLE SOCIEDAD SIMPLE S. CAP I SECC I",
+        "cuit": "30719352681",
+        "dni": null,
+        "condicion_iva": "IVA RESPONSABLE INSCRIPTO",
+        "domicilio": "CALLE 18 4607",
+        "localidad": "BERISSO",
+        "provincia": "BUENOS AIRES",
+        "codigo_postal": "1923"
+      },
+      "moneda": "ARS",
+      "tipo_cambio": null,
+      "items": [
+        {
+          "codigo": "348300",
+          "codigo_ean": null,
+          "descripcion": "LECHE LS ULTRA ENTERA 3% FORT SACHET 1L",
+          "cantidad_original": "17",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1",
+          "cantidad": "17",
+          "precio_unitario_sin_iva_sin_descuento": "1304.00",
+          "precio_unitario_sin_iva": "1304.00",
+          "importe_neto_linea": "22168.00",
+          "ajustes_linea": [],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "348000",
+          "codigo_ean": null,
+          "descripcion": "LECHE LS ULTRA PARC.DESC 1% FORT SACH 1L",
+          "cantidad_original": "17",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1",
+          "cantidad": "17",
+          "precio_unitario_sin_iva_sin_descuento": "1304.00",
+          "precio_unitario_sin_iva": "1304.00",
+          "importe_neto_linea": "22168.00",
+          "ajustes_linea": [],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "352100",
+          "codigo_ean": null,
+          "descripcion": "LECHE LS ULTRA DESC PROTEIN S1L",
+          "cantidad_original": "4",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1",
+          "cantidad": "4",
+          "precio_unitario_sin_iva_sin_descuento": "1454.00",
+          "precio_unitario_sin_iva": "1454.00",
+          "importe_neto_linea": "5816.00",
+          "ajustes_linea": [],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "321800",
+          "codigo_ean": null,
+          "descripcion": "QUESO LS FINLANDIA RED.CALORIAS P180GR",
+          "cantidad_original": "5",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1",
+          "cantidad": "5",
+          "precio_unitario_sin_iva_sin_descuento": "2103.00",
+          "precio_unitario_sin_iva": "1892.7",
+          "importe_neto_linea": "9463.50",
+          "ajustes_linea": [
+            {
+              "tipo": "descuento_porcentaje",
+              "valor": "10.00"
+            }
+          ],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "321700",
+          "codigo_ean": null,
+          "descripcion": "QUESO LS FINLANDIA PROCESADO POTE 180G",
+          "cantidad_original": "5",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1",
+          "cantidad": "5",
+          "precio_unitario_sin_iva_sin_descuento": "2103.00",
+          "precio_unitario_sin_iva": "1892.7",
+          "importe_neto_linea": "9463.50",
+          "ajustes_linea": [
+            {
+              "tipo": "descuento_porcentaje",
+              "valor": "10.00"
+            }
+          ],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "324000",
+          "codigo_ean": null,
+          "descripcion": "QUESO LS FINLANDIA MAS LIVIANO P 180GR",
+          "cantidad_original": "3",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1",
+          "cantidad": "3",
+          "precio_unitario_sin_iva_sin_descuento": "2103.00",
+          "precio_unitario_sin_iva": "1892.7",
+          "importe_neto_linea": "5678.10",
+          "ajustes_linea": [
+            {
+              "tipo": "descuento_porcentaje",
+              "valor": "10.00"
+            }
+          ],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "373900",
+          "codigo_ean": null,
+          "descripcion": "QUESO LS CREMON ORIGINAL POTE 280GR",
+          "cantidad_original": "3",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1",
+          "cantidad": "3",
+          "precio_unitario_sin_iva_sin_descuento": "2437.00",
+          "precio_unitario_sin_iva": "2193.3",
+          "importe_neto_linea": "6579.90",
+          "ajustes_linea": [
+            {
+              "tipo": "descuento_porcentaje",
+              "valor": "10.00"
+            }
+          ],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "373800",
+          "codigo_ean": null,
+          "descripcion": "QUESO LS CREMON RED CALORIAS P 280GR",
+          "cantidad_original": "3",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1",
+          "cantidad": "3",
+          "precio_unitario_sin_iva_sin_descuento": "2437.00",
+          "precio_unitario_sin_iva": "2193.3",
+          "importe_neto_linea": "6579.90",
+          "ajustes_linea": [
+            {
+              "tipo": "descuento_porcentaje",
+              "valor": "10.00"
+            }
+          ],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "335800",
+          "codigo_ean": null,
+          "descripcion": "LECHE LS UAT P.DESC FORT C/FE 1% PET 1L",
+          "cantidad_original": "3",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1",
+          "cantidad": "3",
+          "precio_unitario_sin_iva_sin_descuento": "1744.00",
+          "precio_unitario_sin_iva": "1744.00",
+          "importe_neto_linea": "5232.00",
+          "ajustes_linea": [],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "333600",
+          "codigo_ean": null,
+          "descripcion": "LECHE LS UAT PARC.DESC ZERO LACTOS PET1L",
+          "cantidad_original": "12",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1",
+          "cantidad": "12",
+          "precio_unitario_sin_iva_sin_descuento": "1744.00",
+          "precio_unitario_sin_iva": "1744.00",
+          "importe_neto_linea": "20928.00",
+          "ajustes_linea": [],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "358600",
+          "codigo_ean": null,
+          "descripcion": "LECHE LS UAT DESCREMADA PROTEIN PET 1L",
+          "cantidad_original": "12",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1",
+          "cantidad": "12",
+          "precio_unitario_sin_iva_sin_descuento": "1744.00",
+          "precio_unitario_sin_iva": "1744.00",
+          "importe_neto_linea": "20928.00",
+          "ajustes_linea": [],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "624100",
+          "codigo_ean": null,
+          "descripcion": "DULCE DE LECHE LS ZERO LACTOSA P 250GR",
+          "cantidad_original": "3",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1",
+          "cantidad": "3",
+          "precio_unitario_sin_iva_sin_descuento": "1804.00",
+          "precio_unitario_sin_iva": "1804.00",
+          "importe_neto_linea": "5412.00",
+          "ajustes_linea": [],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "6700",
+          "codigo_ean": null,
+          "descripcion": "DULCE DE LECHE LS REPOSTERO POTE 400GR",
+          "cantidad_original": "3",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1",
+          "cantidad": "3",
+          "precio_unitario_sin_iva_sin_descuento": "2565.00",
+          "precio_unitario_sin_iva": "2308.5",
+          "importe_neto_linea": "6925.50",
+          "ajustes_linea": [
+            {
+              "tipo": "descuento_porcentaje",
+              "valor": "10.00"
+            }
+          ],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "363000",
+          "codigo_ean": null,
+          "descripcion": "LECHE LS UAT ENTERA FORT 3% EDGE 1LT",
+          "cantidad_original": "6",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1",
+          "cantidad": "6",
+          "precio_unitario_sin_iva_sin_descuento": "1647.00",
+          "precio_unitario_sin_iva": "1647.00",
+          "importe_neto_linea": "9882.00",
+          "ajustes_linea": [],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "318100",
+          "codigo_ean": null,
+          "descripcion": "QUESO LS CREMON CREMOSO FRACC 500 GR",
+          "cantidad_original": "10",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1",
+          "cantidad": "10",
+          "precio_unitario_sin_iva_sin_descuento": null,
+          "precio_unitario_sin_iva": null,
+          "importe_neto_linea": null,
+          "ajustes_linea": [],
+          "alicuota_iva": null
+        },
+        {
+          "codigo": "394000",
+          "codigo_ean": null,
+          "descripcion": "CALSA LPF CLASICA 10 FP 50GRX.",
+          "cantidad_original": "10",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1",
+          "cantidad": "10",
+          "precio_unitario_sin_iva_sin_descuento": "532.92",
+          "precio_unitario_sin_iva": "532.92",
+          "importe_neto_linea": "5329.20",
+          "ajustes_linea": [],
+          "alicuota_iva": "21.0"
+        }
+      ],
+      "iva": [
+        {
+          "alicuota": "21.0",
+          "base_imponible": "162553.60",
+          "importe": "34136.27"
+        }
+      ],
+      "tributos": [
+        {
+          "descripcion": "PERCEPCIÓN IVA CF",
+          "jurisdiccion": null,
+          "alicuota": "3.000",
+          "base_imponible": "93297.60",
+          "importe": "2798.93"
+        },
+        {
+          "descripcion": "PER.IIBB BS AS",
+          "jurisdiccion": "BUENOS AIRES",
+          "alicuota": "1.500",
+          "base_imponible": "162553.60",
+          "importe": "2438.30"
+        }
+      ],
+      "totales": {
+        "subtotal": "162553.60",
+        "neto_gravado": "162553.60",
+        "no_gravado": null,
+        "exento": null,
+        "iva": "34136.27",
+        "tributos": "5237.23",
+        "percepciones": "5237.23",
+        "descuentos": null,
+        "recargos": null,
+        "total": "201927.10"
+      },
+      "cae": "86349409496340",
+      "caea": null,
+      "vencimiento_cae": "2026-08-31",
+      "vencimiento_caea": null,
+      "qr_afip_url": null,
+      "condicion_venta": "CONTADO",
+      "forma_pago": null,
+      "orden_compra": null,
+      "remito": null,
+      "advertencias": [
+        "El ítem 318100 QUESO LS CREMON CREMOSO FRACC 500 GR figura bajo el encabezado 'PRODUCTOS ENTREGADOS CON CONFIRMACION DE PESO' con cantidad 10 pero SIN precio unitario, SIN alícuota de IVA y SIN importe impresos. Se cargó con precio_unitario_sin_iva, importe_neto_linea y alicuota_iva en null. Su importe no está incluido en los subtotales ni en el neto gravado de la factura.",
+        "El IVA impreso ($34.136,27) difiere en $0,01 del cálculo 21% sobre el neto gravado impreso ($162.553,60 × 21% = $34.136,26). Se conservó el valor impreso."
+      ]
+    }
+  ]
+}

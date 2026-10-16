@@ -1,0 +1,107 @@
+{
+  "facturas": [
+    {
+      "tipo_comprobante": "FACTURA",
+      "letra": "A",
+      "codigo_comprobante": "01",
+      "punto_venta": "0002",
+      "numero_comprobante": "00068379",
+      "fecha_emision": "2026-08-20",
+      "fecha_vencimiento_pago": null,
+      "emisor": {
+        "razon_social": "Criado Juan Marcelo",
+        "nombre_comercial": "MARCELO DISTRIBUCIONES",
+        "cuit": "23165326199",
+        "condicion_iva": "IVA RESP.INSCRIPTO",
+        "domicilio": "28 n 1119 e/ 55 y 56",
+        "localidad": null,
+        "provincia": null,
+        "codigo_postal": null,
+        "ingresos_brutos": "23165326199",
+        "inicio_actividades": "1999-09-01"
+      },
+      "receptor": {
+        "razon_social": "EL ROBLE SOCIEDAD SIMPLE S.CAPI SECC IV",
+        "cuit": "30719352681",
+        "dni": null,
+        "condicion_iva": "RESP. INSCRIPTO",
+        "domicilio": "18 N 4607",
+        "localidad": "LA PLATA",
+        "provincia": null,
+        "codigo_postal": null
+      },
+      "moneda": null,
+      "tipo_cambio": null,
+      "items": [
+        {
+          "codigo": null,
+          "codigo_ean": null,
+          "descripcion": "REGGIANO MAFFIA X KG",
+          "cantidad_original": "3.60",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1",
+          "cantidad": "3.60",
+          "precio_unitario_sin_iva_sin_descuento": "18236.865",
+          "precio_unitario_sin_iva": "18236.865",
+          "importe_neto_linea": "65652.71",
+          "ajustes_linea": [],
+          "alicuota_iva": "21.0"
+        }
+      ],
+      "iva": [
+        {
+          "alicuota": "21.0",
+          "base_imponible": "54267.41",
+          "importe": "11396.16"
+        }
+      ],
+      "tributos": [
+        {
+          "descripcion": "Perc.IB PBA",
+          "jurisdiccion": null,
+          "alicuota": null,
+          "base_imponible": null,
+          "importe": "0.00"
+        },
+        {
+          "descripcion": "Perc.IVA RG 5329",
+          "jurisdiccion": null,
+          "alicuota": null,
+          "base_imponible": null,
+          "importe": "0.00"
+        }
+      ],
+      "totales": {
+        "subtotal": "54267.41",
+        "neto_gravado": "54267.41",
+        "no_gravado": null,
+        "exento": null,
+        "iva": "11396.16",
+        "tributos": null,
+        "percepciones": "0.00",
+        "descuentos": "11385.30",
+        "recargos": null,
+        "total": "65663.57"
+      },
+      "cae": "86349167148643",
+      "caea": null,
+      "vencimiento_cae": "2026-08-30",
+      "vencimiento_caea": null,
+      "qr_afip_url": null,
+      "condicion_venta": "Cuenta Corriente",
+      "forma_pago": null,
+      "orden_compra": null,
+      "remito": null,
+      "advertencias": [
+        "El DESCUENTO impreso (11385.30) es un descuento GENERAL de la factura: se cargo en totales.descuentos y no se prorrateo entre los items. Por eso la suma de importe_neto_linea (65652.71) es mayor que totales.neto_gravado (54267.41), que ya lo contempla. Verificado: suma de lineas - descuento = SUBTOTAL impreso, exacto.",
+        "La base_imponible de la alicuota 21% se tomo del SUBTOTAL impreso (54267.41), posterior al descuento general; no es la suma de los importe_neto_linea. Reconcilia exacto con el IVA impreso (11396.16).",
+        "La columna 'Unid_Lista' trae dos valores por renglon (unidades/piezas y numero de lista de precios). No afecta la cantidad ni el precio: Subtotal = Cantidad x Precio en todos los renglones. Confirmado con el usuario; no se mapeo a ningun campo.",
+        "El comprobante no imprime codigo interno ni EAN de los articulos: items[].codigo y codigo_ean quedan en null.",
+        "Las percepciones 'Perc.IB PBA' y 'Perc.IVA RG 5329' no informan alicuota ni base imponible impresas: se cargo solo el importe. (El importe de Perc.IVA RG 5329 equivale al 3% del subtotal, pero ese porcentaje no figura en el comprobante.)",
+        "No se pudo leer el contenido del codigo QR de AFIP; qr_afip_url queda en null.",
+        "No figura localidad del emisor ni provincia/codigo postal de emisor o receptor. El receptor trae ademas un codigo de cliente '(3056)' que no se mapeo a ningun campo del schema.",
+        "La fecha de emision y el vencimiento del CAE vienen con año de 2 digitos en el comprobante; se interpretaron como 20xx."
+      ]
+    }
+  ]
+}

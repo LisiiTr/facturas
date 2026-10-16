@@ -1,0 +1,142 @@
+{
+  "facturas": [
+    {
+      "tipo_comprobante": "FACTURA",
+      "letra": "A",
+      "codigo_comprobante": "01",
+      "punto_venta": "0002",
+      "numero_comprobante": "00050001",
+      "fecha_emision": "2026-09-16",
+      "fecha_vencimiento_pago": null,
+      "emisor": {
+        "razon_social": "ALTINPA SA",
+        "nombre_comercial": null,
+        "cuit": "33713501609",
+        "condicion_iva": "IVA Responsable Inscripto",
+        "domicilio": "123 161 - ENTRE LAS CALLES: 35 y 35 BIS",
+        "localidad": "ENSENADA",
+        "provincia": "BUENOS AIRES",
+        "codigo_postal": null,
+        "ingresos_brutos": null,
+        "inicio_actividades": "2017-08-02"
+      },
+      "receptor": {
+        "razon_social": "EL ROBLE SOCIEDAD SIMPLE",
+        "cuit": "30719352681",
+        "dni": null,
+        "condicion_iva": "INSCRIPTO",
+        "domicilio": "CALLE 18 Nro. (ESQUINA MONTEVIDEO 4603)",
+        "localidad": "LA PLATA",
+        "provincia": null,
+        "codigo_postal": null
+      },
+      "moneda": null,
+      "tipo_cambio": null,
+      "items": [
+        {
+          "codigo": "6329",
+          "codigo_ean": null,
+          "descripcion": "PAPAS PRINGLES CHEDAR Y BACON x105 gr",
+          "cantidad_original": "3",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1",
+          "cantidad": "3",
+          "precio_unitario_sin_iva_sin_descuento": "3446.10",
+          "precio_unitario_sin_iva": "3101.49",
+          "importe_neto_linea": "9304.47",
+          "ajustes_linea": [
+            {
+              "tipo": "descuento_porcentaje",
+              "valor": "10"
+            }
+          ],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "6325",
+          "codigo_ean": null,
+          "descripcion": "PAPAS PRINGLES CON QUESO x109 gr",
+          "cantidad_original": "6",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1",
+          "cantidad": "6",
+          "precio_unitario_sin_iva_sin_descuento": "3446.10",
+          "precio_unitario_sin_iva": "3101.49",
+          "importe_neto_linea": "18608.94",
+          "ajustes_linea": [
+            {
+              "tipo": "descuento_porcentaje",
+              "valor": "10"
+            }
+          ],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "6323",
+          "codigo_ean": null,
+          "descripcion": "PAPAS PRINGLES ORIGINAL x104 gr",
+          "cantidad_original": "9",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1",
+          "cantidad": "9",
+          "precio_unitario_sin_iva_sin_descuento": "3446.10",
+          "precio_unitario_sin_iva": "3101.49",
+          "importe_neto_linea": "27913.41",
+          "ajustes_linea": [
+            {
+              "tipo": "descuento_porcentaje",
+              "valor": "10"
+            }
+          ],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "273",
+          "codigo_ean": null,
+          "descripcion": "FLYNN PAFF ESTUCHE TUTTI FRUTTI x70 un",
+          "cantidad_original": "1",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1",
+          "cantidad": "1",
+          "precio_unitario_sin_iva_sin_descuento": "5633.83",
+          "precio_unitario_sin_iva": "5633.83",
+          "importe_neto_linea": "5633.83",
+          "ajustes_linea": [],
+          "alicuota_iva": "21.0"
+        }
+      ],
+      "iva": [
+        {
+          "alicuota": "21.0",
+          "base_imponible": "61460.65",
+          "importe": "12906.74"
+        }
+      ],
+      "tributos": [],
+      "totales": {
+        "subtotal": null,
+        "neto_gravado": "61460.65",
+        "no_gravado": null,
+        "exento": null,
+        "iva": "12906.74",
+        "tributos": null,
+        "percepciones": null,
+        "descuentos": null,
+        "recargos": null,
+        "total": "74367.39"
+      },
+      "cae": "86373331482009",
+      "caea": null,
+      "vencimiento_cae": "2026-09-26",
+      "vencimiento_caea": null,
+      "qr_afip_url": null,
+      "condicion_venta": "CAMBIO DE CONDICION POR PAGO",
+      "forma_pago": null,
+      "orden_compra": "092-855-XO",
+      "remito": null,
+      "advertencias": [
+        "La fila '586 PROMO PRINGLES GRANDES 10% OFF' es un encabezado de agrupacion de promocion (sin IVA, cantidad ni precio) y no se cargo como item; el descuento que anuncia ya esta aplicado en cada renglon."
+      ]
+    }
+  ]
+}

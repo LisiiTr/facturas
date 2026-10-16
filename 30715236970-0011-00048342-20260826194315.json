@@ -1,0 +1,522 @@
+{
+  "facturas": [
+    {
+      "tipo_comprobante": "Factura",
+      "letra": "A",
+      "codigo_comprobante": "01",
+      "punto_venta": "0011",
+      "numero_comprobante": "00048342",
+      "fecha_emision": "2026-08-21",
+      "fecha_vencimiento_pago": null,
+      "emisor": {
+        "razon_social": "KROMATIKA ARGENTINA S.A.",
+        "nombre_comercial": "DISTLE",
+        "cuit": "30715236970",
+        "condicion_iva": "IVA Responsable Inscripto",
+        "domicilio": "Ruta Provincial 36 37.5 km",
+        "localidad": "El Pato",
+        "provincia": null,
+        "codigo_postal": "1893",
+        "ingresos_brutos": "30715236970",
+        "inicio_actividades": "2015-10-27"
+      },
+      "receptor": {
+        "razon_social": "EL ROBLE SOCIEDAD SIMPLE S.CAP I SE",
+        "cuit": "30719352681",
+        "dni": null,
+        "condicion_iva": "RESP. INSCRIPTO",
+        "domicilio": "18 4607",
+        "localidad": "BERISSO",
+        "provincia": null,
+        "codigo_postal": null
+      },
+      "moneda": "ARS",
+      "tipo_cambio": null,
+      "items": [
+        {
+          "codigo": "000697",
+          "codigo_ean": null,
+          "descripcion": "NDG CAPPUCINO 10CAP 6X117G",
+          "cantidad_original": "2.00",
+          "tipo_cantidad_original": "desconocida",
+          "factor_unidades": null,
+          "cantidad": "2.00",
+          "precio_unitario_sin_iva_sin_descuento": "8306.20",
+          "precio_unitario_sin_iva": "6644.96",
+          "importe_neto_linea": "13289.92",
+          "ajustes_linea": [
+            {
+              "tipo": "bonificacion_porcentaje",
+              "valor": "20.00"
+            }
+          ],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "000693",
+          "codigo_ean": null,
+          "descripcion": "NDG CORTADO 10CAP 6X63G",
+          "cantidad_original": "2.00",
+          "tipo_cantidad_original": "desconocida",
+          "factor_unidades": null,
+          "cantidad": "2.00",
+          "precio_unitario_sin_iva_sin_descuento": "8306.20",
+          "precio_unitario_sin_iva": "6644.96",
+          "importe_neto_linea": "13289.92",
+          "ajustes_linea": [
+            {
+              "tipo": "bonificacion_porcentaje",
+              "valor": "20.00"
+            }
+          ],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "000560",
+          "codigo_ean": null,
+          "descripcion": "DOLCA SV FR 6X100G CTM",
+          "cantidad_original": "3.00",
+          "tipo_cantidad_original": "desconocida",
+          "factor_unidades": null,
+          "cantidad": "3.00",
+          "precio_unitario_sin_iva_sin_descuento": "4167.54",
+          "precio_unitario_sin_iva": "3508.24",
+          "importe_neto_linea": "10524.72",
+          "ajustes_linea": [
+            {
+              "tipo": "bonificacion_porcentaje",
+              "valor": "15.82"
+            }
+          ],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "000678",
+          "codigo_ean": null,
+          "descripcion": "NESCAFE BLACK ROAST DP 8X110G",
+          "cantidad_original": "3.00",
+          "tipo_cantidad_original": "desconocida",
+          "factor_unidades": null,
+          "cantidad": "3.00",
+          "precio_unitario_sin_iva_sin_descuento": "7580.93",
+          "precio_unitario_sin_iva": "6822.84",
+          "importe_neto_linea": "20468.52",
+          "ajustes_linea": [
+            {
+              "tipo": "bonificacion_porcentaje",
+              "valor": "10.00"
+            }
+          ],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "000461",
+          "codigo_ean": null,
+          "descripcion": "KITKAT 4F MILK 4(24X41,5G)",
+          "cantidad_original": "6.00",
+          "tipo_cantidad_original": "desconocida",
+          "factor_unidades": null,
+          "cantidad": "6.00",
+          "precio_unitario_sin_iva_sin_descuento": "1103.52",
+          "precio_unitario_sin_iva": "1103.52",
+          "importe_neto_linea": "6621.12",
+          "ajustes_linea": [],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "000490",
+          "codigo_ean": null,
+          "descripcion": "NDG CAFE AULAIT 10CAP 6X100G",
+          "cantidad_original": "2.00",
+          "tipo_cantidad_original": "desconocida",
+          "factor_unidades": null,
+          "cantidad": "2.00",
+          "precio_unitario_sin_iva_sin_descuento": "8306.20",
+          "precio_unitario_sin_iva": "6644.96",
+          "importe_neto_linea": "13289.92",
+          "ajustes_linea": [
+            {
+              "tipo": "bonificacion_porcentaje",
+              "valor": "20.00"
+            }
+          ],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "000564",
+          "codigo_ean": null,
+          "descripcion": "DOLCA REGULAR FR 6X100G",
+          "cantidad_original": "3.00",
+          "tipo_cantidad_original": "desconocida",
+          "factor_unidades": null,
+          "cantidad": "3.00",
+          "precio_unitario_sin_iva_sin_descuento": "4167.54",
+          "precio_unitario_sin_iva": "3508.24",
+          "importe_neto_linea": "10524.72",
+          "ajustes_linea": [
+            {
+              "tipo": "bonificacion_porcentaje",
+              "valor": "15.82"
+            }
+          ],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "000444",
+          "codigo_ean": null,
+          "descripcion": "GAROTOS 30X250G",
+          "cantidad_original": "5.00",
+          "tipo_cantidad_original": "desconocida",
+          "factor_unidades": null,
+          "cantidad": "5.00",
+          "precio_unitario_sin_iva_sin_descuento": "4460.49",
+          "precio_unitario_sin_iva": "4460.49",
+          "importe_neto_linea": "22302.45",
+          "ajustes_linea": [],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "000655",
+          "codigo_ean": null,
+          "descripcion": "NESCAO RTD 24X185ML",
+          "cantidad_original": "6.00",
+          "tipo_cantidad_original": "desconocida",
+          "factor_unidades": null,
+          "cantidad": "6.00",
+          "precio_unitario_sin_iva_sin_descuento": "833.14",
+          "precio_unitario_sin_iva": "474.89",
+          "importe_neto_linea": "2849.34",
+          "ajustes_linea": [
+            {
+              "tipo": "bonificacion_porcentaje",
+              "valor": "43.00"
+            }
+          ],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "000845",
+          "codigo_ean": null,
+          "descripcion": "NESTLE CHOC CRUNCH 4(13X45G)",
+          "cantidad_original": "4.00",
+          "tipo_cantidad_original": "desconocida",
+          "factor_unidades": null,
+          "cantidad": "4.00",
+          "precio_unitario_sin_iva_sin_descuento": "1865.90",
+          "precio_unitario_sin_iva": "1679.31",
+          "importe_neto_linea": "6717.24",
+          "ajustes_linea": [
+            {
+              "tipo": "bonificacion_porcentaje",
+              "valor": "10.00"
+            }
+          ],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "000361",
+          "codigo_ean": null,
+          "descripcion": "HILERET AZUCAR LIGHT 250G",
+          "cantidad_original": "9.00",
+          "tipo_cantidad_original": "desconocida",
+          "factor_unidades": null,
+          "cantidad": "9.00",
+          "precio_unitario_sin_iva_sin_descuento": "945.43",
+          "precio_unitario_sin_iva": "803.62",
+          "importe_neto_linea": "7232.58",
+          "ajustes_linea": [
+            {
+              "tipo": "bonificacion_porcentaje",
+              "valor": "15.00"
+            }
+          ],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "000550",
+          "codigo_ean": null,
+          "descripcion": "DOLCA SV DP 8X100G",
+          "cantidad_original": "3.00",
+          "tipo_cantidad_original": "desconocida",
+          "factor_unidades": null,
+          "cantidad": "3.00",
+          "precio_unitario_sin_iva_sin_descuento": "3678.19",
+          "precio_unitario_sin_iva": "3094.09",
+          "importe_neto_linea": "9282.27",
+          "ajustes_linea": [
+            {
+              "tipo": "bonificacion_porcentaje",
+              "valor": "15.88"
+            }
+          ],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "000646",
+          "codigo_ean": null,
+          "descripcion": "NESCAFE TYM PURO 12X190G",
+          "cantidad_original": "2.00",
+          "tipo_cantidad_original": "desconocida",
+          "factor_unidades": null,
+          "cantidad": "2.00",
+          "precio_unitario_sin_iva_sin_descuento": "7885.30",
+          "precio_unitario_sin_iva": "7885.30",
+          "importe_neto_linea": "15770.60",
+          "ajustes_linea": [],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "000747",
+          "codigo_ean": null,
+          "descripcion": "NESCAFE ICED COFFEE 24X100G",
+          "cantidad_original": "3.00",
+          "tipo_cantidad_original": "desconocida",
+          "factor_unidades": null,
+          "cantidad": "3.00",
+          "precio_unitario_sin_iva_sin_descuento": "6151.89",
+          "precio_unitario_sin_iva": "5536.70",
+          "importe_neto_linea": "16610.10",
+          "ajustes_linea": [
+            {
+              "tipo": "bonificacion_porcentaje",
+              "valor": "10.00"
+            }
+          ],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "000551",
+          "codigo_ean": null,
+          "descripcion": "NESCAFE TRADICION DP 8X100G",
+          "cantidad_original": "3.00",
+          "tipo_cantidad_original": "desconocida",
+          "factor_unidades": null,
+          "cantidad": "3.00",
+          "precio_unitario_sin_iva_sin_descuento": "6435.26",
+          "precio_unitario_sin_iva": "5791.74",
+          "importe_neto_linea": "17375.22",
+          "ajustes_linea": [
+            {
+              "tipo": "bonificacion_porcentaje",
+              "valor": "10.00"
+            }
+          ],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "000362",
+          "codigo_ean": null,
+          "descripcion": "HILERET AZUCAR LIGHT 500G",
+          "cantidad_original": "9.00",
+          "tipo_cantidad_original": "desconocida",
+          "factor_unidades": null,
+          "cantidad": "9.00",
+          "precio_unitario_sin_iva_sin_descuento": "1586.58",
+          "precio_unitario_sin_iva": "1348.59",
+          "importe_neto_linea": "12137.31",
+          "ajustes_linea": [
+            {
+              "tipo": "bonificacion_porcentaje",
+              "valor": "15.00"
+            }
+          ],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "000462",
+          "codigo_ean": null,
+          "descripcion": "KITKAT 4F WHITE 4(24X41,5G)",
+          "cantidad_original": "4.00",
+          "tipo_cantidad_original": "desconocida",
+          "factor_unidades": null,
+          "cantidad": "4.00",
+          "precio_unitario_sin_iva_sin_descuento": "1103.52",
+          "precio_unitario_sin_iva": "1103.52",
+          "importe_neto_linea": "4414.08",
+          "ajustes_linea": [],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "000042",
+          "codigo_ean": null,
+          "descripcion": "MAGGI CALDO X12 VER 60X114G",
+          "cantidad_original": "10.00",
+          "tipo_cantidad_original": "desconocida",
+          "factor_unidades": null,
+          "cantidad": "10.00",
+          "precio_unitario_sin_iva_sin_descuento": "1013.63",
+          "precio_unitario_sin_iva": "1013.63",
+          "importe_neto_linea": "10136.30",
+          "ajustes_linea": [],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "000164",
+          "codigo_ean": null,
+          "descripcion": "LCA 24X395G",
+          "cantidad_original": "5.00",
+          "tipo_cantidad_original": "desconocida",
+          "factor_unidades": null,
+          "cantidad": "5.00",
+          "precio_unitario_sin_iva_sin_descuento": "2791.27",
+          "precio_unitario_sin_iva": "2791.27",
+          "importe_neto_linea": "13956.35",
+          "ajustes_linea": [],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "000474",
+          "codigo_ean": null,
+          "descripcion": "BANANITA DOLCA 12(16X30G)",
+          "cantidad_original": "1.00",
+          "tipo_cantidad_original": "desconocida",
+          "factor_unidades": null,
+          "cantidad": "1.00",
+          "precio_unitario_sin_iva_sin_descuento": "13703.93",
+          "precio_unitario_sin_iva": "13703.93",
+          "importe_neto_linea": "13703.93",
+          "ajustes_linea": [],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "000714",
+          "codigo_ean": null,
+          "descripcion": "DOLCA SUAVE STICK 20(30X0,045G",
+          "cantidad_original": "3.00",
+          "tipo_cantidad_original": "desconocida",
+          "factor_unidades": null,
+          "cantidad": "3.00",
+          "precio_unitario_sin_iva_sin_descuento": "2527.57",
+          "precio_unitario_sin_iva": "2527.57",
+          "importe_neto_linea": "7582.71",
+          "ajustes_linea": [],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "000134",
+          "codigo_ean": null,
+          "descripcion": "NESTUM MULTICEREAL 10X125G",
+          "cantidad_original": "5.00",
+          "tipo_cantidad_original": "desconocida",
+          "factor_unidades": null,
+          "cantidad": "5.00",
+          "precio_unitario_sin_iva_sin_descuento": "1539.82",
+          "precio_unitario_sin_iva": "1539.82",
+          "importe_neto_linea": "7699.10",
+          "ajustes_linea": [],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "000442",
+          "codigo_ean": null,
+          "descripcion": "NESQUIK POLVO 12X360G",
+          "cantidad_original": "6.00",
+          "tipo_cantidad_original": "desconocida",
+          "factor_unidades": null,
+          "cantidad": "6.00",
+          "precio_unitario_sin_iva_sin_descuento": "2878.80",
+          "precio_unitario_sin_iva": "2581.99",
+          "importe_neto_linea": "15491.94",
+          "ajustes_linea": [
+            {
+              "tipo": "bonificacion_porcentaje",
+              "valor": "10.31"
+            }
+          ],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "000441",
+          "codigo_ean": null,
+          "descripcion": "NESQUIK POLVO 18X180G",
+          "cantidad_original": "6.00",
+          "tipo_cantidad_original": "desconocida",
+          "factor_unidades": null,
+          "cantidad": "6.00",
+          "precio_unitario_sin_iva_sin_descuento": "1574.42",
+          "precio_unitario_sin_iva": "1407.38",
+          "importe_neto_linea": "8444.28",
+          "ajustes_linea": [
+            {
+              "tipo": "bonificacion_porcentaje",
+              "valor": "10.61"
+            }
+          ],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "000489",
+          "codigo_ean": null,
+          "descripcion": "NDG ESPRESSO 10CAP 6X60G",
+          "cantidad_original": "2.00",
+          "tipo_cantidad_original": "desconocida",
+          "factor_unidades": null,
+          "cantidad": "2.00",
+          "precio_unitario_sin_iva_sin_descuento": "8306.20",
+          "precio_unitario_sin_iva": "6644.96",
+          "importe_neto_linea": "13289.92",
+          "ajustes_linea": [
+            {
+              "tipo": "bonificacion_porcentaje",
+              "valor": "20.00"
+            }
+          ],
+          "alicuota_iva": "21.0"
+        }
+      ],
+      "iva": [
+        {
+          "alicuota": "21.0",
+          "base_imponible": "293004.55",
+          "importe": "61530.95"
+        }
+      ],
+      "tributos": [
+        {
+          "descripcion": "Percepción II.BB.",
+          "jurisdiccion": null,
+          "alicuota": "1.5",
+          "base_imponible": null,
+          "importe": "4395.07"
+        },
+        {
+          "descripcion": "Percepción RG 5329",
+          "jurisdiccion": null,
+          "alicuota": null,
+          "base_imponible": null,
+          "importe": "8790.14"
+        }
+      ],
+      "totales": {
+        "subtotal": "293004.55",
+        "neto_gravado": "293004.55",
+        "no_gravado": null,
+        "exento": null,
+        "iva": "61530.95",
+        "tributos": null,
+        "percepciones": "13185.21",
+        "descuentos": null,
+        "recargos": null,
+        "total": "367720.71"
+      },
+      "cae": "86349351189334",
+      "caea": null,
+      "vencimiento_cae": "2026-08-31",
+      "vencimiento_caea": null,
+      "qr_afip_url": null,
+      "condicion_venta": null,
+      "forma_pago": null,
+      "orden_compra": null,
+      "remito": null,
+      "advertencias": [
+        "El comprobante NO trae importe neto por línea: la única columna de importe es 'Total C/IVA' (con IVA incluido). Por decisión del usuario, importe_neto_linea fue CALCULADO como cantidad × U.Net.Bonf (columna de precio unitario neto ya bonificado, que sí es un valor impreso). No es un valor impreso del comprobante.",
+        "La suma de los importe_neto_linea así calculados da 293004.56 y el 'Importe neto' impreso es 293004.55 (0.01 de diferencia por redondeo). En iva[] y totales se conservaron los valores impresos.",
+        "No fue posible determinar si la cantidad está expresada en unidades comerciales o en bultos: el comprobante trae un solo precio unitario por línea y no hay un segundo precio comparable que permita deducir el factor. Se dejó tipo_cantidad_original 'desconocida' y factor_unidades null; cantidad = cantidad impresa, y los precios unitarios se refieren a esa misma unidad de venta.",
+        "La alícuota de IVA no viene por ítem: el totalizador informa una única alícuota gravada (21%), que se asignó a los 25 ítems. La base 293004.55 × 21% = 61530.96 reconcilia con el IVA impreso 61530.95.",
+        "En 5 líneas (000461, 000361, 000362, 000134, 000441) el 'Total C/IVA' impreso difiere hasta 0.05 de cantidad × Unit.C/IVA, por redondeo interno del sistema emisor. Se conservaron los valores impresos.",
+        "Las percepciones se informan sin base imponible impresa: II.BB. trae alícuota 1,50% y RG 5329 solo el importe. totales.percepciones es la suma de ambos importes impresos (4395.07 + 8790.14) y reconcilia con el TOTAL.",
+        "Moneda no indicada explícitamente; se asume ARS."
+      ]
+    }
+  ]
+}

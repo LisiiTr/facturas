@@ -1,0 +1,197 @@
+{
+  "facturas": [
+    {
+      "tipo_comprobante": "FACTURA",
+      "letra": "A",
+      "codigo_comprobante": "01",
+      "punto_venta": "0005",
+      "numero_comprobante": "00008691",
+      "fecha_emision": "2026-10-02",
+      "fecha_vencimiento_pago": null,
+      "emisor": {
+        "razon_social": "AXEL MAXIMILIANO KUZEMKA",
+        "nombre_comercial": "KUBBER DISTRIBUIDORA",
+        "cuit": "23345067469",
+        "condicion_iva": "IVA Responsable Inscripto",
+        "domicilio": "Calle 12 nro. 3399 Esquina 162 norte",
+        "localidad": "Berisso",
+        "provincia": "Buenos Aires",
+        "codigo_postal": "1923",
+        "ingresos_brutos": "23345067469",
+        "inicio_actividades": "2020-05-01"
+      },
+      "receptor": {
+        "razon_social": "EL ROBLE SOCIEDAD SIMPLE S. CAP I SECC IV",
+        "cuit": "30719352681",
+        "dni": null,
+        "condicion_iva": "Responsable Inscripto",
+        "domicilio": "18 Y MONTEVIDEO N 4607",
+        "localidad": "BERISSO",
+        "provincia": null,
+        "codigo_postal": null
+      },
+      "moneda": "ARS",
+      "tipo_cambio": null,
+      "items": [
+        {
+          "codigo": "1345",
+          "codigo_ean": null,
+          "descripcion": "PAPAS CHEDDAR X 82 GRS",
+          "cantidad_original": "3.00",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1.00",
+          "cantidad": "3.00",
+          "precio_unitario_sin_iva_sin_descuento": "1584.46",
+          "precio_unitario_sin_iva": "1584.46",
+          "importe_neto_linea": "4753.38",
+          "ajustes_linea": [],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "1315",
+          "codigo_ean": null,
+          "descripcion": "PAPAS KETCHUP X 82 GRS.",
+          "cantidad_original": "3.00",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1.00",
+          "cantidad": "3.00",
+          "precio_unitario_sin_iva_sin_descuento": "1584.46",
+          "precio_unitario_sin_iva": "1584.46",
+          "importe_neto_linea": "4753.38",
+          "ajustes_linea": [],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "1363",
+          "codigo_ean": null,
+          "descripcion": "PAPAS MOSTAZA X 82 GRS.",
+          "cantidad_original": "3.00",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1.00",
+          "cantidad": "3.00",
+          "precio_unitario_sin_iva_sin_descuento": "1584.46",
+          "precio_unitario_sin_iva": "1584.46",
+          "importe_neto_linea": "4753.38",
+          "ajustes_linea": [],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "9114",
+          "codigo_ean": null,
+          "descripcion": "NACHOS QUESO X 82 GRS.",
+          "cantidad_original": "3.00",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1.00",
+          "cantidad": "3.00",
+          "precio_unitario_sin_iva_sin_descuento": "1585.36",
+          "precio_unitario_sin_iva": "1585.36",
+          "importe_neto_linea": "4756.08",
+          "ajustes_linea": [],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "1368",
+          "codigo_ean": null,
+          "descripcion": "PAPAS CREMAY CIBOULETTE X 82 GRS.",
+          "cantidad_original": "3.00",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1.00",
+          "cantidad": "3.00",
+          "precio_unitario_sin_iva_sin_descuento": "1584.46",
+          "precio_unitario_sin_iva": "1584.46",
+          "importe_neto_linea": "4753.38",
+          "ajustes_linea": [],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "9115",
+          "codigo_ean": null,
+          "descripcion": "NACHOS SAL X 90 GRS.",
+          "cantidad_original": "3.00",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1.00",
+          "cantidad": "3.00",
+          "precio_unitario_sin_iva_sin_descuento": "1585.36",
+          "precio_unitario_sin_iva": "1585.36",
+          "importe_neto_linea": "4756.08",
+          "ajustes_linea": [],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "1011",
+          "codigo_ean": null,
+          "descripcion": "PAPAS CLASICAS X 82 GRS.",
+          "cantidad_original": "3.00",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1.00",
+          "cantidad": "3.00",
+          "precio_unitario_sin_iva_sin_descuento": "1584.46",
+          "precio_unitario_sin_iva": "1584.46",
+          "importe_neto_linea": "4753.38",
+          "ajustes_linea": [],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "1325",
+          "codigo_ean": null,
+          "descripcion": "PAPAS JAMON SERRANO X 82 GRS.",
+          "cantidad_original": "3.00",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1.00",
+          "cantidad": "3.00",
+          "precio_unitario_sin_iva_sin_descuento": "1584.46",
+          "precio_unitario_sin_iva": "1584.46",
+          "importe_neto_linea": "4753.38",
+          "ajustes_linea": [],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "1334",
+          "codigo_ean": null,
+          "descripcion": "PAPAS ASADO CRIOLLO X 82 GRS.",
+          "cantidad_original": "3.00",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1.00",
+          "cantidad": "3.00",
+          "precio_unitario_sin_iva_sin_descuento": "1584.46",
+          "precio_unitario_sin_iva": "1584.46",
+          "importe_neto_linea": "4753.38",
+          "ajustes_linea": [],
+          "alicuota_iva": "21.0"
+        }
+      ],
+      "iva": [
+        {
+          "alicuota": "21.0",
+          "base_imponible": "42785.82",
+          "importe": "8985.02"
+        }
+      ],
+      "tributos": [],
+      "totales": {
+        "subtotal": "42785.82",
+        "neto_gravado": "42785.82",
+        "no_gravado": null,
+        "exento": "0.00",
+        "iva": "8985.02",
+        "tributos": null,
+        "percepciones": "0.00",
+        "descuentos": "0.00",
+        "recargos": null,
+        "total": "51770.84"
+      },
+      "cae": "86405737346825",
+      "caea": null,
+      "vencimiento_cae": "2026-10-12",
+      "vencimiento_caea": null,
+      "qr_afip_url": null,
+      "condicion_venta": "Cuenta Corriente",
+      "forma_pago": null,
+      "orden_compra": null,
+      "remito": null,
+      "advertencias": [
+        "El IVA se informa como un unico importe global ('Iva Inscripto' 8985,02), sin columna de IVA por item ni desglose por alicuota. La alicuota 21% de los 9 items y el desglose de iva[] fueron DEDUCIDOS por conciliacion combinatoria, verificada UNICA con un barrido exhaustivo sobre {10,5; 21} (512 combinaciones, solo 'todos al 21%' reconcilia: 42785,82 x 21% = 8985,0222 -> 8985,02). Solo el neto gravado 42785,82 y el IVA total 8985,02 son valores impresos."
+      ]
+    }
+  ]
+}

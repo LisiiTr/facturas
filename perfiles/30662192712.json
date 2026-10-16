@@ -1,0 +1,11 @@
+{
+  "cuit_emisor": "30662192712",
+  "razon_social": "VEMART S.A.",
+  "reglas": {
+    "cantidad": "unidad_comercial",
+    "iva": "por_item",
+    "descuentos": "por_item",
+    "percepciones": true
+  },
+  "notas": "Tabla de ítems con columnas: ITEM-COD-EAN | CANT | DESCRIPCION | IVA | Precio Lista | Bonificacion | Precio | TOTAL. Mapeo: 'IVA' = alícuota por ítem; 'Precio Lista' = precio_unitario_sin_iva_sin_descuento (base neto); 'Bonificacion' = % de descuento por ítem, PUEDE venir vacía o con valor; 'Precio' = precio_unitario_sin_iva (neto ya bonificado); 'TOTAL' = importe_neto_linea (sin IVA) = CANT × Precio. Cuando Bonificacion está vacía, Precio Lista = Precio y ajustes_linea = []. Cuando Bonificacion trae un %, va como bonificacion_porcentaje en ajustes_linea y Precio Lista ≠ Precio (Precio ya refleja la bonificación). Percepciones habituales: IIBB Bs.As. (1,50%) e IVA. Bases imponibles por alícuota no impresas como línea: se derivan agrupando netos por la alícuota explícita de cada ítem y deben reconciliar con el IVA impreso."
+}

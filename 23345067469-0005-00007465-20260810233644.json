@@ -1,0 +1,189 @@
+{
+  "facturas": [
+    {
+      "tipo_comprobante": "Factura",
+      "letra": "A",
+      "codigo_comprobante": "01",
+      "punto_venta": "0005",
+      "numero_comprobante": "00007465",
+      "fecha_emision": "2026-07-17",
+      "fecha_vencimiento_pago": null,
+      "emisor": {
+        "razon_social": "AXEL MAXIMILIANO KUZEMKA",
+        "nombre_comercial": null,
+        "cuit": "23345067469",
+        "condicion_iva": "IVA Responsable Inscripto",
+        "domicilio": "Calle 12 nro. 3399 Esquina 162 norte",
+        "localidad": "Berisso",
+        "provincia": "Buenos Aires",
+        "codigo_postal": "1923",
+        "ingresos_brutos": "23-34506746-9",
+        "inicio_actividades": "2020-05-01"
+      },
+      "receptor": {
+        "razon_social": "EL ROBLE SOCIEDAD SIMPLE S. CAP I SECC IV",
+        "cuit": "30719352681",
+        "dni": null,
+        "condicion_iva": "Responsable Inscripto",
+        "domicilio": "18 Y MONTEVIDEO N 4607",
+        "localidad": "BERISSO",
+        "provincia": null,
+        "codigo_postal": null
+      },
+      "moneda": "ARS",
+      "tipo_cambio": null,
+      "items": [
+        {
+          "codigo": "791",
+          "codigo_ean": null,
+          "descripcion": "FRUTILLAS X 1 KGS",
+          "cantidad_original": "2.00",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1.00",
+          "cantidad": "2.00",
+          "precio_unitario_sin_iva_sin_descuento": "7514.59",
+          "precio_unitario_sin_iva": "7514.59",
+          "importe_neto_linea": "15029.18",
+          "ajustes_linea": [],
+          "alicuota_iva": "10.5"
+        },
+        {
+          "codigo": "633",
+          "codigo_ean": null,
+          "descripcion": "FRUTILLAS BAÑADAS EN DOBLE CHOCOLATE",
+          "cantidad_original": "1.00",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1.00",
+          "cantidad": "1.00",
+          "precio_unitario_sin_iva_sin_descuento": "4555.50",
+          "precio_unitario_sin_iva": "4555.50",
+          "importe_neto_linea": "4555.50",
+          "ajustes_linea": [],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "635",
+          "codigo_ean": null,
+          "descripcion": "MORAS BAÑADAS EN DOBLE CHOCOLATE",
+          "cantidad_original": "1.00",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1.00",
+          "cantidad": "1.00",
+          "precio_unitario_sin_iva_sin_descuento": "4555.50",
+          "precio_unitario_sin_iva": "4555.50",
+          "importe_neto_linea": "4555.50",
+          "ajustes_linea": [],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "634",
+          "codigo_ean": null,
+          "descripcion": "BANANA SPLIT.",
+          "cantidad_original": "1.00",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1.00",
+          "cantidad": "1.00",
+          "precio_unitario_sin_iva_sin_descuento": "4555.50",
+          "precio_unitario_sin_iva": "4555.50",
+          "importe_neto_linea": "4555.50",
+          "ajustes_linea": [],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "636",
+          "codigo_ean": null,
+          "descripcion": "FRAMBUESAS BAÑADAS EN CHOCOLATE SEMI AMARGO (VEGANO)",
+          "cantidad_original": "1.00",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1.00",
+          "cantidad": "1.00",
+          "precio_unitario_sin_iva_sin_descuento": "4555.50",
+          "precio_unitario_sin_iva": "4555.50",
+          "importe_neto_linea": "4555.50",
+          "ajustes_linea": [],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "1368",
+          "codigo_ean": null,
+          "descripcion": "PAPAS CREMAY CIBOULETTE X 82 GRS.",
+          "cantidad_original": "6.00",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1.00",
+          "cantidad": "6.00",
+          "precio_unitario_sin_iva_sin_descuento": "1491.97",
+          "precio_unitario_sin_iva": "1491.97",
+          "importe_neto_linea": "8951.82",
+          "ajustes_linea": [],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "1363",
+          "codigo_ean": null,
+          "descripcion": "PAPAS MOSTAZA X 82 GRS.",
+          "cantidad_original": "6.00",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1.00",
+          "cantidad": "6.00",
+          "precio_unitario_sin_iva_sin_descuento": "1491.97",
+          "precio_unitario_sin_iva": "1491.97",
+          "importe_neto_linea": "8951.82",
+          "ajustes_linea": [],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "9114",
+          "codigo_ean": null,
+          "descripcion": "NACHOS QUESO X 82 GRS.",
+          "cantidad_original": "6.00",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1.00",
+          "cantidad": "6.00",
+          "precio_unitario_sin_iva_sin_descuento": "1492.81",
+          "precio_unitario_sin_iva": "1492.81",
+          "importe_neto_linea": "8956.86",
+          "ajustes_linea": [],
+          "alicuota_iva": "21.0"
+        }
+      ],
+      "iva": [
+        {
+          "alicuota": "10.5",
+          "base_imponible": "15029.18",
+          "importe": "1578.06"
+        },
+        {
+          "alicuota": "21.0",
+          "base_imponible": "45082.50",
+          "importe": "9467.33"
+        }
+      ],
+      "tributos": [],
+      "totales": {
+        "subtotal": "60111.68",
+        "neto_gravado": "60111.68",
+        "no_gravado": null,
+        "exento": "0.00",
+        "iva": "11045.39",
+        "tributos": null,
+        "percepciones": null,
+        "descuentos": null,
+        "recargos": null,
+        "total": "71157.07"
+      },
+      "cae": "86294228566981",
+      "caea": null,
+      "vencimiento_cae": "2026-07-27",
+      "vencimiento_caea": null,
+      "qr_afip_url": null,
+      "condicion_venta": "Cuenta Corriente",
+      "forma_pago": null,
+      "orden_compra": null,
+      "remito": null,
+      "advertencias": [
+        "El IVA se informa como un único importe global ('Iva Inscripto' 11045,39), sin columna de IVA por ítem ni desglose de alícuotas. Las alícuotas por ítem (791 al 10,5%, resto al 21%) y el desglose de iva[] fueron DEDUCIDOS por conciliación combinatoria, verificada ÚNICA sobre el conjunto {0; 10,5; 21; 27} (una sola combinación reconcilia el IVA total). Solo el neto gravado 60111,68 y el IVA total 11045,39 son valores impresos.",
+        "Comprobante en pesos (ARS)."
+      ]
+    }
+  ]
+}

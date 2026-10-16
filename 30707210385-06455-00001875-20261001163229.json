@@ -1,0 +1,445 @@
+{
+  "facturas": [
+    {
+      "tipo_comprobante": "FACTURA",
+      "letra": "A",
+      "codigo_comprobante": "001",
+      "punto_venta": "06455",
+      "numero_comprobante": "00001875",
+      "fecha_emision": "2026-09-30",
+      "fecha_vencimiento_pago": "2026-09-30",
+      "emisor": {
+        "razon_social": "LOGISTICA LA SERENISIMA S.A.",
+        "nombre_comercial": null,
+        "cuit": "30707210385",
+        "condicion_iva": "IVA RESPONSABLE INSCRIPTO",
+        "domicilio": "FRENCH 135",
+        "localidad": "LONGCHAMPS",
+        "provincia": "BUENOS AIRES",
+        "codigo_postal": null,
+        "ingresos_brutos": "9010435074",
+        "inicio_actividades": "2000-10-01"
+      },
+      "receptor": {
+        "razon_social": "EL ROBLE SOCIEDAD SIMPLE S. CAP I SECC I",
+        "cuit": "30719352681",
+        "dni": null,
+        "condicion_iva": "IVA RESPONSABLE INSCRIPTO",
+        "domicilio": "CALLE 18 4607",
+        "localidad": "BERISSO",
+        "provincia": "BUENOS AIRES",
+        "codigo_postal": "1923"
+      },
+      "moneda": "ARS",
+      "tipo_cambio": null,
+      "items": [
+        {
+          "codigo": "614300",
+          "codigo_ean": null,
+          "descripcion": "QUESO BLANCO LS CLA VERDE FORT 290GR",
+          "cantidad_original": "5",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1",
+          "cantidad": "5",
+          "precio_unitario_sin_iva_sin_descuento": "3092.96",
+          "precio_unitario_sin_iva": "2326.216",
+          "importe_neto_linea": "11631.08",
+          "ajustes_linea": [
+            {
+              "tipo": "descuento_porcentaje",
+              "valor": "24.79"
+            }
+          ],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "614200",
+          "codigo_ean": null,
+          "descripcion": "QUESO BLANCO LS CLAS ENT FORT AYD 290 GR",
+          "cantidad_original": "5",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1",
+          "cantidad": "5",
+          "precio_unitario_sin_iva_sin_descuento": "3092.96",
+          "precio_unitario_sin_iva": "2326.216",
+          "importe_neto_linea": "11631.08",
+          "ajustes_linea": [
+            {
+              "tipo": "descuento_porcentaje",
+              "valor": "24.79"
+            }
+          ],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "609400",
+          "codigo_ean": null,
+          "descripcion": "QUESO BLANCO CASANCREM FS 290 GR",
+          "cantidad_original": "3",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1",
+          "cantidad": "3",
+          "precio_unitario_sin_iva_sin_descuento": "4104.40",
+          "precio_unitario_sin_iva": "3239.603333",
+          "importe_neto_linea": "9718.81",
+          "ajustes_linea": [
+            {
+              "tipo": "descuento_porcentaje",
+              "valor": "21.07"
+            }
+          ],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "610042",
+          "codigo_ean": null,
+          "descripcion": "YOGURISIMO GRIEGO FIRME 180 GR FRUTILLA",
+          "cantidad_original": "3",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1",
+          "cantidad": "3",
+          "precio_unitario_sin_iva_sin_descuento": "1817.55",
+          "precio_unitario_sin_iva": "1627.07",
+          "importe_neto_linea": "4881.21",
+          "ajustes_linea": [
+            {
+              "tipo": "descuento_porcentaje",
+              "valor": "10.48"
+            }
+          ],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "610041",
+          "codigo_ean": null,
+          "descripcion": "YOGURISIMO GRIEGO FIRME 180 GR VAINILLA",
+          "cantidad_original": "3",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1",
+          "cantidad": "3",
+          "precio_unitario_sin_iva_sin_descuento": "1817.55",
+          "precio_unitario_sin_iva": "1627.07",
+          "importe_neto_linea": "4881.21",
+          "ajustes_linea": [
+            {
+              "tipo": "descuento_porcentaje",
+              "valor": "10.48"
+            }
+          ],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "610012",
+          "codigo_ean": null,
+          "descripcion": "LSNA YOGUR FFS FIRME ENTERO 120G FRU",
+          "cantidad_original": "6",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1",
+          "cantidad": "6",
+          "precio_unitario_sin_iva_sin_descuento": "984.33",
+          "precio_unitario_sin_iva": "612.155",
+          "importe_neto_linea": "3672.93",
+          "ajustes_linea": [
+            {
+              "tipo": "descuento_porcentaje",
+              "valor": "37.81"
+            }
+          ],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "610030",
+          "codigo_ean": null,
+          "descripcion": "LSNA YOGUR ENTER FFS BATIDO 120G NATURAL",
+          "cantidad_original": "4",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1",
+          "cantidad": "4",
+          "precio_unitario_sin_iva_sin_descuento": "984.31",
+          "precio_unitario_sin_iva": "612.1425",
+          "importe_neto_linea": "2448.57",
+          "ajustes_linea": [
+            {
+              "tipo": "descuento_porcentaje",
+              "valor": "37.81"
+            }
+          ],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "610013",
+          "codigo_ean": null,
+          "descripcion": "LSNA YOGUR FFS FIRME ENTERO 120G VAI",
+          "cantidad_original": "6",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1",
+          "cantidad": "6",
+          "precio_unitario_sin_iva_sin_descuento": "984.33",
+          "precio_unitario_sin_iva": "612.155",
+          "importe_neto_linea": "3672.93",
+          "ajustes_linea": [
+            {
+              "tipo": "descuento_porcentaje",
+              "valor": "37.81"
+            }
+          ],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "610052",
+          "codigo_ean": null,
+          "descripcion": "YOGURISIMO GRIEGO BOTELLA 190 GR FRU",
+          "cantidad_original": "3",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1",
+          "cantidad": "3",
+          "precio_unitario_sin_iva_sin_descuento": "2295.50",
+          "precio_unitario_sin_iva": "2066.18",
+          "importe_neto_linea": "6198.54",
+          "ajustes_linea": [
+            {
+              "tipo": "descuento_porcentaje",
+              "valor": "9.99"
+            }
+          ],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "610051",
+          "codigo_ean": null,
+          "descripcion": "YOGURISIMO GRIEGO BOTELLA 190 GR VAI",
+          "cantidad_original": "3",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1",
+          "cantidad": "3",
+          "precio_unitario_sin_iva_sin_descuento": "2295.50",
+          "precio_unitario_sin_iva": "2066.18",
+          "importe_neto_linea": "6198.54",
+          "ajustes_linea": [
+            {
+              "tipo": "descuento_porcentaje",
+              "valor": "9.99"
+            }
+          ],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "610044",
+          "codigo_ean": null,
+          "descripcion": "YOGURISIMO GRIEGO SACHET 900 GR FRUTILLA",
+          "cantidad_original": "3",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1",
+          "cantidad": "3",
+          "precio_unitario_sin_iva_sin_descuento": "3916.51",
+          "precio_unitario_sin_iva": "3527.6",
+          "importe_neto_linea": "10582.80",
+          "ajustes_linea": [
+            {
+              "tipo": "descuento_porcentaje",
+              "valor": "9.93"
+            }
+          ],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "610043",
+          "codigo_ean": null,
+          "descripcion": "YOGURISIMO GRIEGO SACHET 900 GR VAINILLA",
+          "cantidad_original": "3",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1",
+          "cantidad": "3",
+          "precio_unitario_sin_iva_sin_descuento": "3916.51",
+          "precio_unitario_sin_iva": "3527.6",
+          "importe_neto_linea": "10582.80",
+          "ajustes_linea": [
+            {
+              "tipo": "descuento_porcentaje",
+              "valor": "9.93"
+            }
+          ],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "610002",
+          "codigo_ean": null,
+          "descripcion": "LSNA YOGUR ENTERO 900G FRUTILLA",
+          "cantidad_original": "3",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1",
+          "cantidad": "3",
+          "precio_unitario_sin_iva_sin_descuento": "2696.12",
+          "precio_unitario_sin_iva": "1714.193333",
+          "importe_neto_linea": "5142.58",
+          "ajustes_linea": [
+            {
+              "tipo": "descuento_porcentaje",
+              "valor": "36.42"
+            }
+          ],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "610001",
+          "codigo_ean": null,
+          "descripcion": "LSNA YOGUR ENTERO 900G VAINILLA",
+          "cantidad_original": "3",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1",
+          "cantidad": "3",
+          "precio_unitario_sin_iva_sin_descuento": "2696.12",
+          "precio_unitario_sin_iva": "1714.193333",
+          "importe_neto_linea": "5142.58",
+          "ajustes_linea": [
+            {
+              "tipo": "descuento_porcentaje",
+              "valor": "36.42"
+            }
+          ],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "610026",
+          "codigo_ean": null,
+          "descripcion": "LSNA YOGUR ENTERO CON CEREALES 159GR",
+          "cantidad_original": "3",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1",
+          "cantidad": "3",
+          "precio_unitario_sin_iva_sin_descuento": "2026.54",
+          "precio_unitario_sin_iva": "1652.846667",
+          "importe_neto_linea": "4958.54",
+          "ajustes_linea": [
+            {
+              "tipo": "descuento_porcentaje",
+              "valor": "18.44"
+            }
+          ],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "610027",
+          "codigo_ean": null,
+          "descripcion": "LSNA YOGUR DESCREMADO CON CEREALES 157GR",
+          "cantidad_original": "3",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1",
+          "cantidad": "3",
+          "precio_unitario_sin_iva_sin_descuento": "2026.54",
+          "precio_unitario_sin_iva": "1652.846667",
+          "importe_neto_linea": "4958.54",
+          "ajustes_linea": [
+            {
+              "tipo": "descuento_porcentaje",
+              "valor": "18.44"
+            }
+          ],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "610050",
+          "codigo_ean": null,
+          "descripcion": "YOGURISIMO GRIEGO SACHET 900 GR NATURAL",
+          "cantidad_original": "3",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1",
+          "cantidad": "3",
+          "precio_unitario_sin_iva_sin_descuento": "3916.51",
+          "precio_unitario_sin_iva": "3527.6",
+          "importe_neto_linea": "10582.80",
+          "ajustes_linea": [
+            {
+              "tipo": "descuento_porcentaje",
+              "valor": "9.93"
+            }
+          ],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "610005",
+          "codigo_ean": null,
+          "descripcion": "LSNA YOGUR SACHET DESCREMADO 900G VAI",
+          "cantidad_original": "3",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1",
+          "cantidad": "3",
+          "precio_unitario_sin_iva_sin_descuento": "2696.12",
+          "precio_unitario_sin_iva": "1714.193333",
+          "importe_neto_linea": "5142.58",
+          "ajustes_linea": [
+            {
+              "tipo": "descuento_porcentaje",
+              "valor": "36.42"
+            }
+          ],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "610004",
+          "codigo_ean": null,
+          "descripcion": "LSNA YOGUR SACHET DESCREMADO 900G FRU",
+          "cantidad_original": "3",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1",
+          "cantidad": "3",
+          "precio_unitario_sin_iva_sin_descuento": "2696.12",
+          "precio_unitario_sin_iva": "1714.193333",
+          "importe_neto_linea": "5142.58",
+          "ajustes_linea": [
+            {
+              "tipo": "descuento_porcentaje",
+              "valor": "36.42"
+            }
+          ],
+          "alicuota_iva": "21.0"
+        }
+      ],
+      "iva": [
+        {
+          "alicuota": "21.0",
+          "base_imponible": "127170.70",
+          "importe": "26705.84"
+        }
+      ],
+      "tributos": [
+        {
+          "descripcion": "PERCEPCION IVA CF",
+          "jurisdiccion": null,
+          "alicuota": "3.000",
+          "base_imponible": "127170.70",
+          "importe": "3815.12"
+        },
+        {
+          "descripcion": "PER.IIBB BS AS",
+          "jurisdiccion": "BUENOS AIRES",
+          "alicuota": "1.500",
+          "base_imponible": "127170.70",
+          "importe": "1907.56"
+        }
+      ],
+      "totales": {
+        "subtotal": "127170.70",
+        "neto_gravado": "127170.70",
+        "no_gravado": null,
+        "exento": null,
+        "iva": "26705.84",
+        "tributos": "5722.68",
+        "percepciones": "5722.68",
+        "descuentos": null,
+        "recargos": null,
+        "total": "159599.22"
+      },
+      "cae": "86395500440295",
+      "caea": null,
+      "vencimiento_cae": "2026-10-10",
+      "vencimiento_caea": null,
+      "qr_afip_url": null,
+      "condicion_venta": "CONTADO",
+      "forma_pago": null,
+      "orden_compra": null,
+      "remito": null,
+      "advertencias": []
+    }
+  ]
+}

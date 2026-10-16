@@ -1,0 +1,11 @@
+{
+  "cuit_emisor": "30536623104",
+  "razon_social": "REGINALD LEE S.A.",
+  "reglas": {
+    "cantidad": "bulto",
+    "iva": "por_item",
+    "descuentos": "por_item",
+    "percepciones": true
+  },
+  "notas": "Embotellador Coca-Cola (zona Berazategui/La Plata). Encabezado y tabla vienen como texto seleccionable: confianza de lectura ALTA. Columnas de la tabla: SKU | Descripcion | Cantidad | Unitario | Descuento | Neto | Internos | IVA | SubTotal. ATENCION: la columna 'IVA' es el IMPORTE de IVA de la linea, NO la alicuota; la alicuota se obtiene por linea como importe_iva / neto (division exacta, deterministica) y debe reconciliar con el total impreso. El IVA se calcula sobre el Neto SIN incluir Internos; SubTotal de linea = Neto + Internos + IVA. CANTIDAD: cada renglon es un BULTO; el factor de unidades viene en el sufijo de la descripcion (TETRAX6, PETX12, PET X8, PETX6...). Normalizar cantidad = cantidad_original x factor, tipo_cantidad_original = unidad_logistica. El 'Unitario' impreso es precio POR BULTO sin IVA y sin descuento: NO usarlo como precio_unitario_sin_iva; calcular precio_unitario_sin_iva = importe_neto_linea / cantidad normalizada, y precio_unitario_sin_iva_sin_descuento = unitario_impreso / factor. Dejar advertencia de que el factor sale del texto de la descripcion, no de un precio por unidad impreso. DESCUENTOS: columna 'Descuento' por item, con importe negativo; puede venir en 0,00 en algunas o todas las lineas. Si viene 0,00 -> ajustes_linea: [] y precio_sin_descuento = precio. Si trae valor -> ajustes_linea con tipo 'descuento_importe' y el valor absoluto; el Neto impreso YA esta neto de ese descuento, asi que NO replicarlo en totales.descuentos. TOTALIZADOR (fila final): Neto | Interno | I.V.A. | SubTotal | Res. 2126 | Res. 3337 | Perc. IB Bs.As. | Perc. Mun. | Total. Impuestos Internos -> tributos[] y totales.tributos. Res. 2126, Res. 3337, Perc. IB Bs.As. y Perc. Mun. -> tributos[] como percepciones (omitir las que vengan en 0,00) y su suma en totales.percepciones (la factura no imprime ese subtotal: dejar advertencia). Formato numerico: punto = miles, coma = decimal. Fecha 'Fecha documento' DD-MM-YYYY. Comprobante identificado como 'FACTURA A NNNNN-NNNNNNNN' (punto de venta - numero). Modalidad -> condicion_venta. El campo 'Transaccion' NO es orden de compra."
+}

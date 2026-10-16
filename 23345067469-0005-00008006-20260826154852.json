@@ -1,0 +1,220 @@
+{
+  "facturas": [
+    {
+      "tipo_comprobante": "Factura",
+      "letra": "A",
+      "codigo_comprobante": "01",
+      "punto_venta": "0005",
+      "numero_comprobante": "00008006",
+      "fecha_emision": "2026-08-25",
+      "fecha_vencimiento_pago": null,
+      "emisor": {
+        "razon_social": "AXEL MAXIMILIANO KUZEMKA",
+        "nombre_comercial": "KUBBER DISTRIBUIDORA",
+        "cuit": "23345067469",
+        "condicion_iva": "IVA Responsable Inscripto",
+        "domicilio": "Calle 12 nro. 3399 Esquina 162 norte",
+        "localidad": "Berisso",
+        "provincia": "Buenos Aires",
+        "codigo_postal": "1923",
+        "ingresos_brutos": "23345067469",
+        "inicio_actividades": "2020-05-01"
+      },
+      "receptor": {
+        "razon_social": "EL ROBLE SOCIEDAD SIMPLE S. CAP I SECC IV",
+        "cuit": "30719352681",
+        "dni": null,
+        "condicion_iva": "Responsable Inscripto",
+        "domicilio": "18 Y MONTEVIDEO N 4607",
+        "localidad": "BERISSO",
+        "provincia": null,
+        "codigo_postal": null
+      },
+      "moneda": "ARS",
+      "tipo_cambio": null,
+      "items": [
+        {
+          "codigo": "135",
+          "codigo_ean": null,
+          "descripcion": "POSTRE TIRAMISU X 600 GRS.",
+          "cantidad_original": "1.00",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1.00",
+          "cantidad": "1.00",
+          "precio_unitario_sin_iva_sin_descuento": "15223.07",
+          "precio_unitario_sin_iva": "15223.07",
+          "importe_neto_linea": "15223.07",
+          "ajustes_linea": [],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "133",
+          "codigo_ean": null,
+          "descripcion": "POSTRE CHOCOLATE X 600 GRS.",
+          "cantidad_original": "1.00",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1.00",
+          "cantidad": "1.00",
+          "precio_unitario_sin_iva_sin_descuento": "16403.15",
+          "precio_unitario_sin_iva": "16403.15",
+          "importe_neto_linea": "16403.15",
+          "ajustes_linea": [],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "791",
+          "codigo_ean": null,
+          "descripcion": "FRUTILLAS X 1 KGS",
+          "cantidad_original": "1.00",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1.00",
+          "cantidad": "1.00",
+          "precio_unitario_sin_iva_sin_descuento": "7514.59",
+          "precio_unitario_sin_iva": "7514.59",
+          "importe_neto_linea": "7514.59",
+          "ajustes_linea": [],
+          "alicuota_iva": "10.5"
+        },
+        {
+          "codigo": "793",
+          "codigo_ean": null,
+          "descripcion": "FRUTOS TUCUMANOS X 1 KGS.",
+          "cantidad_original": "1.00",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1.00",
+          "cantidad": "1.00",
+          "precio_unitario_sin_iva_sin_descuento": "10514.33",
+          "precio_unitario_sin_iva": "10514.33",
+          "importe_neto_linea": "10514.33",
+          "ajustes_linea": [],
+          "alicuota_iva": "10.5"
+        },
+        {
+          "codigo": "630",
+          "codigo_ean": null,
+          "descripcion": "FRAMBUESAS BAÑADAS EN DOBLE CHOCOLATE",
+          "cantidad_original": "1.00",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1.00",
+          "cantidad": "1.00",
+          "precio_unitario_sin_iva_sin_descuento": "4555.50",
+          "precio_unitario_sin_iva": "4555.50",
+          "importe_neto_linea": "4555.50",
+          "ajustes_linea": [],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "635",
+          "codigo_ean": null,
+          "descripcion": "MORAS BAÑADAS EN DOBLE CHOCOLATE",
+          "cantidad_original": "1.00",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1.00",
+          "cantidad": "1.00",
+          "precio_unitario_sin_iva_sin_descuento": "4555.50",
+          "precio_unitario_sin_iva": "4555.50",
+          "importe_neto_linea": "4555.50",
+          "ajustes_linea": [],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "9999",
+          "codigo_ean": null,
+          "descripcion": "VARIOS SNACKS QUENTO",
+          "cantidad_original": "3.00",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1.00",
+          "cantidad": "3.00",
+          "precio_unitario_sin_iva_sin_descuento": "1091.23",
+          "precio_unitario_sin_iva": "1091.23",
+          "importe_neto_linea": "3273.69",
+          "ajustes_linea": [],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "9114",
+          "codigo_ean": null,
+          "descripcion": "NACHOS QUESO X 82 GRS.",
+          "cantidad_original": "3.00",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1.00",
+          "cantidad": "3.00",
+          "precio_unitario_sin_iva_sin_descuento": "1492.81",
+          "precio_unitario_sin_iva": "1492.81",
+          "importe_neto_linea": "4478.43",
+          "ajustes_linea": [],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "11617",
+          "codigo_ean": null,
+          "descripcion": "ALFAJORCITOS MAICENA X 5 UNIDADES X 150 GRS.",
+          "cantidad_original": "3.00",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1.00",
+          "cantidad": "3.00",
+          "precio_unitario_sin_iva_sin_descuento": "1613.18",
+          "precio_unitario_sin_iva": "1613.18",
+          "importe_neto_linea": "4839.54",
+          "ajustes_linea": [],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "498",
+          "codigo_ean": null,
+          "descripcion": "NUGGETS VEGGIE - 3 CEREALES X 300 GRS.",
+          "cantidad_original": "2.00",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1.00",
+          "cantidad": "2.00",
+          "precio_unitario_sin_iva_sin_descuento": "3248.93",
+          "precio_unitario_sin_iva": "3248.93",
+          "importe_neto_linea": "6497.86",
+          "ajustes_linea": [],
+          "alicuota_iva": "21.0"
+        }
+      ],
+      "iva": [
+        {
+          "alicuota": "10.5",
+          "base_imponible": "18028.92",
+          "importe": "1893.04"
+        },
+        {
+          "alicuota": "21.0",
+          "base_imponible": "59826.74",
+          "importe": "12563.62"
+        }
+      ],
+      "tributos": [],
+      "totales": {
+        "subtotal": "77855.66",
+        "neto_gravado": "77855.66",
+        "no_gravado": null,
+        "exento": "0.00",
+        "iva": "14456.65",
+        "tributos": null,
+        "percepciones": "0.00",
+        "descuentos": "0.00",
+        "recargos": null,
+        "total": "92312.31"
+      },
+      "cae": "86349807808766",
+      "caea": null,
+      "vencimiento_cae": "2026-09-04",
+      "vencimiento_caea": null,
+      "qr_afip_url": null,
+      "condicion_venta": "Cuenta Corriente",
+      "forma_pago": null,
+      "orden_compra": null,
+      "remito": null,
+      "advertencias": [
+        "El IVA se informa como un único importe global ('Iva Inscripto' 14456,65), sin columna de IVA por ítem ni desglose de alícuotas. Las alícuotas por ítem (791 y 793 al 10,5%; los otros 8 al 21%) y el desglose de iva[] fueron DEDUCIDOS por conciliación combinatoria, verificada ÚNICA con un barrido exhaustivo sobre el conjunto {10,5; 21} (una sola de las 1024 combinaciones reconcilia el IVA total). Solo el neto gravado 77855,66 y el IVA total 14456,65 son valores impresos.",
+        "Las bases imponibles de iva[] surgen de agrupar los importes de línea según la alícuota deducida; su suma reconcilia con el IVA impreso (1893,036 + 12563,615 = 14456,652 ≈ 14456,65).",
+        "Comprobante en pesos (ARS); moneda no indicada explícitamente.",
+        "Bonificación general, P.I.B.Bs.As. y T.I.S.H. figuran impresos en 0,00; no hay percepciones ni descuentos aplicados.",
+        "El ítem 9999 'VARIOS SNACKS QUENTO' es una descripción genérica del comprobante; se transcribió tal cual."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,363 @@
+{
+  "facturas": [
+    {
+      "tipo_comprobante": "Factura",
+      "letra": "A",
+      "codigo_comprobante": "01",
+      "punto_venta": "0010",
+      "numero_comprobante": "00025761",
+      "fecha_emision": "2026-08-25",
+      "fecha_vencimiento_pago": null,
+      "emisor": {
+        "razon_social": "Pietra Hnos. Distribuidora SRL",
+        "nombre_comercial": "PIETRA DISTRIBUIDORA",
+        "cuit": "30709818364",
+        "condicion_iva": "IVA Responsable Inscripto",
+        "domicilio": "Calle 34 N° 250",
+        "localidad": "Berisso",
+        "provincia": "Buenos Aires",
+        "codigo_postal": null,
+        "ingresos_brutos": "30709818364",
+        "inicio_actividades": "2006-10-01"
+      },
+      "receptor": {
+        "razon_social": "TOTORA LEONARDO",
+        "cuit": "30719352681",
+        "dni": null,
+        "condicion_iva": "Responsable Inscripto",
+        "domicilio": "18 4603",
+        "localidad": "BERISSO",
+        "provincia": null,
+        "codigo_postal": null
+      },
+      "moneda": "ARS",
+      "tipo_cambio": null,
+      "items": [
+        {
+          "codigo": "0000401",
+          "codigo_ean": null,
+          "descripcion": "DOS HNOS DISCOS JAMON 10X80 GR",
+          "cantidad_original": "1.000",
+          "tipo_cantidad_original": "unidad_logistica",
+          "factor_unidades": "10.00",
+          "cantidad": "10.00",
+          "precio_unitario_sin_iva_sin_descuento": "999.95",
+          "precio_unitario_sin_iva": "909.957",
+          "importe_neto_linea": "9099.57",
+          "ajustes_linea": [
+            {
+              "tipo": "bonificacion_porcentaje",
+              "valor": "9.00"
+            }
+          ],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "0000402",
+          "codigo_ean": null,
+          "descripcion": "DOS HNOS ARITOS CR.Y CEB. 10X8",
+          "cantidad_original": "1.000",
+          "tipo_cantidad_original": "unidad_logistica",
+          "factor_unidades": "10.00",
+          "cantidad": "10.00",
+          "precio_unitario_sin_iva_sin_descuento": "999.95",
+          "precio_unitario_sin_iva": "909.957",
+          "importe_neto_linea": "9099.57",
+          "ajustes_linea": [
+            {
+              "tipo": "bonificacion_porcentaje",
+              "valor": "9.00"
+            }
+          ],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "0002121",
+          "codigo_ean": null,
+          "descripcion": "NATURA MAYONESA 12X500 GR",
+          "cantidad_original": "1.000",
+          "tipo_cantidad_original": "unidad_logistica",
+          "factor_unidades": "12.00",
+          "cantidad": "12.00",
+          "precio_unitario_sin_iva_sin_descuento": "2312.58",
+          "precio_unitario_sin_iva": "2196.954167",
+          "importe_neto_linea": "26363.45",
+          "ajustes_linea": [
+            {
+              "tipo": "bonificacion_porcentaje",
+              "valor": "5.00"
+            }
+          ],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "0000408",
+          "codigo_ean": null,
+          "descripcion": "DOS HNOS GALLETAS S/SAL 12X100",
+          "cantidad_original": "1.000",
+          "tipo_cantidad_original": "unidad_logistica",
+          "factor_unidades": "12.00",
+          "cantidad": "12.00",
+          "precio_unitario_sin_iva_sin_descuento": "886.71",
+          "precio_unitario_sin_iva": "806.901667",
+          "importe_neto_linea": "9682.82",
+          "ajustes_linea": [
+            {
+              "tipo": "bonificacion_porcentaje",
+              "valor": "9.00"
+            }
+          ],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "0000407",
+          "codigo_ean": null,
+          "descripcion": "DOS HNOS GALLETAS SALADAS 12X1",
+          "cantidad_original": "1.000",
+          "tipo_cantidad_original": "unidad_logistica",
+          "factor_unidades": "12.00",
+          "cantidad": "12.00",
+          "precio_unitario_sin_iva_sin_descuento": "886.71",
+          "precio_unitario_sin_iva": "806.901667",
+          "importe_neto_linea": "9682.82",
+          "ajustes_linea": [
+            {
+              "tipo": "bonificacion_porcentaje",
+              "valor": "9.00"
+            }
+          ],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "0000861",
+          "codigo_ean": null,
+          "descripcion": "CUMANA LOMITO ATUN ACEITE 48X1",
+          "cantidad_original": "1.000",
+          "tipo_cantidad_original": "unidad_logistica",
+          "factor_unidades": "48.00",
+          "cantidad": "48.00",
+          "precio_unitario_sin_iva_sin_descuento": "2019.64",
+          "precio_unitario_sin_iva": "1837.867917",
+          "importe_neto_linea": "88217.66",
+          "ajustes_linea": [
+            {
+              "tipo": "bonificacion_porcentaje",
+              "valor": "9.00"
+            }
+          ],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "0004002",
+          "codigo_ean": null,
+          "descripcion": "PUREZA HARINA LEUDANTE 10X1 KG",
+          "cantidad_original": "1.000",
+          "tipo_cantidad_original": "unidad_logistica",
+          "factor_unidades": "10.00",
+          "cantidad": "10.00",
+          "precio_unitario_sin_iva_sin_descuento": "1347.29",
+          "precio_unitario_sin_iva": "1226.031",
+          "importe_neto_linea": "12260.31",
+          "ajustes_linea": [
+            {
+              "tipo": "bonificacion_porcentaje",
+              "valor": "9.00"
+            }
+          ],
+          "alicuota_iva": "10.5"
+        },
+        {
+          "codigo": "0004004",
+          "codigo_ean": null,
+          "descripcion": "PUREZA C/LEV P/PIZZA 10X1 KG",
+          "cantidad_original": "1.000",
+          "tipo_cantidad_original": "unidad_logistica",
+          "factor_unidades": "10.00",
+          "cantidad": "10.00",
+          "precio_unitario_sin_iva_sin_descuento": "1613.07",
+          "precio_unitario_sin_iva": "1467.895",
+          "importe_neto_linea": "14678.95",
+          "ajustes_linea": [
+            {
+              "tipo": "bonificacion_porcentaje",
+              "valor": "9.00"
+            }
+          ],
+          "alicuota_iva": "10.5"
+        },
+        {
+          "codigo": "0000931",
+          "codigo_ean": null,
+          "descripcion": "CBSE GUARANA 12X500 GR",
+          "cantidad_original": "1.000",
+          "tipo_cantidad_original": "unidad_logistica",
+          "factor_unidades": "12.00",
+          "cantidad": "12.00",
+          "precio_unitario_sin_iva_sin_descuento": "1507.50",
+          "precio_unitario_sin_iva": "1371.829167",
+          "importe_neto_linea": "16461.95",
+          "ajustes_linea": [
+            {
+              "tipo": "bonificacion_porcentaje",
+              "valor": "9.00"
+            }
+          ],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "0004500",
+          "codigo_ean": null,
+          "descripcion": "UNION YERBA 10X500 GR",
+          "cantidad_original": "1.000",
+          "tipo_cantidad_original": "unidad_logistica",
+          "factor_unidades": "10.00",
+          "cantidad": "10.00",
+          "precio_unitario_sin_iva_sin_descuento": "1582.50",
+          "precio_unitario_sin_iva": "1440.072",
+          "importe_neto_linea": "14400.72",
+          "ajustes_linea": [
+            {
+              "tipo": "bonificacion_porcentaje",
+              "valor": "9.00"
+            }
+          ],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "0004425",
+          "codigo_ean": null,
+          "descripcion": "MANANITA B C P 10X500 GR",
+          "cantidad_original": "1.000",
+          "tipo_cantidad_original": "unidad_logistica",
+          "factor_unidades": "10.00",
+          "cantidad": "10.00",
+          "precio_unitario_sin_iva_sin_descuento": "1641.11",
+          "precio_unitario_sin_iva": "1493.408",
+          "importe_neto_linea": "14934.08",
+          "ajustes_linea": [
+            {
+              "tipo": "bonificacion_porcentaje",
+              "valor": "9.00"
+            }
+          ],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "0004960",
+          "codigo_ean": null,
+          "descripcion": "AMANDA YERBA 10X500 GR",
+          "cantidad_original": "1.000",
+          "tipo_cantidad_original": "unidad_logistica",
+          "factor_unidades": "10.00",
+          "cantidad": "10.00",
+          "precio_unitario_sin_iva_sin_descuento": "1437.45",
+          "precio_unitario_sin_iva": "1308.081",
+          "importe_neto_linea": "13080.81",
+          "ajustes_linea": [
+            {
+              "tipo": "bonificacion_porcentaje",
+              "valor": "9.00"
+            }
+          ],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "0000445",
+          "codigo_ean": null,
+          "descripcion": "DOS HNOS PARBOIL BOLSA 10X500",
+          "cantidad_original": "1.000",
+          "tipo_cantidad_original": "unidad_logistica",
+          "factor_unidades": "10.00",
+          "cantidad": "10.00",
+          "precio_unitario_sin_iva_sin_descuento": "628.67",
+          "precio_unitario_sin_iva": "572.09",
+          "importe_neto_linea": "5720.90",
+          "ajustes_linea": [
+            {
+              "tipo": "bonificacion_porcentaje",
+              "valor": "9.00"
+            }
+          ],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "0000444",
+          "codigo_ean": null,
+          "descripcion": "DOS HNOS LARGO FINO BOLSA 10X5",
+          "cantidad_original": "1.000",
+          "tipo_cantidad_original": "unidad_logistica",
+          "factor_unidades": "10.00",
+          "cantidad": "10.00",
+          "precio_unitario_sin_iva_sin_descuento": "510.87",
+          "precio_unitario_sin_iva": "464.893",
+          "importe_neto_linea": "4648.93",
+          "ajustes_linea": [
+            {
+              "tipo": "bonificacion_porcentaje",
+              "valor": "9.00"
+            }
+          ],
+          "alicuota_iva": "21.0"
+        }
+      ],
+      "iva": [
+        {
+          "alicuota": "10.5",
+          "base_imponible": "26939.26",
+          "importe": "2828.62"
+        },
+        {
+          "alicuota": "21.0",
+          "base_imponible": "221393.28",
+          "importe": "46492.59"
+        }
+      ],
+      "tributos": [
+        {
+          "descripcion": "Percepción RG 5329",
+          "jurisdiccion": null,
+          "alicuota": null,
+          "base_imponible": null,
+          "importe": "7045.89"
+        },
+        {
+          "descripcion": "Perc.IIBB",
+          "jurisdiccion": null,
+          "alicuota": null,
+          "base_imponible": null,
+          "importe": "3724.99"
+        }
+      ],
+      "totales": {
+        "subtotal": "248332.55",
+        "neto_gravado": "248332.55",
+        "no_gravado": null,
+        "exento": null,
+        "iva": "49321.21",
+        "tributos": null,
+        "percepciones": "10770.88",
+        "descuentos": null,
+        "recargos": null,
+        "total": "308424.64"
+      },
+      "cae": "86349869252820",
+      "caea": null,
+      "vencimiento_cae": "2026-09-04",
+      "vencimiento_caea": null,
+      "qr_afip_url": null,
+      "condicion_venta": null,
+      "forma_pago": null,
+      "orden_compra": null,
+      "remito": null,
+      "advertencias": [
+        "Comprobante presentado en dos copias con idéntico contenido; se consolidó en una sola factura de 14 ítems.",
+        "Datos del emisor (razón social, CUIT, domicilio, IIBB, inicio de actividades) tomados del encabezado en imagen; no estaban en el texto del PDF.",
+        "Moneda no indicada explícitamente; se asume ARS.",
+        "Venta por bulto: cantidad_original en bultos; factor_unidades deducido por conciliación Importe/(P.Unit×(1-bonif)×Cantidad), entero exacto en los 14 ítems y confirmado por el 'NxM' de la descripción. U.Final incluye IVA, por eso precio_unitario_sin_iva = Importe/cantidad.",
+        "La suma de los importes de línea da 248332.54 y el Subtotal impreso es 248332.55 (diferencia de 0.01 por redondeo). Se conservaron los valores impresos; las bases por alícuota se calcularon con la suma de líneas (10.5%: 26939.26; 21%: 221393.28) y reconcilian con los importes de IVA impresos.",
+        "El comprobante informa las dos percepciones por separado (RG 5329 y Perc.IIBB) sin totalizarlas ni indicar alícuota ni base; totales.percepciones es la suma de ambos importes impresos y reconcilia con el TOTAL.",
+        "totales.iva (49321.21) es la suma de los dos importes de IVA impresos (10.5%: 2828.62 y 21%: 46492.59); el comprobante no lo totaliza en una sola cifra."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,467 @@
+{
+  "facturas": [
+    {
+      "tipo_comprobante": "Factura",
+      "letra": "A",
+      "codigo_comprobante": "01",
+      "punto_venta": "0007",
+      "numero_comprobante": "00023303",
+      "fecha_emision": "2026-07-14",
+      "fecha_vencimiento_pago": null,
+      "emisor": {
+        "razon_social": "Pietra Hnos. Distribuidora SRL",
+        "nombre_comercial": "PIETRA DISTRIBUIDORA",
+        "cuit": "30709818364",
+        "condicion_iva": "IVA Responsable Inscripto",
+        "domicilio": "Calle 34 N° 250",
+        "localidad": "Berisso",
+        "provincia": "Buenos Aires",
+        "codigo_postal": null,
+        "ingresos_brutos": "30-70981836-4",
+        "inicio_actividades": "2006-10-01"
+      },
+      "receptor": {
+        "razon_social": "TOTORA LEONARDO",
+        "cuit": "30719352681",
+        "dni": null,
+        "condicion_iva": "Responsable Inscripto",
+        "domicilio": "18 4603",
+        "localidad": "BERISSO",
+        "provincia": null,
+        "codigo_postal": null
+      },
+      "moneda": "ARS",
+      "tipo_cambio": null,
+      "items": [
+        {
+          "codigo": "0000401",
+          "codigo_ean": null,
+          "descripcion": "DOS HNOS DISCOS JAMON 10X80 GR",
+          "cantidad_original": "1.000",
+          "tipo_cantidad_original": "unidad_logistica",
+          "factor_unidades": "10.00",
+          "cantidad": "10.00",
+          "precio_unitario_sin_iva_sin_descuento": "999.95",
+          "precio_unitario_sin_iva": "909.957",
+          "importe_neto_linea": "9099.57",
+          "ajustes_linea": [
+            {
+              "tipo": "bonificacion_porcentaje",
+              "valor": "9.00"
+            }
+          ],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "0000402",
+          "codigo_ean": null,
+          "descripcion": "DOS HNOS ARITOS CR.Y CEB. 10X8",
+          "cantidad_original": "1.000",
+          "tipo_cantidad_original": "unidad_logistica",
+          "factor_unidades": "10.00",
+          "cantidad": "10.00",
+          "precio_unitario_sin_iva_sin_descuento": "999.95",
+          "precio_unitario_sin_iva": "909.957",
+          "importe_neto_linea": "9099.57",
+          "ajustes_linea": [
+            {
+              "tipo": "bonificacion_porcentaje",
+              "valor": "9.00"
+            }
+          ],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "0000400",
+          "codigo_ean": null,
+          "descripcion": "DOS HNOS PALITO QUESO 10X80 GR",
+          "cantidad_original": "1.000",
+          "tipo_cantidad_original": "unidad_logistica",
+          "factor_unidades": "10.00",
+          "cantidad": "10.00",
+          "precio_unitario_sin_iva_sin_descuento": "999.95",
+          "precio_unitario_sin_iva": "909.957",
+          "importe_neto_linea": "9099.57",
+          "ajustes_linea": [
+            {
+              "tipo": "bonificacion_porcentaje",
+              "valor": "9.00"
+            }
+          ],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "0000405",
+          "codigo_ean": null,
+          "descripcion": "DOS HNOS PIZZA 10X80 GR",
+          "cantidad_original": "1.000",
+          "tipo_cantidad_original": "unidad_logistica",
+          "factor_unidades": "10.00",
+          "cantidad": "10.00",
+          "precio_unitario_sin_iva_sin_descuento": "999.95",
+          "precio_unitario_sin_iva": "909.957",
+          "importe_neto_linea": "9099.57",
+          "ajustes_linea": [
+            {
+              "tipo": "bonificacion_porcentaje",
+              "valor": "9.00"
+            }
+          ],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "0000398",
+          "codigo_ean": null,
+          "descripcion": "DOS HNOS TOST. S/SAL ARROZ 10X",
+          "cantidad_original": "1.000",
+          "tipo_cantidad_original": "unidad_logistica",
+          "factor_unidades": "10.00",
+          "cantidad": "10.00",
+          "precio_unitario_sin_iva_sin_descuento": "736.33",
+          "precio_unitario_sin_iva": "670.059",
+          "importe_neto_linea": "6700.59",
+          "ajustes_linea": [
+            {
+              "tipo": "bonificacion_porcentaje",
+              "valor": "9.00"
+            }
+          ],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "0000399",
+          "codigo_ean": null,
+          "descripcion": "DOS HNOS TOST. C/SAL ARROZ 10X",
+          "cantidad_original": "1.000",
+          "tipo_cantidad_original": "unidad_logistica",
+          "factor_unidades": "10.00",
+          "cantidad": "10.00",
+          "precio_unitario_sin_iva_sin_descuento": "736.33",
+          "precio_unitario_sin_iva": "670.059",
+          "importe_neto_linea": "6700.59",
+          "ajustes_linea": [
+            {
+              "tipo": "bonificacion_porcentaje",
+              "valor": "9.00"
+            }
+          ],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "0003010",
+          "codigo_ean": null,
+          "descripcion": "NATURA MOSTAZA 12X250 GR",
+          "cantidad_original": "1.000",
+          "tipo_cantidad_original": "unidad_logistica",
+          "factor_unidades": "12.00",
+          "cantidad": "12.00",
+          "precio_unitario_sin_iva_sin_descuento": "877.82",
+          "precio_unitario_sin_iva": "728.593333",
+          "importe_neto_linea": "8743.12",
+          "ajustes_linea": [
+            {
+              "tipo": "bonificacion_porcentaje",
+              "valor": "17.00"
+            }
+          ],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "0002064",
+          "codigo_ean": null,
+          "descripcion": "NATURA MAYONESA 12X250 GR",
+          "cantidad_original": "1.000",
+          "tipo_cantidad_original": "unidad_logistica",
+          "factor_unidades": "12.00",
+          "cantidad": "12.00",
+          "precio_unitario_sin_iva_sin_descuento": "1179.73",
+          "precio_unitario_sin_iva": "1073.554167",
+          "importe_neto_linea": "12882.65",
+          "ajustes_linea": [
+            {
+              "tipo": "bonificacion_porcentaje",
+              "valor": "9.00"
+            }
+          ],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "0002035",
+          "codigo_ean": null,
+          "descripcion": "NATURA MAYONESA 20X125 GR",
+          "cantidad_original": "1.000",
+          "tipo_cantidad_original": "unidad_logistica",
+          "factor_unidades": "20.00",
+          "cantidad": "20.00",
+          "precio_unitario_sin_iva_sin_descuento": "517.71",
+          "precio_unitario_sin_iva": "471.112",
+          "importe_neto_linea": "9422.24",
+          "ajustes_linea": [
+            {
+              "tipo": "bonificacion_porcentaje",
+              "valor": "9.00"
+            }
+          ],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "0000708",
+          "codigo_ean": null,
+          "descripcion": "TRAFUL TINTO 6X750 CC",
+          "cantidad_original": "2.000",
+          "tipo_cantidad_original": "unidad_logistica",
+          "factor_unidades": "6.00",
+          "cantidad": "12.00",
+          "precio_unitario_sin_iva_sin_descuento": "1997.10",
+          "precio_unitario_sin_iva": "1817.356667",
+          "importe_neto_linea": "21808.28",
+          "ajustes_linea": [
+            {
+              "tipo": "bonificacion_porcentaje",
+              "valor": "9.00"
+            }
+          ],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "0002449",
+          "codigo_ean": null,
+          "descripcion": "GRABICH CHOCO TAZA 20X100 GRS",
+          "cantidad_original": "1.000",
+          "tipo_cantidad_original": "unidad_logistica",
+          "factor_unidades": "20.00",
+          "cantidad": "20.00",
+          "precio_unitario_sin_iva_sin_descuento": "1521.94",
+          "precio_unitario_sin_iva": "1384.968",
+          "importe_neto_linea": "27699.36",
+          "ajustes_linea": [
+            {
+              "tipo": "bonificacion_porcentaje",
+              "valor": "9.00"
+            }
+          ],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "0000920",
+          "codigo_ean": null,
+          "descripcion": "CBSE HIERBAS SERRANAS 12X500 G",
+          "cantidad_original": "1.000",
+          "tipo_cantidad_original": "unidad_logistica",
+          "factor_unidades": "12.00",
+          "cantidad": "12.00",
+          "precio_unitario_sin_iva_sin_descuento": "1462.51",
+          "precio_unitario_sin_iva": "1330.883333",
+          "importe_neto_linea": "15970.60",
+          "ajustes_linea": [
+            {
+              "tipo": "bonificacion_porcentaje",
+              "valor": "9.00"
+            }
+          ],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "0004002",
+          "codigo_ean": null,
+          "descripcion": "PUREZA HARINA LEUDANTE 10X1 KG",
+          "cantidad_original": "1.000",
+          "tipo_cantidad_original": "unidad_logistica",
+          "factor_unidades": "10.00",
+          "cantidad": "10.00",
+          "precio_unitario_sin_iva_sin_descuento": "1310.34",
+          "precio_unitario_sin_iva": "1192.407",
+          "importe_neto_linea": "11924.07",
+          "ajustes_linea": [
+            {
+              "tipo": "bonificacion_porcentaje",
+              "valor": "9.00"
+            }
+          ],
+          "alicuota_iva": "10.5"
+        },
+        {
+          "codigo": "0004426",
+          "codigo_ean": null,
+          "descripcion": "MANANITA B C P GDE 10X1 KG",
+          "cantidad_original": "1.000",
+          "tipo_cantidad_original": "unidad_logistica",
+          "factor_unidades": "10.00",
+          "cantidad": "10.00",
+          "precio_unitario_sin_iva_sin_descuento": "3078.46",
+          "precio_unitario_sin_iva": "2801.398",
+          "importe_neto_linea": "28013.98",
+          "ajustes_linea": [
+            {
+              "tipo": "bonificacion_porcentaje",
+              "valor": "9.00"
+            }
+          ],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "0004425",
+          "codigo_ean": null,
+          "descripcion": "MANANITA B C P 10X500 GR",
+          "cantidad_original": "1.000",
+          "tipo_cantidad_original": "unidad_logistica",
+          "factor_unidades": "10.00",
+          "cantidad": "10.00",
+          "precio_unitario_sin_iva_sin_descuento": "1625.78",
+          "precio_unitario_sin_iva": "1479.458",
+          "importe_neto_linea": "14794.58",
+          "ajustes_linea": [
+            {
+              "tipo": "bonificacion_porcentaje",
+              "valor": "9.00"
+            }
+          ],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "0004436",
+          "codigo_ean": null,
+          "descripcion": "TARAGUI MATE COCIDO 5X50",
+          "cantidad_original": "1.000",
+          "tipo_cantidad_original": "unidad_logistica",
+          "factor_unidades": "5.00",
+          "cantidad": "5.00",
+          "precio_unitario_sin_iva_sin_descuento": "1734.36",
+          "precio_unitario_sin_iva": "1578.266",
+          "importe_neto_linea": "7891.33",
+          "ajustes_linea": [
+            {
+              "tipo": "bonificacion_porcentaje",
+              "valor": "9.00"
+            }
+          ],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "0004431",
+          "codigo_ean": null,
+          "descripcion": "TARAGUI TE 10X50",
+          "cantidad_original": "1.000",
+          "tipo_cantidad_original": "unidad_logistica",
+          "factor_unidades": "10.00",
+          "cantidad": "10.00",
+          "precio_unitario_sin_iva_sin_descuento": "1368.47",
+          "precio_unitario_sin_iva": "1245.308",
+          "importe_neto_linea": "12453.08",
+          "ajustes_linea": [
+            {
+              "tipo": "bonificacion_porcentaje",
+              "valor": "9.00"
+            }
+          ],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "0000102",
+          "codigo_ean": null,
+          "descripcion": "GIACOMO QUESO/JAMON 12X500 GR",
+          "cantidad_original": "1.000",
+          "tipo_cantidad_original": "unidad_logistica",
+          "factor_unidades": "12.00",
+          "cantidad": "12.00",
+          "precio_unitario_sin_iva_sin_descuento": "3935.17",
+          "precio_unitario_sin_iva": "3738.4075",
+          "importe_neto_linea": "44860.89",
+          "ajustes_linea": [
+            {
+              "tipo": "bonificacion_porcentaje",
+              "valor": "5.00"
+            }
+          ],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "0000103",
+          "codigo_ean": null,
+          "descripcion": "GIACOMO TRIDICCI 12X500 GR",
+          "cantidad_original": "1.000",
+          "tipo_cantidad_original": "unidad_logistica",
+          "factor_unidades": "12.00",
+          "cantidad": "12.00",
+          "precio_unitario_sin_iva_sin_descuento": "3935.17",
+          "precio_unitario_sin_iva": "3738.4075",
+          "importe_neto_linea": "44860.89",
+          "ajustes_linea": [
+            {
+              "tipo": "bonificacion_porcentaje",
+              "valor": "5.00"
+            }
+          ],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "0002695",
+          "codigo_ean": null,
+          "descripcion": "GALLARDO TRITURADO BOTELLA 8X9",
+          "cantidad_original": "1.000",
+          "tipo_cantidad_original": "unidad_logistica",
+          "factor_unidades": "8.00",
+          "cantidad": "8.00",
+          "precio_unitario_sin_iva_sin_descuento": "1471.63",
+          "precio_unitario_sin_iva": "1339.18375",
+          "importe_neto_linea": "10713.47",
+          "ajustes_linea": [
+            {
+              "tipo": "bonificacion_porcentaje",
+              "valor": "9.00"
+            }
+          ],
+          "alicuota_iva": "21.0"
+        }
+      ],
+      "iva": [
+        {
+          "alicuota": "21.0",
+          "base_imponible": "309913.93",
+          "importe": "65081.93"
+        },
+        {
+          "alicuota": "10.5",
+          "base_imponible": "11924.07",
+          "importe": "1252.03"
+        }
+      ],
+      "tributos": [
+        {
+          "descripcion": "Percepción RG 5329",
+          "jurisdiccion": null,
+          "alicuota": null,
+          "base_imponible": null,
+          "importe": "9476.28"
+        }
+      ],
+      "totales": {
+        "subtotal": "321838.00",
+        "neto_gravado": "321838.00",
+        "no_gravado": null,
+        "exento": null,
+        "iva": "66333.96",
+        "tributos": null,
+        "percepciones": "9476.28",
+        "descuentos": null,
+        "recargos": null,
+        "total": "397648.23"
+      },
+      "cae": "86283844979285",
+      "caea": null,
+      "vencimiento_cae": "2026-07-24",
+      "vencimiento_caea": null,
+      "qr_afip_url": null,
+      "condicion_venta": null,
+      "forma_pago": null,
+      "orden_compra": null,
+      "remito": null,
+      "advertencias": [
+        "Comprobante presentado en dos copias (Original/Duplicado) con idéntico contenido; se consolidó en una sola factura de 20 ítems.",
+        "Datos del emisor (razón social, CUIT, domicilio, IIBB, inicio de actividades) tomados del encabezado en imagen por lectura visual; no estaban en el texto del PDF.",
+        "Moneda no indicada explícitamente; se asume ARS.",
+        "Venta por bulto: cantidad_original en bultos; factor_unidades deducido por conciliación Importe/(P.Unit×(1−bonif)×Cantidad), entero exacto y confirmado por el 'NxM' de la descripción. U.Final incluye IVA, por eso precio_unitario_sin_iva = Importe/cantidad."
+      ]
+    }
+  ]
+}

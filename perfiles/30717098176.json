@@ -1,0 +1,11 @@
+{
+  "cuit_emisor": "30717098176",
+  "razon_social": "STAMMBAUM S.A",
+  "reglas": {
+    "cantidad": "unidad_comercial",
+    "iva": "totalizador",
+    "descuentos": "por_item",
+    "percepciones": false
+  },
+  "notas": "Nombre comercial DISTRIBUIDORA FEDERAL (emisor en encabezado como IMAGEN: leer razon social STAMMBAUM S.A, domicilio, etc. por OCR/visual; en el texto solo esta el CUIT). Tabla: Cantidad | Codigo | Descripcion | Unitario | Dto | Subtotal. Cantidad = unidades comerciales (factor 1): NO es bulto aunque las descripciones traigan NxM (10X4, 12X4, X8, (60)...); confirmar con validador global 'Unidades: [N]' = suma de Cantidad y 'Articulos: [N]' = nro de lineas. Unitario = precio por unidad sin IVA (sin ajustes = precio_unitario_sin_iva). Subtotal = importe_neto_linea (Cantidad x Unitario, con centavos por redondeo del unitario). Dto = descuento por item; en esta factura vino vacio pero la columna existe (descuentos por_item). Sin EAN. IVA en TOTALIZADOR (sin columna por item): resolver por factura (una sola alicuota -> a todos; varias/global -> conciliacion unica {10,5;21} y si no, ampliar). En esta factura fue unico 21%. Tasa 'Der. Reg. e Insp.' (municipal) en el encabezado, 0 en esta factura; si trae valor va a tributos[]."
+}

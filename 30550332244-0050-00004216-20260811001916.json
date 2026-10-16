@@ -1,0 +1,129 @@
+{
+  "facturas": [
+    {
+      "tipo_comprobante": "Factura",
+      "letra": "A",
+      "codigo_comprobante": "01",
+      "punto_venta": "0050",
+      "numero_comprobante": "00004216",
+      "fecha_emision": "2026-07-15",
+      "fecha_vencimiento_pago": null,
+      "emisor": {
+        "razon_social": "BODEGAS Y VIÑEDOS LOPEZ SOCIEDAD ANONIMA INDUSTRIAL Y COMERCIAL",
+        "nombre_comercial": "BODEGAS LOPEZ",
+        "cuit": "30550332244",
+        "condicion_iva": "IVA Responsable Inscripto",
+        "domicilio": "Godoy Cruz 2000",
+        "localidad": "CABA",
+        "provincia": "Ciudad Autónoma de Buenos Aires",
+        "codigo_postal": "C1414CYP",
+        "ingresos_brutos": "901-30550332244",
+        "inicio_actividades": "1898"
+      },
+      "receptor": {
+        "razon_social": "EL ROBLE SOCIEDAD SIMPLE",
+        "cuit": "30719352681",
+        "dni": null,
+        "condicion_iva": "Responsable Inscripto",
+        "domicilio": "CALLE 18 NRO 4607",
+        "localidad": "BERISSO",
+        "provincia": "Buenos Aires",
+        "codigo_postal": "1923"
+      },
+      "moneda": "ARS",
+      "tipo_cambio": null,
+      "items": [
+        {
+          "codigo": "683",
+          "codigo_ean": null,
+          "descripcion": "Agua Mineral Graziani s/g 2x6 Litros",
+          "cantidad_original": "4.00",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1.00",
+          "cantidad": "4.00",
+          "precio_unitario_sin_iva_sin_descuento": "3409.09",
+          "precio_unitario_sin_iva": "2914.7725",
+          "importe_neto_linea": "11659.09",
+          "ajustes_linea": [
+            {
+              "tipo": "descuento_porcentaje",
+              "valor": "10.00"
+            },
+            {
+              "tipo": "descuento_porcentaje",
+              "valor": "5.00"
+            }
+          ],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "683",
+          "codigo_ean": null,
+          "descripcion": "Agua Mineral Graziani s/g 2x6 Litros",
+          "cantidad_original": "6.00",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1.00",
+          "cantidad": "6.00",
+          "precio_unitario_sin_iva_sin_descuento": "3409.09",
+          "precio_unitario_sin_iva": "2914.773333",
+          "importe_neto_linea": "17488.64",
+          "ajustes_linea": [
+            {
+              "tipo": "descuento_porcentaje",
+              "valor": "10.00"
+            },
+            {
+              "tipo": "descuento_porcentaje",
+              "valor": "5.00"
+            }
+          ],
+          "alicuota_iva": "21.0"
+        }
+      ],
+      "iva": [
+        {
+          "alicuota": "21.0",
+          "base_imponible": "29147.73",
+          "importe": "6121.02"
+        }
+      ],
+      "tributos": [
+        {
+          "descripcion": "Percepción Ingresos Brutos",
+          "jurisdiccion": null,
+          "alicuota": null,
+          "base_imponible": null,
+          "importe": "874.43"
+        }
+      ],
+      "totales": {
+        "subtotal": "29147.73",
+        "neto_gravado": "29147.73",
+        "no_gravado": null,
+        "exento": null,
+        "iva": "6121.02",
+        "tributos": null,
+        "percepciones": "874.43",
+        "descuentos": null,
+        "recargos": null,
+        "total": "36143.18"
+      },
+      "cae": "86283939266268",
+      "caea": null,
+      "vencimiento_cae": "2026-07-25",
+      "vencimiento_caea": null,
+      "qr_afip_url": null,
+      "condicion_venta": "Contado c/Entrega",
+      "forma_pago": null,
+      "orden_compra": null,
+      "remito": "A00050-00004216",
+      "advertencias": [
+        "Comprobante presentado en Original y Duplicado con idéntico contenido; se consolidó en una sola factura. Las dos líneas del código 683 son líneas reales independientes (distinta cantidad), no una duplicación de copia.",
+        "Datos del emisor (Bodegas y Viñedos López S.A.I.C., CUIT, domicilio) tomados del encabezado en imagen por lectura visual; en el texto del PDF solo estaba el receptor.",
+        "Descripción '2x6 Litros': factor_unidades = 1 (unidad_comercial), verificado por conciliación N = Importe/(Cantidad×P.Unit×0,90×0,95) = 1. No se multiplicó por el '2x6'.",
+        "Inicio de actividades informado solo como año (1898).",
+        "Comprobante en pesos (ARS)."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "cuit_emisor": "30715236970",
+  "razon_social": "KROMATIKA ARGENTINA S.A.",
+  "reglas": {
+    "cantidad": "mixto",
+    "iva": "totalizador",
+    "descuentos": "por_item",
+    "percepciones": true
+  },
+  "notas": "Marca comercial 'Distle'. Tabla: Codigo | Descripcion | Cantidad | Unit.Neto | Bonf. | U.Net.Bonf. | Unit.C/IVA | Total C/IVA. NO hay columna de importe neto por linea: el unico importe de linea es 'Total C/IVA' (CON IVA) -> no usarlo como neto. Unit.Neto = precio unitario neto sin IVA y sin bonificacion -> precio_unitario_sin_iva_sin_descuento. Bonf. = % de bonificacion POR ITEM (puede venir 0.00 -> ajustes_linea []; con valor -> ajustes_linea bonificacion_porcentaje). U.Net.Bonf. = Unit.Neto x (1-Bonf/100), neto sin IVA ya bonificado -> precio_unitario_sin_iva (valor IMPRESO, no calculado). Unit.C/IVA = U.Net.Bonf x (1+alicuota): INCLUYE IVA, nunca usarlo como neto. Total C/IVA = Cantidad x Unit.C/IVA (puede diferir hasta ~0.05 por redondeo interno del emisor). importe_neto_linea NO viene impreso; criterio acordado con el usuario: calcularlo como cantidad x U.Net.Bonf, dejando advertencia de que es calculado. Cantidad: unidad de venta ambigua (las descripciones traen 'NxM' pero hay un solo precio unitario por linea, sin segundo precio comparable) -> tipo_cantidad_original 'desconocida', factor_unidades null, cantidad = cantidad impresa. Revisar por factura si aparece evidencia de factor. Sin codigo EAN. IVA: no viene por item; el totalizador informa la(s) alicuota(s) gravada(s) ('IVA 21%: importe') tomando el 'Importe neto' como base. Si hay una sola alicuota -> asignarla a todos los items; si aparecieran varias sin discriminar -> conciliacion combinatoria unica. Totales: Importe neto | IVA {alicuota}% | II.BB {alicuota}% | Rg 5329 | Total. II.BB trae alicuota impresa, Rg 5329 solo el importe; ninguna trae base imponible impresa -> base_imponible null en tributos[]. totales.percepciones = suma de ambas. Emisor legible en el texto del PDF (no hace falta OCR del encabezado)."
+}

@@ -1,0 +1,11 @@
+{
+  "cuit_emisor": "20241762123",
+  "razon_social": "Distribuidora El Negro",
+  "reglas": {
+    "cantidad": "unidad_comercial",
+    "iva": "por_item",
+    "descuentos": "general",
+    "percepciones": false
+  },
+  "notas": "Factura A. Columnas de la tabla: Cant. | Descripcion | Unit. s/IVA | IVA Unit. | Unit. c/IVA | Total. ATENCION: la columna 'Total' esta CON IVA (Total = Cant x Unit. c/IVA), NO es el neto de linea. El importe neto de linea NO viene impreso: se calcula como cantidad x 'Unit. s/IVA' (ambos impresos). IVA: no hay columna de porcentaje, pero 'IVA Unit.' es el importe de IVA por unidad, asi que la alicuota por item se obtiene directo como IVA Unit. / Unit. s/IVA (verificar contra el totalizador). En la factura 0003-00024659 dio 21% en todas las filas. La descripcion viene como '{codigo} - {texto} (xN)': el codigo interno es el prefijo antes del guion; el sufijo (xN) es info de presentacion/pack y NO altera la cantidad (Cant. ya viene en unidades comerciales, factor_unidades = 1) - confirmado con el usuario en el item '6767 - Esponja acero inox. 30 grs. Make (x12)'. Algunas filas traen marcas extra tipo '(of)'. No hay columna de bonificacion/descuento por item, por lo tanto precio_unitario_sin_iva = 'Unit. s/IVA' impreso y ajustes_linea = []. Los descuentos generales llegan como una FILA de la tabla con codigo 'DESC' e importes negativos (neto, IVA y total): NO es un producto. Criterio del usuario (2026-09-03): ignorar por completo esa fila - no cargarla como item ni en totales.descuentos; dejar advertencia de que la suma de items queda por encima del subtotal impreso. No trae percepciones ni otros tributos. No informa Ingresos Brutos, provincia ni codigo postal. El PDF trae ORIGINAL y DUPLICADO del mismo comprobante en paginas separadas: es UNA sola factura."
+}

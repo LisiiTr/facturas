@@ -1,0 +1,441 @@
+{
+  "facturas": [
+    {
+      "tipo_comprobante": "Factura",
+      "letra": "A",
+      "codigo_comprobante": "01",
+      "punto_venta": "0010",
+      "numero_comprobante": "00026614",
+      "fecha_emision": "2026-09-08",
+      "fecha_vencimiento_pago": null,
+      "emisor": {
+        "razon_social": "Pietra Hnos. Distribuidora SRL",
+        "nombre_comercial": "PIETRA DISTRIBUIDORA",
+        "cuit": "30709818364",
+        "condicion_iva": "IVA RESPONSABLE INSCRIPTO",
+        "domicilio": "Calle 34 Nº 250",
+        "localidad": "Berisso",
+        "provincia": "Buenos Aires",
+        "codigo_postal": null,
+        "ingresos_brutos": "30709818364",
+        "inicio_actividades": "2006-10-01"
+      },
+      "receptor": {
+        "razon_social": "TOTORA LEONARDO",
+        "cuit": "30719352681",
+        "dni": null,
+        "condicion_iva": "RI",
+        "domicilio": "18 4603",
+        "localidad": "BERISSO",
+        "provincia": null,
+        "codigo_postal": null
+      },
+      "moneda": "ARS",
+      "tipo_cambio": null,
+      "iva": [
+        {
+          "alicuota": "10.5",
+          "base_imponible": "16000.07",
+          "importe": "1680.01"
+        },
+        {
+          "alicuota": "21.0",
+          "base_imponible": "287905.23",
+          "importe": "60460.10"
+        }
+      ],
+      "tributos": [
+        {
+          "descripcion": "RG. 5329",
+          "jurisdiccion": null,
+          "alicuota": null,
+          "base_imponible": null,
+          "importe": "8877.16"
+        },
+        {
+          "descripcion": "Perc.IIBB",
+          "jurisdiccion": null,
+          "alicuota": null,
+          "base_imponible": null,
+          "importe": "4558.58"
+        }
+      ],
+      "totales": {
+        "subtotal": "303905.29",
+        "neto_gravado": "303905.29",
+        "no_gravado": null,
+        "exento": null,
+        "iva": "62140.11",
+        "tributos": null,
+        "percepciones": "13435.74",
+        "descuentos": null,
+        "recargos": null,
+        "total": "379481.14"
+      },
+      "cae": "86362088244703",
+      "caea": null,
+      "vencimiento_cae": "2026-09-18",
+      "vencimiento_caea": null,
+      "qr_afip_url": null,
+      "condicion_venta": null,
+      "forma_pago": null,
+      "orden_compra": null,
+      "remito": null,
+      "advertencias": [
+        "El comprobante viene en dos copias de idéntico contenido (Original y copia); se consolidó en una sola factura.",
+        "Datos del emisor (razón social, CUIT, domicilio, IIBB, inicio de actividades) tomados del encabezado en imagen; el texto del PDF no los trae en el cuerpo.",
+        "Moneda no indicada explícitamente en el comprobante; se asume ARS.",
+        "La tabla imprime 19 renglones de producto y aquí se cargaron 18. Se omitió por decisión del usuario el renglón 0000418 DOS HNOS TOST RECT S/SAL 18X14, que viene con Cantidad 0.001, Bonif. 100,00%, sin U.Final e Importe 0,00: al ser el importe cero no hay conciliación posible para deducir factor_unidades ni cantidad en unidades. Su omisión no afecta los totales, porque su importe neto es 0,00.",
+        "Venta por bulto: cantidad_original en bultos (formato decimal, '1.000' = 1 bulto). factor_unidades deducido por conciliación Importe/(P.Unit×(1-bonif)×Cantidad); dio entero exacto en los 18 ítems cargados y coincide con el 'NxM' de la descripción. En 0000276 CUMANA AVENA INST. SIN GLUTEN la descripción impresa aparece cortada y no muestra el 'NxM', pero la conciliación arroja factor 10 sin ambigüedad.",
+        "La columna U.Final incluye IVA (P.Unit×(1-bonif)×(1+alícuota)), por eso no se usó como precio neto; precio_unitario_sin_iva = importe_neto_linea / cantidad.",
+        "La suma de los importes de línea da 303905.30 y el Subtotal impreso es 303905.29 (diferencia de 0,01 por redondeo). Se conservó el valor impreso. Las bases por alícuota se obtuvieron agrupando los netos de línea (10,5%: 16000.07; 21%: 287905.23) y reconcilian exactamente con los importes de IVA impresos (1680.01 y 60460.10).",
+        "Las dos percepciones (RG. 5329 y Perc.IIBB) se informan por separado, sin alícuota ni base impresas, y el comprobante no las totaliza: alicuota y base_imponible quedan en null y totales.percepciones es la suma de ambos importes impresos (13435.74).",
+        "totales.iva (62140.11) es la suma de los dos importes de IVA impresos; el comprobante no lo totaliza en una sola cifra. Subtotal + IVA + percepciones = 379481.14, igual al TOTAL impreso."
+      ],
+      "items": [
+        {
+          "codigo": "0002931",
+          "codigo_ean": null,
+          "descripcion": "CORDERO PIEL DE LOBO MALBEC 6X",
+          "cantidad_original": "1.000",
+          "tipo_cantidad_original": "unidad_logistica",
+          "factor_unidades": "6.00",
+          "cantidad": "6.000",
+          "precio_unitario_sin_iva_sin_descuento": "3443.47",
+          "precio_unitario_sin_iva": "3340.161667",
+          "importe_neto_linea": "20040.97",
+          "ajustes_linea": [
+            {
+              "tipo": "bonificacion_porcentaje",
+              "valor": "3.00"
+            }
+          ],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "0000221",
+          "codigo_ean": null,
+          "descripcion": "CIRCUS MALBEC 6X750 CC",
+          "cantidad_original": "1.000",
+          "tipo_cantidad_original": "unidad_logistica",
+          "factor_unidades": "6.00",
+          "cantidad": "6.000",
+          "precio_unitario_sin_iva_sin_descuento": "2967.77",
+          "precio_unitario_sin_iva": "2700.671667",
+          "importe_neto_linea": "16204.03",
+          "ajustes_linea": [
+            {
+              "tipo": "bonificacion_porcentaje",
+              "valor": "9.00"
+            }
+          ],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "0002311",
+          "codigo_ean": null,
+          "descripcion": "STA JULIA MALBEC 6X750 CC",
+          "cantidad_original": "1.000",
+          "tipo_cantidad_original": "unidad_logistica",
+          "factor_unidades": "6.00",
+          "cantidad": "6.000",
+          "precio_unitario_sin_iva_sin_descuento": "3984.40",
+          "precio_unitario_sin_iva": "3625.801667",
+          "importe_neto_linea": "21754.81",
+          "ajustes_linea": [
+            {
+              "tipo": "bonificacion_porcentaje",
+              "valor": "9.00"
+            }
+          ],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "0003891",
+          "codigo_ean": null,
+          "descripcion": "MAMA COC. PAN RALLADO 10X1 KG",
+          "cantidad_original": "1.000",
+          "tipo_cantidad_original": "unidad_logistica",
+          "factor_unidades": "10.00",
+          "cantidad": "10.000",
+          "precio_unitario_sin_iva_sin_descuento": "1852.87",
+          "precio_unitario_sin_iva": "1686.112",
+          "importe_neto_linea": "16861.12",
+          "ajustes_linea": [
+            {
+              "tipo": "bonificacion_porcentaje",
+              "valor": "9.00"
+            }
+          ],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "0004010",
+          "codigo_ean": null,
+          "descripcion": "MAMA COC. PURE PAPA TRAD 12X12",
+          "cantidad_original": "1.000",
+          "tipo_cantidad_original": "unidad_logistica",
+          "factor_unidades": "12.00",
+          "cantidad": "12.000",
+          "precio_unitario_sin_iva_sin_descuento": "1285.61",
+          "precio_unitario_sin_iva": "1169.900833",
+          "importe_neto_linea": "14038.81",
+          "ajustes_linea": [
+            {
+              "tipo": "bonificacion_porcentaje",
+              "valor": "9.00"
+            }
+          ],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "0004004",
+          "codigo_ean": null,
+          "descripcion": "PUREZA C/LEV P/PIZZA 10X1 KG",
+          "cantidad_original": "1.000",
+          "tipo_cantidad_original": "unidad_logistica",
+          "factor_unidades": "10.00",
+          "cantidad": "10.000",
+          "precio_unitario_sin_iva_sin_descuento": "1758.25",
+          "precio_unitario_sin_iva": "1600.007",
+          "importe_neto_linea": "16000.07",
+          "ajustes_linea": [
+            {
+              "tipo": "bonificacion_porcentaje",
+              "valor": "9.00"
+            }
+          ],
+          "alicuota_iva": "10.5"
+        },
+        {
+          "codigo": "0004965",
+          "codigo_ean": null,
+          "descripcion": "AMANDA SUAVE 10X500 GR",
+          "cantidad_original": "1.000",
+          "tipo_cantidad_original": "unidad_logistica",
+          "factor_unidades": "10.00",
+          "cantidad": "10.000",
+          "precio_unitario_sin_iva_sin_descuento": "1685.88",
+          "precio_unitario_sin_iva": "1534.152",
+          "importe_neto_linea": "15341.52",
+          "ajustes_linea": [
+            {
+              "tipo": "bonificacion_porcentaje",
+              "valor": "9.00"
+            }
+          ],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "0004962",
+          "codigo_ean": null,
+          "descripcion": "AMANDA SELEC ESPECIAL 10X500 G",
+          "cantidad_original": "1.000",
+          "tipo_cantidad_original": "unidad_logistica",
+          "factor_unidades": "10.00",
+          "cantidad": "10.000",
+          "precio_unitario_sin_iva_sin_descuento": "1685.88",
+          "precio_unitario_sin_iva": "1534.152",
+          "importe_neto_linea": "15341.52",
+          "ajustes_linea": [
+            {
+              "tipo": "bonificacion_porcentaje",
+              "valor": "9.00"
+            }
+          ],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "0004425",
+          "codigo_ean": null,
+          "descripcion": "MANANITA B C P 10X500 GR",
+          "cantidad_original": "1.000",
+          "tipo_cantidad_original": "unidad_logistica",
+          "factor_unidades": "10.00",
+          "cantidad": "10.000",
+          "precio_unitario_sin_iva_sin_descuento": "1641.11",
+          "precio_unitario_sin_iva": "1493.408",
+          "importe_neto_linea": "14934.08",
+          "ajustes_linea": [
+            {
+              "tipo": "bonificacion_porcentaje",
+              "valor": "9.00"
+            }
+          ],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "0004515",
+          "codigo_ean": null,
+          "descripcion": "LA MERCED GDE CAMPO SUR 10X1 K",
+          "cantidad_original": "1.000",
+          "tipo_cantidad_original": "unidad_logistica",
+          "factor_unidades": "10.00",
+          "cantidad": "10.000",
+          "precio_unitario_sin_iva_sin_descuento": "3960.51",
+          "precio_unitario_sin_iva": "3604.063",
+          "importe_neto_linea": "36040.63",
+          "ajustes_linea": [
+            {
+              "tipo": "bonificacion_porcentaje",
+              "valor": "9.00"
+            }
+          ],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "0004510",
+          "codigo_ean": null,
+          "descripcion": "LA MERCED DE CAMPO 6X500 GR",
+          "cantidad_original": "1.000",
+          "tipo_cantidad_original": "unidad_logistica",
+          "factor_unidades": "6.00",
+          "cantidad": "6.000",
+          "precio_unitario_sin_iva_sin_descuento": "3295.61",
+          "precio_unitario_sin_iva": "2999.001667",
+          "importe_neto_linea": "17994.01",
+          "ajustes_linea": [
+            {
+              "tipo": "bonificacion_porcentaje",
+              "valor": "9.00"
+            }
+          ],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "0000455",
+          "codigo_ean": null,
+          "descripcion": "DOS HNOS PARBOIL 10X1 KG",
+          "cantidad_original": "1.000",
+          "tipo_cantidad_original": "unidad_logistica",
+          "factor_unidades": "10.00",
+          "cantidad": "10.000",
+          "precio_unitario_sin_iva_sin_descuento": "1091.86",
+          "precio_unitario_sin_iva": "993.594",
+          "importe_neto_linea": "9935.94",
+          "ajustes_linea": [
+            {
+              "tipo": "bonificacion_porcentaje",
+              "valor": "9.00"
+            }
+          ],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "0000454",
+          "codigo_ean": null,
+          "descripcion": "DOS HNOS LARGO FINO 10X1 KG",
+          "cantidad_original": "1.000",
+          "tipo_cantidad_original": "unidad_logistica",
+          "factor_unidades": "10.00",
+          "cantidad": "10.000",
+          "precio_unitario_sin_iva_sin_descuento": "920.79",
+          "precio_unitario_sin_iva": "837.919",
+          "importe_neto_linea": "8379.19",
+          "ajustes_linea": [
+            {
+              "tipo": "bonificacion_porcentaje",
+              "valor": "9.00"
+            }
+          ],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "0004431",
+          "codigo_ean": null,
+          "descripcion": "TARAGUI TE 10X50",
+          "cantidad_original": "1.000",
+          "tipo_cantidad_original": "unidad_logistica",
+          "factor_unidades": "10.00",
+          "cantidad": "10.000",
+          "precio_unitario_sin_iva_sin_descuento": "1368.47",
+          "precio_unitario_sin_iva": "1245.308",
+          "importe_neto_linea": "12453.08",
+          "ajustes_linea": [
+            {
+              "tipo": "bonificacion_porcentaje",
+              "valor": "9.00"
+            }
+          ],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "0004436",
+          "codigo_ean": null,
+          "descripcion": "TARAGUI MATE COCIDO 5X50",
+          "cantidad_original": "1.000",
+          "tipo_cantidad_original": "unidad_logistica",
+          "factor_unidades": "5.00",
+          "cantidad": "5.000",
+          "precio_unitario_sin_iva_sin_descuento": "1734.36",
+          "precio_unitario_sin_iva": "1578.266",
+          "importe_neto_linea": "7891.33",
+          "ajustes_linea": [
+            {
+              "tipo": "bonificacion_porcentaje",
+              "valor": "9.00"
+            }
+          ],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "0000807",
+          "codigo_ean": null,
+          "descripcion": "MORENITA CAFE INST. 6X100 GR",
+          "cantidad_original": "1.000",
+          "tipo_cantidad_original": "unidad_logistica",
+          "factor_unidades": "6.00",
+          "cantidad": "6.000",
+          "precio_unitario_sin_iva_sin_descuento": "3561.37",
+          "precio_unitario_sin_iva": "3383.296667",
+          "importe_neto_linea": "20299.78",
+          "ajustes_linea": [
+            {
+              "tipo": "bonificacion_porcentaje",
+              "valor": "5.00"
+            }
+          ],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "0000395",
+          "codigo_ean": null,
+          "descripcion": "HILERET STEVIA LIQ. BOT. 9X200",
+          "cantidad_original": "1.000",
+          "tipo_cantidad_original": "unidad_logistica",
+          "factor_unidades": "9.00",
+          "cantidad": "9.000",
+          "precio_unitario_sin_iva_sin_descuento": "3180.28",
+          "precio_unitario_sin_iva": "2894.056667",
+          "importe_neto_linea": "26046.51",
+          "ajustes_linea": [
+            {
+              "tipo": "bonificacion_porcentaje",
+              "valor": "9.00"
+            }
+          ],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "0000276",
+          "codigo_ean": null,
+          "descripcion": "CUMANA AVENA INST. SIN GLUTEN",
+          "cantidad_original": "1.000",
+          "tipo_cantidad_original": "unidad_logistica",
+          "factor_unidades": "10.00",
+          "cantidad": "10.000",
+          "precio_unitario_sin_iva_sin_descuento": "1576.69",
+          "precio_unitario_sin_iva": "1434.79",
+          "importe_neto_linea": "14347.90",
+          "ajustes_linea": [
+            {
+              "tipo": "bonificacion_porcentaje",
+              "valor": "9.00"
+            }
+          ],
+          "alicuota_iva": "21.0"
+        }
+      ]
+    }
+  ]
+}

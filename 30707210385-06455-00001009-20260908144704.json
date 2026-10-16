@@ -1,0 +1,599 @@
+{
+  "facturas": [
+    {
+      "tipo_comprobante": "FACTURA",
+      "letra": "A",
+      "codigo_comprobante": "001",
+      "punto_venta": "06455",
+      "numero_comprobante": "00001009",
+      "fecha_emision": "2026-09-02",
+      "fecha_vencimiento_pago": "2026-09-02",
+      "emisor": {
+        "razon_social": "LOGISTICA LA SERENISIMA S.A.",
+        "nombre_comercial": null,
+        "cuit": "30707210385",
+        "condicion_iva": "IVA RESPONSABLE INSCRIPTO",
+        "domicilio": "FRENCH 135",
+        "localidad": "LONGCHAMPS",
+        "provincia": "BUENOS AIRES",
+        "codigo_postal": null,
+        "ingresos_brutos": "9010435074",
+        "inicio_actividades": "2000-10-01"
+      },
+      "receptor": {
+        "razon_social": "EL ROBLE SOCIEDAD SIMPLE S. CAP I SECC I",
+        "cuit": "30719352681",
+        "dni": null,
+        "condicion_iva": "IVA RESPONSABLE INSCRIPTO",
+        "domicilio": "CALLE 18 4607",
+        "localidad": "BERISSO",
+        "provincia": "BUENOS AIRES",
+        "codigo_postal": "1923"
+      },
+      "moneda": "ARS",
+      "tipo_cambio": null,
+      "items": [
+        {
+          "codigo": "348000",
+          "codigo_ean": null,
+          "descripcion": "LECHE LS ULTRA PARC.DESC 1% FORT SACH 1L",
+          "cantidad_original": "10",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1",
+          "cantidad": "10",
+          "precio_unitario_sin_iva_sin_descuento": "1356.00",
+          "precio_unitario_sin_iva": "1356.00",
+          "importe_neto_linea": "13560.00",
+          "ajustes_linea": [],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "348300",
+          "codigo_ean": null,
+          "descripcion": "LECHE LS ULTRA ENTERA 3% FORT SACHET 1L",
+          "cantidad_original": "10",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1",
+          "cantidad": "10",
+          "precio_unitario_sin_iva_sin_descuento": "1356.00",
+          "precio_unitario_sin_iva": "1356.00",
+          "importe_neto_linea": "13560.00",
+          "ajustes_linea": [],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "352100",
+          "codigo_ean": null,
+          "descripcion": "LECHE LS ULTRA DESC PROTEIN S1L",
+          "cantidad_original": "3",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1",
+          "cantidad": "3",
+          "precio_unitario_sin_iva_sin_descuento": "1512.00",
+          "precio_unitario_sin_iva": "1512.00",
+          "importe_neto_linea": "4536.00",
+          "ajustes_linea": [],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "321700",
+          "codigo_ean": null,
+          "descripcion": "QUESO LS FINLANDIA PROCESADO POTE 180G",
+          "cantidad_original": "3",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1",
+          "cantidad": "3",
+          "precio_unitario_sin_iva_sin_descuento": "2187.00",
+          "precio_unitario_sin_iva": "1968.3",
+          "importe_neto_linea": "5904.90",
+          "ajustes_linea": [
+            {
+              "tipo": "descuento_porcentaje",
+              "valor": "10.00"
+            }
+          ],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "321800",
+          "codigo_ean": null,
+          "descripcion": "QUESO LS FINLANDIA RED.CALORIAS P180GR",
+          "cantidad_original": "3",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1",
+          "cantidad": "3",
+          "precio_unitario_sin_iva_sin_descuento": "2187.00",
+          "precio_unitario_sin_iva": "1968.3",
+          "importe_neto_linea": "5904.90",
+          "ajustes_linea": [
+            {
+              "tipo": "descuento_porcentaje",
+              "valor": "10.00"
+            }
+          ],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "326300",
+          "codigo_ean": null,
+          "descripcion": "QUESO LS SABOR SALAME POTE 180G",
+          "cantidad_original": "3",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1",
+          "cantidad": "3",
+          "precio_unitario_sin_iva_sin_descuento": "1778.00",
+          "precio_unitario_sin_iva": "1600.2",
+          "importe_neto_linea": "4800.60",
+          "ajustes_linea": [
+            {
+              "tipo": "descuento_porcentaje",
+              "valor": "10.00"
+            }
+          ],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "326400",
+          "codigo_ean": null,
+          "descripcion": "QUESO LS SABOR FONTINA POTE 180G",
+          "cantidad_original": "3",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1",
+          "cantidad": "3",
+          "precio_unitario_sin_iva_sin_descuento": "1778.00",
+          "precio_unitario_sin_iva": "1600.2",
+          "importe_neto_linea": "4800.60",
+          "ajustes_linea": [
+            {
+              "tipo": "descuento_porcentaje",
+              "valor": "10.00"
+            }
+          ],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "333600",
+          "codigo_ean": null,
+          "descripcion": "LECHE LS UAT PARC.DESC ZERO LACTOS PET1L",
+          "cantidad_original": "6",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1",
+          "cantidad": "6",
+          "precio_unitario_sin_iva_sin_descuento": "1814.00",
+          "precio_unitario_sin_iva": "1814.00",
+          "importe_neto_linea": "10884.00",
+          "ajustes_linea": [],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "358100",
+          "codigo_ean": null,
+          "descripcion": "LECHE LS UAT P. DESCR EXTRA CAL+COLAG 1L",
+          "cantidad_original": "2",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1",
+          "cantidad": "2",
+          "precio_unitario_sin_iva_sin_descuento": "1814.00",
+          "precio_unitario_sin_iva": "1814.00",
+          "importe_neto_linea": "3628.00",
+          "ajustes_linea": [],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "335600",
+          "codigo_ean": null,
+          "descripcion": "LECHE LS UAT PARC.DESC 1% FORT PET 1L",
+          "cantidad_original": "6",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1",
+          "cantidad": "6",
+          "precio_unitario_sin_iva_sin_descuento": "1747.00",
+          "precio_unitario_sin_iva": "1747.00",
+          "importe_neto_linea": "10482.00",
+          "ajustes_linea": [],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "358400",
+          "codigo_ean": null,
+          "descripcion": "LECHE LS UAT P.DESCR FORT BARISTA PET 1L",
+          "cantidad_original": "2",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1",
+          "cantidad": "2",
+          "precio_unitario_sin_iva_sin_descuento": "1814.00",
+          "precio_unitario_sin_iva": "1814.00",
+          "importe_neto_linea": "3628.00",
+          "ajustes_linea": [],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "656412",
+          "codigo_ean": null,
+          "descripcion": "YOGURISIMO NATURAL BIG POT 300 GR S/END",
+          "cantidad_original": "3",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1",
+          "cantidad": "3",
+          "precio_unitario_sin_iva_sin_descuento": "3198.81",
+          "precio_unitario_sin_iva": "3198.81",
+          "importe_neto_linea": "9596.43",
+          "ajustes_linea": [],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "937801",
+          "codigo_ean": null,
+          "descripcion": "YOGUR SER POTE FIRME 190GR VAINILLA",
+          "cantidad_original": "2",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1",
+          "cantidad": "2",
+          "precio_unitario_sin_iva_sin_descuento": "2262.31",
+          "precio_unitario_sin_iva": "2262.31",
+          "importe_neto_linea": "4524.62",
+          "ajustes_linea": [],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "939801",
+          "codigo_ean": null,
+          "descripcion": "YOGUR SER PROTEIN BOT 190 GR VAINILLA",
+          "cantidad_original": "3",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1",
+          "cantidad": "3",
+          "precio_unitario_sin_iva_sin_descuento": "2752.95",
+          "precio_unitario_sin_iva": "2064.713333",
+          "importe_neto_linea": "6194.14",
+          "ajustes_linea": [
+            {
+              "tipo": "descuento_porcentaje",
+              "valor": "25.00"
+            }
+          ],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "613800",
+          "codigo_ean": null,
+          "descripcion": "QUESO CREMA CASANCREM VERDE FORT 290GR",
+          "cantidad_original": "3",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1",
+          "cantidad": "3",
+          "precio_unitario_sin_iva_sin_descuento": "4104.40",
+          "precio_unitario_sin_iva": "3116.06",
+          "importe_neto_linea": "9348.18",
+          "ajustes_linea": [
+            {
+              "tipo": "descuento_porcentaje",
+              "valor": "24.08"
+            }
+          ],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "609400",
+          "codigo_ean": null,
+          "descripcion": "QUESO BLANCO CASANCREM FS 290 GR",
+          "cantidad_original": "3",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1",
+          "cantidad": "3",
+          "precio_unitario_sin_iva_sin_descuento": "4104.40",
+          "precio_unitario_sin_iva": "3116.06",
+          "importe_neto_linea": "9348.18",
+          "ajustes_linea": [
+            {
+              "tipo": "descuento_porcentaje",
+              "valor": "24.08"
+            }
+          ],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "610042",
+          "codigo_ean": null,
+          "descripcion": "YOGURISIMO GRIEGO FIRME 180 GR FRUTILLA",
+          "cantidad_original": "3",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1",
+          "cantidad": "3",
+          "precio_unitario_sin_iva_sin_descuento": "1817.55",
+          "precio_unitario_sin_iva": "1605.986667",
+          "importe_neto_linea": "4817.96",
+          "ajustes_linea": [
+            {
+              "tipo": "descuento_porcentaje",
+              "valor": "11.64"
+            }
+          ],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "610041",
+          "codigo_ean": null,
+          "descripcion": "YOGURISIMO GRIEGO FIRME 180 GR VAINILLA",
+          "cantidad_original": "3",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1",
+          "cantidad": "3",
+          "precio_unitario_sin_iva_sin_descuento": "1817.55",
+          "precio_unitario_sin_iva": "1605.986667",
+          "importe_neto_linea": "4817.96",
+          "ajustes_linea": [
+            {
+              "tipo": "descuento_porcentaje",
+              "valor": "11.64"
+            }
+          ],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "643401",
+          "codigo_ean": null,
+          "descripcion": "DANONINO BOTELLITA FS 100 GR VAINILLA",
+          "cantidad_original": "2",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1",
+          "cantidad": "2",
+          "precio_unitario_sin_iva_sin_descuento": "1401.97",
+          "precio_unitario_sin_iva": "1401.97",
+          "importe_neto_linea": "2803.94",
+          "ajustes_linea": [],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "643402",
+          "codigo_ean": null,
+          "descripcion": "DANONINO BOTELLITA FS 100 GR FRUTILLA",
+          "cantidad_original": "2",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1",
+          "cantidad": "2",
+          "precio_unitario_sin_iva_sin_descuento": "1401.97",
+          "precio_unitario_sin_iva": "1401.97",
+          "importe_neto_linea": "2803.94",
+          "ajustes_linea": [],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "610002",
+          "codigo_ean": null,
+          "descripcion": "LSNA YOGUR ENTERO 900G FRUTILLA",
+          "cantidad_original": "4",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1",
+          "cantidad": "4",
+          "precio_unitario_sin_iva_sin_descuento": "2696.12",
+          "precio_unitario_sin_iva": "1659.7325",
+          "importe_neto_linea": "6638.93",
+          "ajustes_linea": [
+            {
+              "tipo": "descuento_porcentaje",
+              "valor": "38.44"
+            }
+          ],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "610001",
+          "codigo_ean": null,
+          "descripcion": "LSNA YOGUR ENTERO 900G VAINILLA",
+          "cantidad_original": "4",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1",
+          "cantidad": "4",
+          "precio_unitario_sin_iva_sin_descuento": "2696.12",
+          "precio_unitario_sin_iva": "1659.7325",
+          "importe_neto_linea": "6638.93",
+          "ajustes_linea": [
+            {
+              "tipo": "descuento_porcentaje",
+              "valor": "38.44"
+            }
+          ],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "610021",
+          "codigo_ean": null,
+          "descripcion": "LSNA YOGUR FIRME ENTERO 190G FRUTILLA",
+          "cantidad_original": "3",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1",
+          "cantidad": "3",
+          "precio_unitario_sin_iva_sin_descuento": "1496.02",
+          "precio_unitario_sin_iva": "1092.093333",
+          "importe_neto_linea": "3276.28",
+          "ajustes_linea": [
+            {
+              "tipo": "descuento_porcentaje",
+              "valor": "27.00"
+            }
+          ],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "610024",
+          "codigo_ean": null,
+          "descripcion": "LSNA  YOGUR FIRME DESCREMADO 190G VAI",
+          "cantidad_original": "3",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1",
+          "cantidad": "3",
+          "precio_unitario_sin_iva_sin_descuento": "1496.02",
+          "precio_unitario_sin_iva": "1092.093333",
+          "importe_neto_linea": "3276.28",
+          "ajustes_linea": [
+            {
+              "tipo": "descuento_porcentaje",
+              "valor": "27.00"
+            }
+          ],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "610023",
+          "codigo_ean": null,
+          "descripcion": "LSNA  YOGUR FIRME DESCREMADO 190G FRU",
+          "cantidad_original": "3",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1",
+          "cantidad": "3",
+          "precio_unitario_sin_iva_sin_descuento": "1496.02",
+          "precio_unitario_sin_iva": "1092.093333",
+          "importe_neto_linea": "3276.28",
+          "ajustes_linea": [
+            {
+              "tipo": "descuento_porcentaje",
+              "valor": "27.00"
+            }
+          ],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "610026",
+          "codigo_ean": null,
+          "descripcion": "LSNA YOGUR ENTERO CON CEREALES 159GR",
+          "cantidad_original": "3",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1",
+          "cantidad": "3",
+          "precio_unitario_sin_iva_sin_descuento": "2026.54",
+          "precio_unitario_sin_iva": "1647.78",
+          "importe_neto_linea": "4943.34",
+          "ajustes_linea": [
+            {
+              "tipo": "descuento_porcentaje",
+              "valor": "18.69"
+            }
+          ],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "610030",
+          "codigo_ean": null,
+          "descripcion": "LSNA YOGUR ENTER FFS BATIDO 120G NATURAL",
+          "cantidad_original": "6",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1",
+          "cantidad": "6",
+          "precio_unitario_sin_iva_sin_descuento": "984.31",
+          "precio_unitario_sin_iva": "596.885",
+          "importe_neto_linea": "3581.31",
+          "ajustes_linea": [
+            {
+              "tipo": "descuento_porcentaje",
+              "valor": "39.36"
+            }
+          ],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "610027",
+          "codigo_ean": null,
+          "descripcion": "LSNA YOGUR DESCREMADO CON CEREALES 157GR",
+          "cantidad_original": "3",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1",
+          "cantidad": "3",
+          "precio_unitario_sin_iva_sin_descuento": "2026.54",
+          "precio_unitario_sin_iva": "1647.78",
+          "importe_neto_linea": "4943.34",
+          "ajustes_linea": [
+            {
+              "tipo": "descuento_porcentaje",
+              "valor": "18.69"
+            }
+          ],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "614200",
+          "codigo_ean": null,
+          "descripcion": "QUESO BLANCO LS CLAS ENT FORT AYD 290 GR",
+          "cantidad_original": "4",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1",
+          "cantidad": "4",
+          "precio_unitario_sin_iva_sin_descuento": "3092.96",
+          "precio_unitario_sin_iva": "2200.3325",
+          "importe_neto_linea": "8801.33",
+          "ajustes_linea": [
+            {
+              "tipo": "descuento_porcentaje",
+              "valor": "28.86"
+            }
+          ],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "614300",
+          "codigo_ean": null,
+          "descripcion": "QUESO BLANCO LS CLA VERDE FORT  290GR",
+          "cantidad_original": "4",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1",
+          "cantidad": "4",
+          "precio_unitario_sin_iva_sin_descuento": "3092.96",
+          "precio_unitario_sin_iva": "2200.3325",
+          "importe_neto_linea": "8801.33",
+          "ajustes_linea": [
+            {
+              "tipo": "descuento_porcentaje",
+              "valor": "28.86"
+            }
+          ],
+          "alicuota_iva": "21.0"
+        }
+      ],
+      "iva": [
+        {
+          "alicuota": "21.0",
+          "base_imponible": "190121.70",
+          "importe": "39925.59"
+        }
+      ],
+      "tributos": [
+        {
+          "descripcion": "PERCEPCION IVA CF",
+          "jurisdiccion": null,
+          "alicuota": "3.000",
+          "base_imponible": "151567.70",
+          "importe": "4547.06"
+        },
+        {
+          "descripcion": "PER.IIBB BS AS",
+          "jurisdiccion": "BUENOS AIRES",
+          "alicuota": "1.500",
+          "base_imponible": "190121.70",
+          "importe": "2851.83"
+        }
+      ],
+      "totales": {
+        "subtotal": "190121.70",
+        "neto_gravado": "190121.70",
+        "no_gravado": null,
+        "exento": null,
+        "iva": "39925.59",
+        "tributos": "7398.89",
+        "percepciones": "7398.89",
+        "descuentos": null,
+        "recargos": null,
+        "total": "237446.18"
+      },
+      "cae": "86351191088921",
+      "caea": null,
+      "vencimiento_cae": "2026-09-12",
+      "vencimiento_caea": null,
+      "qr_afip_url": null,
+      "condicion_venta": "CONTADO",
+      "forma_pago": null,
+      "orden_compra": null,
+      "remito": null,
+      "advertencias": []
+    }
+  ]
+}

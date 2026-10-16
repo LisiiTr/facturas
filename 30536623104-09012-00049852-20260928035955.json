@@ -1,0 +1,265 @@
+{
+  "facturas": [
+    {
+      "tipo_comprobante": "FACTURA",
+      "letra": "A",
+      "codigo_comprobante": "01",
+      "punto_venta": "09012",
+      "numero_comprobante": "00049852",
+      "fecha_emision": "2026-09-24",
+      "fecha_vencimiento_pago": null,
+      "emisor": {
+        "razon_social": "REGINALD LEE S.A.",
+        "nombre_comercial": null,
+        "cuit": "30536623104",
+        "condicion_iva": "IVA Responsable Inscripto",
+        "domicilio": "Calle 51 N° 1802",
+        "localidad": "Hudson, Berazategui",
+        "provincia": "Buenos Aires",
+        "codigo_postal": "1885",
+        "ingresos_brutos": "Contribuyente Local Pcia. Bs.As.",
+        "inicio_actividades": "1958-07-18"
+      },
+      "receptor": {
+        "razon_social": "EL ROBLE SOCIEDAD SIMPLE",
+        "cuit": "30719352681",
+        "dni": null,
+        "condicion_iva": "IVA Responsable Inscripto",
+        "domicilio": "18 4607 ESQUINA MONTEVIDEO",
+        "localidad": "BERISSO",
+        "provincia": null,
+        "codigo_postal": "1923"
+      },
+      "moneda": null,
+      "tipo_cambio": null,
+      "items": [
+        {
+          "codigo": "1001",
+          "codigo_ean": null,
+          "descripcion": "CEPITA NARANJA 200CC TETRAX6",
+          "cantidad_original": "1.00",
+          "tipo_cantidad_original": "unidad_logistica",
+          "factor_unidades": "6",
+          "cantidad": "6",
+          "precio_unitario_sin_iva_sin_descuento": "736.733333",
+          "precio_unitario_sin_iva": "736.733333",
+          "importe_neto_linea": "4420.40",
+          "ajustes_linea": [],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "2021",
+          "codigo_ean": null,
+          "descripcion": "CEPITA MANZANA 200CC TETRAX6",
+          "cantidad_original": "1.00",
+          "tipo_cantidad_original": "unidad_logistica",
+          "factor_unidades": "6",
+          "cantidad": "6",
+          "precio_unitario_sin_iva_sin_descuento": "736.855",
+          "precio_unitario_sin_iva": "736.855",
+          "importe_neto_linea": "4421.13",
+          "ajustes_linea": [],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "2031",
+          "codigo_ean": null,
+          "descripcion": "CEPITA MULTIFRUTA 200CC TETRAX6",
+          "cantidad_original": "1.00",
+          "tipo_cantidad_original": "unidad_logistica",
+          "factor_unidades": "6",
+          "cantidad": "6",
+          "precio_unitario_sin_iva_sin_descuento": "736.911667",
+          "precio_unitario_sin_iva": "736.911667",
+          "importe_neto_linea": "4421.47",
+          "ajustes_linea": [],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "105",
+          "codigo_ean": null,
+          "descripcion": "COCA-COLA 250CC PETX12",
+          "cantidad_original": "3.00",
+          "tipo_cantidad_original": "unidad_logistica",
+          "factor_unidades": "12",
+          "cantidad": "36",
+          "precio_unitario_sin_iva_sin_descuento": "693.931667",
+          "precio_unitario_sin_iva": "693.931667",
+          "importe_neto_linea": "24981.54",
+          "ajustes_linea": [],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "14",
+          "codigo_ean": null,
+          "descripcion": "COCA-COLA 1000CC PET X8",
+          "cantidad_original": "1.00",
+          "tipo_cantidad_original": "unidad_logistica",
+          "factor_unidades": "8",
+          "cantidad": "8",
+          "precio_unitario_sin_iva_sin_descuento": "1652.2325",
+          "precio_unitario_sin_iva": "1652.2325",
+          "importe_neto_linea": "13217.86",
+          "ajustes_linea": [],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "140",
+          "codigo_ean": null,
+          "descripcion": "COCA-COLA 1500CC PETX8",
+          "cantidad_original": "1.00",
+          "tipo_cantidad_original": "unidad_logistica",
+          "factor_unidades": "8",
+          "cantidad": "8",
+          "precio_unitario_sin_iva_sin_descuento": "2175.4775",
+          "precio_unitario_sin_iva": "2175.4775",
+          "importe_neto_linea": "17403.82",
+          "ajustes_linea": [],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "1140",
+          "codigo_ean": null,
+          "descripcion": "COCA-COLA ZERO 1500CC PETX8",
+          "cantidad_original": "1.00",
+          "tipo_cantidad_original": "unidad_logistica",
+          "factor_unidades": "8",
+          "cantidad": "8",
+          "precio_unitario_sin_iva_sin_descuento": "2175.4775",
+          "precio_unitario_sin_iva": "2175.4775",
+          "importe_neto_linea": "17403.82",
+          "ajustes_linea": [],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "2741",
+          "codigo_ean": null,
+          "descripcion": "SPRITE ZERO LIMA LIMON 1500CC PETX8",
+          "cantidad_original": "1.00",
+          "tipo_cantidad_original": "unidad_logistica",
+          "factor_unidades": "8",
+          "cantidad": "8",
+          "precio_unitario_sin_iva_sin_descuento": "2254.19375",
+          "precio_unitario_sin_iva": "2254.19375",
+          "importe_neto_linea": "18033.55",
+          "ajustes_linea": [],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "359",
+          "codigo_ean": null,
+          "descripcion": "FANTA NARANJA 2250CC PETX6",
+          "cantidad_original": "1.00",
+          "tipo_cantidad_original": "unidad_logistica",
+          "factor_unidades": "6",
+          "cantidad": "6",
+          "precio_unitario_sin_iva_sin_descuento": "2863.883333",
+          "precio_unitario_sin_iva": "2863.883333",
+          "importe_neto_linea": "17183.30",
+          "ajustes_linea": [],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "659",
+          "codigo_ean": null,
+          "descripcion": "SPRITE LIMA LIMON 2250CC PETX6",
+          "cantidad_original": "1.00",
+          "tipo_cantidad_original": "unidad_logistica",
+          "factor_unidades": "6",
+          "cantidad": "6",
+          "precio_unitario_sin_iva_sin_descuento": "2967.508333",
+          "precio_unitario_sin_iva": "2967.508333",
+          "importe_neto_linea": "17805.05",
+          "ajustes_linea": [],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "3559",
+          "codigo_ean": null,
+          "descripcion": "SCHWEPPES POMELO ZERO 2250CC PETX6",
+          "cantidad_original": "1.00",
+          "tipo_cantidad_original": "unidad_logistica",
+          "factor_unidades": "6",
+          "cantidad": "6",
+          "precio_unitario_sin_iva_sin_descuento": "2967.508333",
+          "precio_unitario_sin_iva": "2967.508333",
+          "importe_neto_linea": "17805.05",
+          "ajustes_linea": [],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "2459",
+          "codigo_ean": null,
+          "descripcion": "CRUSH POMELO AMARILLO 2250CC PETX6",
+          "cantidad_original": "1.00",
+          "tipo_cantidad_original": "unidad_logistica",
+          "factor_unidades": "6",
+          "cantidad": "6",
+          "precio_unitario_sin_iva_sin_descuento": "1285.058333",
+          "precio_unitario_sin_iva": "1285.058333",
+          "importe_neto_linea": "7710.35",
+          "ajustes_linea": [],
+          "alicuota_iva": "21.0"
+        }
+      ],
+      "iva": [
+        {
+          "alicuota": "21.0",
+          "base_imponible": "164807.34",
+          "importe": "34609.53"
+        }
+      ],
+      "tributos": [
+        {
+          "descripcion": "Impuestos Internos",
+          "jurisdiccion": null,
+          "alicuota": null,
+          "base_imponible": null,
+          "importe": "10900.08"
+        },
+        {
+          "descripcion": "Res. 3337",
+          "jurisdiccion": null,
+          "alicuota": null,
+          "base_imponible": null,
+          "importe": "4944.21"
+        },
+        {
+          "descripcion": "Perc. IB Bs.As.",
+          "jurisdiccion": "Buenos Aires",
+          "alicuota": null,
+          "base_imponible": null,
+          "importe": "2635.60"
+        }
+      ],
+      "totales": {
+        "subtotal": "210316.95",
+        "neto_gravado": "164807.34",
+        "no_gravado": null,
+        "exento": null,
+        "iva": "34609.53",
+        "tributos": "10900.08",
+        "percepciones": "7579.81",
+        "descuentos": null,
+        "recargos": null,
+        "total": "217896.76"
+      },
+      "cae": "86394633959877",
+      "caea": null,
+      "vencimiento_cae": "2026-10-04",
+      "vencimiento_caea": null,
+      "qr_afip_url": null,
+      "condicion_venta": "Contado",
+      "forma_pago": null,
+      "orden_compra": null,
+      "remito": null,
+      "advertencias": [
+        "La columna IVA de la tabla es el IMPORTE de IVA, no la alicuota. La alicuota 21% de cada item fue DEDUCIDA dividiendo el importe de IVA impreso por el neto impreso de la linea; los 12 items dieron 21% (dos con desvio de +/-0,0001% por redondeo). La suma de IVA por linea (34609.53) coincide con el I.V.A. impreso; 164807.34 x 0.21 = 34609.54 (1 centavo de diferencia por redondeo por linea, se conserva lo impreso). El IVA se calcula sobre el neto, sin incluir Impuestos Internos.",
+        "El factor_unidades de cada linea se tomo del sufijo de la descripcion (TETRAX6 / PETX12 / PET X8 / PETX8 / PETX6). La factura NO imprime un precio por unidad suelta que confirme la relacion de bulto, por lo que la normalizacion a unidades es una interpretacion acordada con el usuario, no un dato impreso.",
+        "Los precios unitarios sin IVA se obtuvieron dividiendo el importe neto de linea por la cantidad normalizada a unidades; el Unitario impreso es por bulto.",
+        "totales.percepciones (7579.81) es la suma de los dos conceptos impresos distintos de cero (Res. 3337 = 4944.21 y Perc. IB Bs.As. = 2635.60); la factura no imprime ese subtotal. Los conceptos Res. 2126 y Perc. Mun. figuran en 0,00 y no se cargaron en tributos.",
+        "La factura no indica moneda de forma explicita: moneda queda en null."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,157 @@
+{
+  "facturas": [
+    {
+      "tipo_comprobante": "FACTURA",
+      "letra": "A",
+      "codigo_comprobante": null,
+      "punto_venta": "0012",
+      "numero_comprobante": "00035768",
+      "fecha_emision": "2026-08-27",
+      "fecha_vencimiento_pago": null,
+      "emisor": {
+        "razon_social": "DI SANTO JOSE",
+        "nombre_comercial": "DISCAS",
+        "cuit": "20176819872",
+        "condicion_iva": "IVA Responsable Inscripto",
+        "domicilio": "Calle 47 N°1554 esq.26",
+        "localidad": "La Plata",
+        "provincia": "Buenos Aires",
+        "codigo_postal": "1900",
+        "ingresos_brutos": "20176819872",
+        "inicio_actividades": "2006-10-02"
+      },
+      "receptor": {
+        "razon_social": "EL ROBLE SOC. SIMPLE",
+        "cuit": "30719352681",
+        "dni": null,
+        "condicion_iva": null,
+        "domicilio": "*18 ESQ. MONTEVIDEO 4603",
+        "localidad": null,
+        "provincia": null,
+        "codigo_postal": null
+      },
+      "moneda": "ARS",
+      "tipo_cambio": null,
+      "items": [
+        {
+          "codigo": "14290",
+          "codigo_ean": null,
+          "descripcion": "DIELO TAPITAS MARMOLADA (12 x 350 Gr)",
+          "cantidad_original": "1",
+          "tipo_cantidad_original": "unidad_logistica",
+          "factor_unidades": "12",
+          "cantidad": "12",
+          "precio_unitario_sin_iva_sin_descuento": "1200.105",
+          "precio_unitario_sin_iva": "1200.105",
+          "importe_neto_linea": "14401.26",
+          "ajustes_linea": [],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "30159",
+          "codigo_ean": null,
+          "descripcion": "JORGITO 53 Agrup.Bco Azuc. (18 x 6) x 1u",
+          "cantidad_original": "18",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1",
+          "cantidad": "18",
+          "precio_unitario_sin_iva_sin_descuento": "2130.278",
+          "precio_unitario_sin_iva": "2130.278",
+          "importe_neto_linea": "38345.01",
+          "ajustes_linea": [],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "30196",
+          "codigo_ean": null,
+          "descripcion": "JORGITO 56 Agrup.Mousse (18 x 6) x 1u",
+          "cantidad_original": "18",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1",
+          "cantidad": "18",
+          "precio_unitario_sin_iva_sin_descuento": "2130.278",
+          "precio_unitario_sin_iva": "2130.278",
+          "importe_neto_linea": "38345.01",
+          "ajustes_linea": [],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "30153",
+          "codigo_ean": null,
+          "descripcion": "JORGITO 58 Agrup.C/Baño Bco (18 x 6) x 1u",
+          "cantidad_original": "6",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1",
+          "cantidad": "6",
+          "precio_unitario_sin_iva_sin_descuento": "2130.278",
+          "precio_unitario_sin_iva": "2130.278",
+          "importe_neto_linea": "12781.67",
+          "ajustes_linea": [],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "30160",
+          "codigo_ean": null,
+          "descripcion": "JORGITO 55 Agup.Fruta (18 x 6) x 1u",
+          "cantidad_original": "6",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1",
+          "cantidad": "6",
+          "precio_unitario_sin_iva_sin_descuento": "2130.278",
+          "precio_unitario_sin_iva": "2130.278",
+          "importe_neto_linea": "12781.67",
+          "ajustes_linea": [],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "30440",
+          "codigo_ean": null,
+          "descripcion": "KOKIS CAÑONCITO ( 8 x 500 Gr )",
+          "cantidad_original": "1",
+          "tipo_cantidad_original": "unidad_logistica",
+          "factor_unidades": "8",
+          "cantidad": "8",
+          "precio_unitario_sin_iva_sin_descuento": "1902.34",
+          "precio_unitario_sin_iva": "1902.34",
+          "importe_neto_linea": "15218.72",
+          "ajustes_linea": [],
+          "alicuota_iva": "21.0"
+        }
+      ],
+      "iva": [
+        {
+          "alicuota": "21.0",
+          "base_imponible": "131873.34",
+          "importe": "27693.40"
+        }
+      ],
+      "tributos": [],
+      "totales": {
+        "subtotal": "131873.34",
+        "neto_gravado": "131873.34",
+        "no_gravado": null,
+        "exento": null,
+        "iva": "27693.40",
+        "tributos": null,
+        "percepciones": null,
+        "descuentos": null,
+        "recargos": null,
+        "total": "159566.74"
+      },
+      "cae": "86350143978360",
+      "caea": null,
+      "vencimiento_cae": "2026-09-06",
+      "vencimiento_caea": null,
+      "qr_afip_url": null,
+      "condicion_venta": null,
+      "forma_pago": null,
+      "orden_compra": null,
+      "remito": null,
+      "advertencias": [
+        "La condicion frente al IVA del receptor no figura en el comprobante.",
+        "La alicuota de IVA no viene por item: el comprobante informa una unica alicuota (21%) en el totalizador y se asigno a todos los items.",
+        "factor_unidades y la cantidad en unidades comerciales fueron deducidos de la relacion Precio (por bulto) / Paq (por unidad); la columna Cant del comprobante expresa bultos."
+      ]
+    }
+  ]
+}

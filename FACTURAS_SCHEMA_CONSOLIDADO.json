@@ -1,0 +1,580 @@
+{
+  "name": "facturas-array",
+  "strict": true,
+  "schema": {
+    "type": "object",
+    "properties": {
+      "facturas": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "tipo_comprobante": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "letra": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "codigo_comprobante": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "punto_venta": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "numero_comprobante": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "fecha_emision": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "fecha_vencimiento_pago": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "emisor": {
+              "type": "object",
+              "properties": {
+                "razon_social": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "nombre_comercial": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "cuit": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "condicion_iva": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "domicilio": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "localidad": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "provincia": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "codigo_postal": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "ingresos_brutos": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "inicio_actividades": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                }
+              },
+              "required": [
+                "razon_social",
+                "nombre_comercial",
+                "cuit",
+                "condicion_iva",
+                "domicilio",
+                "localidad",
+                "provincia",
+                "codigo_postal",
+                "ingresos_brutos",
+                "inicio_actividades"
+              ],
+              "additionalProperties": false
+            },
+            "receptor": {
+              "type": "object",
+              "properties": {
+                "razon_social": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "cuit": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "dni": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "condicion_iva": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "domicilio": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "localidad": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "provincia": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "codigo_postal": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                }
+              },
+              "required": [
+                "razon_social",
+                "cuit",
+                "dni",
+                "condicion_iva",
+                "domicilio",
+                "localidad",
+                "provincia",
+                "codigo_postal"
+              ],
+              "additionalProperties": false
+            },
+            "moneda": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "tipo_cambio": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "items": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "codigo": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "codigo_ean": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "descripcion": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "cantidad_original": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "tipo_cantidad_original": {
+                    "type": "string",
+                    "enum": [
+                      "unidad_comercial",
+                      "unidad_logistica",
+                      "desconocida"
+                    ]
+                  },
+                  "factor_unidades": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "cantidad": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "precio_unitario_sin_iva_sin_descuento": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "precio_unitario_sin_iva": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "importe_neto_linea": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "ajustes_linea": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "tipo": {
+                          "type": "string",
+                          "enum": [
+                            "descuento_porcentaje",
+                            "bonificacion_porcentaje",
+                            "recargo_porcentaje",
+                            "descuento_importe",
+                            "bonificacion_importe",
+                            "recargo_importe",
+                            "otro"
+                          ]
+                        },
+                        "valor": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "tipo",
+                        "valor"
+                      ],
+                      "additionalProperties": false
+                    }
+                  },
+                  "alicuota_iva": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  }
+                },
+                "required": [
+                  "codigo",
+                  "codigo_ean",
+                  "descripcion",
+                  "cantidad_original",
+                  "tipo_cantidad_original",
+                  "factor_unidades",
+                  "cantidad",
+                  "precio_unitario_sin_iva_sin_descuento",
+                  "precio_unitario_sin_iva",
+                  "importe_neto_linea",
+                  "ajustes_linea",
+                  "alicuota_iva"
+                ],
+                "additionalProperties": false
+              }
+            },
+            "iva": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "alicuota": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "base_imponible": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "importe": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  }
+                },
+                "required": [
+                  "alicuota",
+                  "base_imponible",
+                  "importe"
+                ],
+                "additionalProperties": false
+              }
+            },
+            "tributos": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "descripcion": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "jurisdiccion": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "alicuota": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "base_imponible": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "importe": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  }
+                },
+                "required": [
+                  "descripcion",
+                  "jurisdiccion",
+                  "alicuota",
+                  "base_imponible",
+                  "importe"
+                ],
+                "additionalProperties": false
+              }
+            },
+            "totales": {
+              "type": "object",
+              "properties": {
+                "subtotal": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "neto_gravado": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "no_gravado": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "exento": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "iva": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "tributos": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "percepciones": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "descuentos": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "recargos": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "total": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                }
+              },
+              "required": [
+                "subtotal",
+                "neto_gravado",
+                "no_gravado",
+                "exento",
+                "iva",
+                "tributos",
+                "percepciones",
+                "descuentos",
+                "recargos",
+                "total"
+              ],
+              "additionalProperties": false
+            },
+            "cae": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "caea": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "vencimiento_cae": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "vencimiento_caea": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "qr_afip_url": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "condicion_venta": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "forma_pago": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "orden_compra": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "remito": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "advertencias": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          },
+          "required": [
+            "tipo_comprobante",
+            "letra",
+            "codigo_comprobante",
+            "punto_venta",
+            "numero_comprobante",
+            "fecha_emision",
+            "fecha_vencimiento_pago",
+            "emisor",
+            "receptor",
+            "moneda",
+            "tipo_cambio",
+            "items",
+            "iva",
+            "tributos",
+            "totales",
+            "cae",
+            "caea",
+            "vencimiento_cae",
+            "vencimiento_caea",
+            "qr_afip_url",
+            "condicion_venta",
+            "forma_pago",
+            "orden_compra",
+            "remito",
+            "advertencias"
+          ],
+          "additionalProperties": false
+        }
+      }
+    },
+    "required": [
+      "facturas"
+    ],
+    "additionalProperties": false
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "cuit_emisor": "33713501609",
+  "razon_social": "ALTINPA SA",
+  "reglas": {
+    "cantidad": "unidad_comercial",
+    "iva": "por_item",
+    "descuentos": "por_item",
+    "percepciones": false
+  },
+  "notas": "Tabla: SKU | Descripción | IVA | Cant. | UxB | UxF | Descuentos | Unitario | Subtotal. Columna IVA con alícuota explícita por ítem (ej. 21%). UxF tipo 'N x 1u.' indica venta por unidad comercial (factor_unidades = 1). Columna 'Descuentos' viene como '(-X%) precio_lista': el porcentaje de descuento seguido del precio de lista sin IVA; el 'Unitario' impreso ya es neto sin IVA y con el descuento aplicado (precio_lista × (1 - X%) = Unitario). Si 'Descuentos' viene vacía → precio_lista = Unitario y ajustes_linea: []. Subtotal = Cant. × Unitario, y la suma de subtotales = Neto del totalizador (precios sin IVA). Formato numérico argentino: punto miles, coma decimal."
+}

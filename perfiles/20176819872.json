@@ -1,0 +1,11 @@
+{
+  "cuit_emisor": "20176819872",
+  "razon_social": "DI SANTO JOSE (DISCAS)",
+  "reglas": {
+    "cantidad": "bulto",
+    "iva": "totalizador",
+    "descuentos": "ninguno",
+    "percepciones": false
+  },
+  "notas": "Tabla: Cod | Descripcion | Cant | Precio | Paq | Total. Cant = cantidad en BULTOS (puede ser fraccion, ej 0,5). Precio = precio por bulto (logistico). Paq = precio por unidad comercial. Total = Cant x Precio = importe_neto_linea (sin IVA). factor_unidades = round(Precio/Paq), entero; cantidad = Cant x factor. Items con Precio~=Paq (a veces marcados 'x 1u') son factor 1 (unidad_comercial). precio_unitario_sin_iva = precio_unitario_sin_iva_sin_descuento = Paq (sin columna de bonificacion). Sin codigo EAN. IVA: NO viene por item; se determina en el TOTALIZADOR. Resolver por factura: si el totalizador trae una sola alicuota gravada -> asignarla a todos los items; si trae varias (ej. 21% y 10,5%) -> no se puede saber cual va a cada item desde el documento -> alicuota_iva null por item (lo resuelve el sistema posterior) salvo deduccion confirmada por el usuario; en todos los casos cargar cada alicuota con base e importe en iva[]. En la factura vista solo aparecio 21%. La columna Cod puede traer ceros a la izquierda (ej. 0750, 00160, 00136): conservarlos como string. Validadores globales: 'Bultos' = suma de la columna Cant; 'Total Art' = cantidad de lineas. La suma de la columna Total puede diferir del SUBTOTAL impreso en pocos centavos (el sistema suma sin redondear las lineas de Cant 0,5): conservar lo impreso y dejar advertencia, no recalcular. Percepciones: no aparecieron en la factura vista, pero verificar en cada una. ACTUALIZACION (2026-09-10, factura 0012-00036026): la columna Total NO es exactamente Cant x Precio, sino cantidad_en_unidades x Paq (Cant x factor x Paq). El 'Precio' por bulto viene redondeado a 2 decimales, asi que Cant x Precio puede diferir 1-2 centavos del Total impreso en varios renglones; usar siempre el Total impreso como importe_neto_linea y validar contra cantidad x Paq. Confirmado tambien que la Cant fraccionaria (0,5) combinada con el factor da cantidades enteras en unidades."
+}

@@ -1,0 +1,302 @@
+{
+  "facturas": [
+    {
+      "tipo_comprobante": "Factura",
+      "letra": "A",
+      "codigo_comprobante": "01",
+      "punto_venta": "0004",
+      "numero_comprobante": "00452811",
+      "fecha_emision": "2026-08-07",
+      "fecha_vencimiento_pago": "2026-08-08",
+      "emisor": {
+        "razon_social": "VEMART S.A.",
+        "nombre_comercial": null,
+        "cuit": "30662192712",
+        "condicion_iva": "IVA Responsable Inscripto",
+        "domicilio": null,
+        "localidad": null,
+        "provincia": null,
+        "codigo_postal": null,
+        "ingresos_brutos": "902-127073-2",
+        "inicio_actividades": "1994-12-07"
+      },
+      "receptor": {
+        "razon_social": "EL ROBLE SOCIEDAD SIMPLE S. CAP I SEC IV",
+        "cuit": "30719352681",
+        "dni": null,
+        "condicion_iva": "Responsable Inscripto",
+        "domicilio": "AV. MONTEVIDEO 1608",
+        "localidad": "BERISSO",
+        "provincia": "BUENOS AIRES",
+        "codigo_postal": "1923"
+      },
+      "moneda": "ARS",
+      "tipo_cambio": null,
+      "items": [
+        {
+          "codigo": "11701",
+          "codigo_ean": "7798383010169",
+          "descripcion": "HUMMUS KAMAR GARBANZO C/ PIMENTON x 230g.",
+          "cantidad_original": "2.00",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1.00",
+          "cantidad": "2.00",
+          "precio_unitario_sin_iva_sin_descuento": "2497.50",
+          "precio_unitario_sin_iva": "2497.50",
+          "importe_neto_linea": "4995.00",
+          "ajustes_linea": [],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "11708",
+          "codigo_ean": "7798383010183",
+          "descripcion": "HUMMUS KAMAR GUACAMOLE C/ ESENCIA DE PALTA x 230g.",
+          "cantidad_original": "2.00",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1.00",
+          "cantidad": "2.00",
+          "precio_unitario_sin_iva_sin_descuento": "3361.50",
+          "precio_unitario_sin_iva": "3361.50",
+          "importe_neto_linea": "6723.00",
+          "ajustes_linea": [],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "2605",
+          "codigo_ean": "7790060023684",
+          "descripcion": "ACEITE COCINERO GIRASOL x 1.5 Lt",
+          "cantidad_original": "12.00",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1.00",
+          "cantidad": "12.00",
+          "precio_unitario_sin_iva_sin_descuento": "4538.34",
+          "precio_unitario_sin_iva": "4538.34",
+          "importe_neto_linea": "54460.08",
+          "ajustes_linea": [],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "11899",
+          "codigo_ean": "7790070433114",
+          "descripcion": "ARROZ GALLO ORO PARBOIL BOLSA x 500g.",
+          "cantidad_original": "10.00",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1.00",
+          "cantidad": "10.00",
+          "precio_unitario_sin_iva_sin_descuento": "835.06",
+          "precio_unitario_sin_iva": "835.06",
+          "importe_neto_linea": "8350.60",
+          "ajustes_linea": [],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "12006",
+          "codigo_ean": "7790070562180",
+          "descripcion": "HARINA BLANCAFLOR LEUDANTE FORT. X 1kg.",
+          "cantidad_original": "15.00",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1.00",
+          "cantidad": "15.00",
+          "precio_unitario_sin_iva_sin_descuento": "1348.26",
+          "precio_unitario_sin_iva": "1348.26",
+          "importe_neto_linea": "20223.90",
+          "ajustes_linea": [],
+          "alicuota_iva": "10.5"
+        },
+        {
+          "codigo": "2009",
+          "codigo_ean": "7792180134509",
+          "descripcion": "HARINA BLANCAFLOR P/PIZZA X 1kg.",
+          "cantidad_original": "10.00",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1.00",
+          "cantidad": "10.00",
+          "precio_unitario_sin_iva_sin_descuento": "1448.42",
+          "precio_unitario_sin_iva": "1448.42",
+          "importe_neto_linea": "14484.20",
+          "ajustes_linea": [],
+          "alicuota_iva": "10.5"
+        },
+        {
+          "codigo": "3575",
+          "codigo_ean": "7793046007210",
+          "descripcion": "MERM. CORMILLOT S/AZUCAR DURAZNO x 390g.",
+          "cantidad_original": "6.00",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1.00",
+          "cantidad": "6.00",
+          "precio_unitario_sin_iva_sin_descuento": "1781.78",
+          "precio_unitario_sin_iva": "1781.78",
+          "importe_neto_linea": "10690.68",
+          "ajustes_linea": [],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "3578",
+          "codigo_ean": "7793046007296",
+          "descripcion": "MERM. CORMILLOT S/AZUCAR FRUTILLA x 390g.",
+          "cantidad_original": "6.00",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1.00",
+          "cantidad": "6.00",
+          "precio_unitario_sin_iva_sin_descuento": "2473.90",
+          "precio_unitario_sin_iva": "2473.90",
+          "importe_neto_linea": "14843.40",
+          "ajustes_linea": [],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "1455",
+          "codigo_ean": "7622300724221",
+          "descripcion": "FID. TERRABUSI MOÑOS 15x500g",
+          "cantidad_original": "15.00",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1.00",
+          "cantidad": "15.00",
+          "precio_unitario_sin_iva_sin_descuento": "1148.80",
+          "precio_unitario_sin_iva": "1148.80",
+          "importe_neto_linea": "17232.00",
+          "ajustes_linea": [],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "11215",
+          "codigo_ean": "7790070336590",
+          "descripcion": "FID. D. VICENTE TIRABUZON X 500g",
+          "cantidad_original": "15.00",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1.00",
+          "cantidad": "15.00",
+          "precio_unitario_sin_iva_sin_descuento": "2041.74",
+          "precio_unitario_sin_iva": "2041.74",
+          "importe_neto_linea": "30626.10",
+          "ajustes_linea": [],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "11453",
+          "codigo_ean": "7790070336453",
+          "descripcion": "FID. TERRABUSI TIRABUZON 15x500g",
+          "cantidad_original": "15.00",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1.00",
+          "cantidad": "15.00",
+          "precio_unitario_sin_iva_sin_descuento": "687.66",
+          "precio_unitario_sin_iva": "687.66",
+          "importe_neto_linea": "10314.90",
+          "ajustes_linea": [],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "11006",
+          "codigo_ean": "7790070336323",
+          "descripcion": "FID. MATARAZZO BUCATTINI",
+          "cantidad_original": "10.00",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1.00",
+          "cantidad": "10.00",
+          "precio_unitario_sin_iva_sin_descuento": "1036.82",
+          "precio_unitario_sin_iva": "1036.82",
+          "importe_neto_linea": "10368.20",
+          "ajustes_linea": [],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "11213",
+          "codigo_ean": "7790070336583",
+          "descripcion": "FID. D. VICENTE MOÑOS x 500g",
+          "cantidad_original": "12.00",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1.00",
+          "cantidad": "12.00",
+          "precio_unitario_sin_iva_sin_descuento": "2722.69",
+          "precio_unitario_sin_iva": "2722.69",
+          "importe_neto_linea": "32672.28",
+          "ajustes_linea": [],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "12351",
+          "codigo_ean": "7790070336965",
+          "descripcion": "VITINA LUCCHETTI x 500g. NUTRIVIT MAX",
+          "cantidad_original": "4.00",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1.00",
+          "cantidad": "4.00",
+          "precio_unitario_sin_iva_sin_descuento": "2209.66",
+          "precio_unitario_sin_iva": "2209.66",
+          "importe_neto_linea": "8838.64",
+          "ajustes_linea": [],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "11715",
+          "codigo_ean": "7790070933645",
+          "descripcion": "CAFE ARLISTAN SUAVE + AROMA x 100g.",
+          "cantidad_original": "12.00",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1.00",
+          "cantidad": "12.00",
+          "precio_unitario_sin_iva_sin_descuento": "3174.21",
+          "precio_unitario_sin_iva": "3174.21",
+          "importe_neto_linea": "38090.52",
+          "ajustes_linea": [],
+          "alicuota_iva": "21.0"
+        }
+      ],
+      "iva": [
+        {
+          "alicuota": "21.0",
+          "base_imponible": "248205.40",
+          "importe": "52123.13"
+        },
+        {
+          "alicuota": "10.5",
+          "base_imponible": "34708.10",
+          "importe": "3644.35"
+        }
+      ],
+      "tributos": [
+        {
+          "descripcion": "Percepción IIBB",
+          "jurisdiccion": "Buenos Aires",
+          "alicuota": "1.50",
+          "base_imponible": null,
+          "importe": "4243.68"
+        },
+        {
+          "descripcion": "Percepción IVA",
+          "jurisdiccion": null,
+          "alicuota": null,
+          "base_imponible": null,
+          "importe": "7966.79"
+        }
+      ],
+      "totales": {
+        "subtotal": "282913.50",
+        "neto_gravado": "282913.50",
+        "no_gravado": null,
+        "exento": null,
+        "iva": "55767.48",
+        "tributos": "0.00",
+        "percepciones": "12210.47",
+        "descuentos": null,
+        "recargos": null,
+        "total": "350891.46"
+      },
+      "cae": "86327117608356",
+      "caea": null,
+      "vencimiento_cae": "2026-08-17",
+      "vencimiento_caea": null,
+      "qr_afip_url": null,
+      "condicion_venta": "CONTADO",
+      "forma_pago": "CONTADO",
+      "orden_compra": "WAPP91015455",
+      "remito": null,
+      "advertencias": [
+        "Moneda no indicada explícitamente en el comprobante; se asume ARS.",
+        "Las bases imponibles por alícuota no figuran como línea propia; se obtuvieron agrupando el importe neto de cada ítem por su alícuota explícita y reconcilian exactamente con el IVA impreso."
+      ]
+    }
+  ]
+}

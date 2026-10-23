@@ -1,0 +1,303 @@
+{
+  "facturas": [
+    {
+      "tipo_comprobante": "FACTURA",
+      "letra": "A",
+      "codigo_comprobante": "01",
+      "punto_venta": "09012",
+      "numero_comprobante": "00063335",
+      "fecha_emision": "2026-10-15",
+      "fecha_vencimiento_pago": null,
+      "emisor": {
+        "razon_social": "REGINALD LEE S.A.",
+        "nombre_comercial": null,
+        "cuit": "30536623104",
+        "condicion_iva": "IVA Responsable Inscripto",
+        "domicilio": "Calle 51 N° 1802",
+        "localidad": "Hudson, Berazategui",
+        "provincia": "Buenos Aires",
+        "codigo_postal": "1885",
+        "ingresos_brutos": "Contribuyente Local Pcia. Bs.As.",
+        "inicio_actividades": "1958-07-18"
+      },
+      "receptor": {
+        "razon_social": "EL ROBLE SOCIEDAD SIMPLE",
+        "cuit": "30719352681",
+        "dni": null,
+        "condicion_iva": "IVA Responsable Inscripto",
+        "domicilio": "18 4607 ESQUINA MONTEVIDEO",
+        "localidad": "BERISSO",
+        "provincia": null,
+        "codigo_postal": "1923"
+      },
+      "moneda": null,
+      "tipo_cambio": null,
+      "items": [
+        {
+          "codigo": "3211",
+          "codigo_ean": null,
+          "descripcion": "MONSTER MANGO LOCO 473CCX6",
+          "cantidad_original": "1.00",
+          "tipo_cantidad_original": "unidad_logistica",
+          "factor_unidades": "6",
+          "cantidad": "6",
+          "precio_unitario_sin_iva_sin_descuento": "2168.426667",
+          "precio_unitario_sin_iva": "2168.426667",
+          "importe_neto_linea": "13010.56",
+          "ajustes_linea": [],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "140",
+          "codigo_ean": null,
+          "descripcion": "COCA-COLA 1500CC PETX8",
+          "cantidad_original": "2.00",
+          "tipo_cantidad_original": "unidad_logistica",
+          "factor_unidades": "8",
+          "cantidad": "16",
+          "precio_unitario_sin_iva_sin_descuento": "2175.4775",
+          "precio_unitario_sin_iva": "2175.4775",
+          "importe_neto_linea": "34807.64",
+          "ajustes_linea": [],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "1140",
+          "codigo_ean": null,
+          "descripcion": "COCA-COLA ZERO 1500CC PETX8",
+          "cantidad_original": "1.00",
+          "tipo_cantidad_original": "unidad_logistica",
+          "factor_unidades": "8",
+          "cantidad": "8",
+          "precio_unitario_sin_iva_sin_descuento": "2175.4775",
+          "precio_unitario_sin_iva": "2175.4775",
+          "importe_neto_linea": "17403.82",
+          "ajustes_linea": [],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "640",
+          "codigo_ean": null,
+          "descripcion": "SPRITE LIMA LIMON 1500CC PETX8",
+          "cantidad_original": "1.00",
+          "tipo_cantidad_original": "unidad_logistica",
+          "factor_unidades": "8",
+          "cantidad": "8",
+          "precio_unitario_sin_iva_sin_descuento": "2254.19375",
+          "precio_unitario_sin_iva": "2254.19375",
+          "importe_neto_linea": "18033.55",
+          "ajustes_linea": [],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "2476",
+          "codigo_ean": null,
+          "descripcion": "AQUARIUS MANZANA 1500CC PETX6",
+          "cantidad_original": "1.00",
+          "tipo_cantidad_original": "unidad_logistica",
+          "factor_unidades": "6",
+          "cantidad": "6",
+          "precio_unitario_sin_iva_sin_descuento": "1654.926667",
+          "precio_unitario_sin_iva": "1654.926667",
+          "importe_neto_linea": "9929.56",
+          "ajustes_linea": [],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "2486",
+          "codigo_ean": null,
+          "descripcion": "AQUARIUS POMELO 1500CC PETX6",
+          "cantidad_original": "1.00",
+          "tipo_cantidad_original": "unidad_logistica",
+          "factor_unidades": "6",
+          "cantidad": "6",
+          "precio_unitario_sin_iva_sin_descuento": "1654.926667",
+          "precio_unitario_sin_iva": "1654.926667",
+          "importe_neto_linea": "9929.56",
+          "ajustes_linea": [],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "3536",
+          "codigo_ean": null,
+          "descripcion": "SCHWEPPES POMELO ZERO 1500CC PETX6",
+          "cantidad_original": "1.00",
+          "tipo_cantidad_original": "unidad_logistica",
+          "factor_unidades": "6",
+          "cantidad": "6",
+          "precio_unitario_sin_iva_sin_descuento": "2254.193333",
+          "precio_unitario_sin_iva": "2254.193333",
+          "importe_neto_linea": "13525.16",
+          "ajustes_linea": [],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "159",
+          "codigo_ean": null,
+          "descripcion": "COCA-COLA 2250CC PETX6",
+          "cantidad_original": "3.00",
+          "tipo_cantidad_original": "unidad_logistica",
+          "factor_unidades": "6",
+          "cantidad": "18",
+          "precio_unitario_sin_iva_sin_descuento": "2863.883333",
+          "precio_unitario_sin_iva": "2863.883333",
+          "importe_neto_linea": "51549.90",
+          "ajustes_linea": [],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "359",
+          "codigo_ean": null,
+          "descripcion": "FANTA NARANJA 2250CC PETX6",
+          "cantidad_original": "1.00",
+          "tipo_cantidad_original": "unidad_logistica",
+          "factor_unidades": "6",
+          "cantidad": "6",
+          "precio_unitario_sin_iva_sin_descuento": "2863.883333",
+          "precio_unitario_sin_iva": "2863.883333",
+          "importe_neto_linea": "17183.30",
+          "ajustes_linea": [],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "659",
+          "codigo_ean": null,
+          "descripcion": "SPRITE LIMA LIMON 2250CC PETX6",
+          "cantidad_original": "1.00",
+          "tipo_cantidad_original": "unidad_logistica",
+          "factor_unidades": "6",
+          "cantidad": "6",
+          "precio_unitario_sin_iva_sin_descuento": "2967.508333",
+          "precio_unitario_sin_iva": "2522.383333",
+          "importe_neto_linea": "15134.30",
+          "ajustes_linea": [
+            {
+              "tipo": "descuento_importe",
+              "valor": "2670.75"
+            }
+          ],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "1758",
+          "codigo_ean": null,
+          "descripcion": "BENEDICTINO MIN. SIN GAS 2250CC PETX6",
+          "cantidad_original": "1.00",
+          "tipo_cantidad_original": "unidad_logistica",
+          "factor_unidades": "6",
+          "cantidad": "6",
+          "precio_unitario_sin_iva_sin_descuento": "1312.516667",
+          "precio_unitario_sin_iva": "1115.638333",
+          "importe_neto_linea": "6693.83",
+          "ajustes_linea": [
+            {
+              "tipo": "descuento_importe",
+              "valor": "1181.27"
+            }
+          ],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "2488",
+          "codigo_ean": null,
+          "descripcion": "AQUARIUS POMELO 2250CC PETX6",
+          "cantidad_original": "1.00",
+          "tipo_cantidad_original": "unidad_logistica",
+          "factor_unidades": "6",
+          "cantidad": "6",
+          "precio_unitario_sin_iva_sin_descuento": "2111.451667",
+          "precio_unitario_sin_iva": "2111.451667",
+          "importe_neto_linea": "12668.71",
+          "ajustes_linea": [],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "2458",
+          "codigo_ean": null,
+          "descripcion": "AQUARIUS UVA 2250CC PETX6",
+          "cantidad_original": "1.00",
+          "tipo_cantidad_original": "unidad_logistica",
+          "factor_unidades": "6",
+          "cantidad": "6",
+          "precio_unitario_sin_iva_sin_descuento": "2111.451667",
+          "precio_unitario_sin_iva": "2111.451667",
+          "importe_neto_linea": "12668.71",
+          "ajustes_linea": [],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "2448",
+          "codigo_ean": null,
+          "descripcion": "AQUARIUS NARANJA 2250CC PETX6",
+          "cantidad_original": "1.00",
+          "tipo_cantidad_original": "unidad_logistica",
+          "factor_unidades": "6",
+          "cantidad": "6",
+          "precio_unitario_sin_iva_sin_descuento": "2111.451667",
+          "precio_unitario_sin_iva": "2111.451667",
+          "importe_neto_linea": "12668.71",
+          "ajustes_linea": [],
+          "alicuota_iva": "21.0"
+        }
+      ],
+      "iva": [
+        {
+          "alicuota": "21.0",
+          "base_imponible": "245207.31",
+          "importe": "51493.53"
+        }
+      ],
+      "tributos": [
+        {
+          "descripcion": "Impuestos Internos",
+          "jurisdiccion": null,
+          "alicuota": null,
+          "base_imponible": null,
+          "importe": "15961.73"
+        },
+        {
+          "descripcion": "Res. 3337",
+          "jurisdiccion": null,
+          "alicuota": null,
+          "base_imponible": null,
+          "importe": "7356.22"
+        },
+        {
+          "descripcion": "Perc. IB Bs.As.",
+          "jurisdiccion": "Buenos Aires",
+          "alicuota": null,
+          "base_imponible": null,
+          "importe": "3917.54"
+        }
+      ],
+      "totales": {
+        "subtotal": "312662.57",
+        "neto_gravado": "245207.31",
+        "no_gravado": null,
+        "exento": null,
+        "iva": "51493.53",
+        "tributos": "15961.73",
+        "percepciones": "11273.76",
+        "descuentos": null,
+        "recargos": null,
+        "total": "323936.33"
+      },
+      "cae": "86427944337647",
+      "caea": null,
+      "vencimiento_cae": "2026-10-25",
+      "vencimiento_caea": null,
+      "qr_afip_url": null,
+      "condicion_venta": "Contado",
+      "forma_pago": null,
+      "orden_compra": null,
+      "remito": null,
+      "advertencias": [
+        "La columna IVA de la tabla es el IMPORTE de IVA, no la alicuota. La alicuota 21% de cada item fue DEDUCIDA dividiendo el importe de IVA impreso por el neto impreso de la linea; los 14 items dieron 21%. La suma de IVA por linea (51493.53) coincide con el I.V.A. impreso y con 245207.31 x 0.21. El IVA se calcula sobre el neto, sin incluir Impuestos Internos.",
+        "El factor_unidades de cada linea se tomo del sufijo de la descripcion (473CCX6 / PETX8 / PETX6). La factura NO imprime un precio por unidad suelta que confirme la relacion de bulto, por lo que la normalizacion a unidades es una interpretacion acordada con el usuario, no un dato impreso. En 3211 MONSTER MANGO LOCO el sufijo es '473CCX6' (sin PET/LATA); se tomo factor 6.",
+        "Los precios unitarios sin IVA se obtuvieron dividiendo el importe neto de linea por la cantidad normalizada a unidades; el Unitario impreso es por bulto. En los 2 items con descuento (659 y 1758) precio_unitario_sin_iva_sin_descuento = Unitario / factor y precio_unitario_sin_iva = Neto / cantidad; el descuento por importe impreso va en ajustes_linea y no se replica en totales.descuentos porque el Neto ya lo descuenta.",
+        "totales.percepciones (11273.76) es la suma de los dos conceptos impresos distintos de cero (Res. 3337 = 7356.22 y Perc. IB Bs.As. = 3917.54); la factura no imprime ese subtotal. Los conceptos Res. 2126 y Perc. Mun. figuran en 0,00 y no se cargaron en tributos.",
+        "La factura no indica moneda de forma explicita: moneda queda en null."
+      ]
+    }
+  ]
+}

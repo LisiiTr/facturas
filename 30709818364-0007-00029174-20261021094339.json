@@ -1,0 +1,308 @@
+{
+  "facturas": [
+    {
+      "tipo_comprobante": "Factura",
+      "letra": "A",
+      "codigo_comprobante": "01",
+      "punto_venta": "0007",
+      "numero_comprobante": "00029174",
+      "fecha_emision": "2026-10-20",
+      "fecha_vencimiento_pago": null,
+      "emisor": {
+        "razon_social": "Pietra Hnos. Distribuidora SRL",
+        "nombre_comercial": "PIETRA DISTRIBUIDORA",
+        "cuit": "30709818364",
+        "condicion_iva": "IVA RESPONSABLE INSCRIPTO",
+        "domicilio": "Calle 34 Nº 250",
+        "localidad": "Berisso",
+        "provincia": "Buenos Aires",
+        "codigo_postal": null,
+        "ingresos_brutos": "30709818364",
+        "inicio_actividades": "2006-10-01"
+      },
+      "receptor": {
+        "razon_social": "TOTORA LEONARDO",
+        "cuit": "30719352681",
+        "dni": null,
+        "condicion_iva": "RI",
+        "domicilio": "18 4603",
+        "localidad": "BERISSO",
+        "provincia": null,
+        "codigo_postal": null
+      },
+      "moneda": "ARS",
+      "tipo_cambio": null,
+      "items": [
+        {
+          "codigo": "0004003",
+          "codigo_ean": null,
+          "descripcion": "PUREZA HARINA INTEGRAL 10X1 KG",
+          "cantidad_original": "1.000",
+          "tipo_cantidad_original": "unidad_logistica",
+          "factor_unidades": "10",
+          "cantidad": "10",
+          "precio_unitario_sin_iva_sin_descuento": "1635.29",
+          "precio_unitario_sin_iva": "1488.11",
+          "importe_neto_linea": "14881.10",
+          "ajustes_linea": [
+            {
+              "tipo": "bonificacion_porcentaje",
+              "valor": "9.00"
+            }
+          ],
+          "alicuota_iva": "10.5"
+        },
+        {
+          "codigo": "0004503",
+          "codigo_ean": null,
+          "descripcion": "UNION LIVIANA B C P 10X500 GR",
+          "cantidad_original": "1.000",
+          "tipo_cantidad_original": "unidad_logistica",
+          "factor_unidades": "10",
+          "cantidad": "10",
+          "precio_unitario_sin_iva_sin_descuento": "1849.45",
+          "precio_unitario_sin_iva": "1682.996",
+          "importe_neto_linea": "16829.96",
+          "ajustes_linea": [
+            {
+              "tipo": "bonificacion_porcentaje",
+              "valor": "9.00"
+            }
+          ],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "0004500",
+          "codigo_ean": null,
+          "descripcion": "UNION YERBA 10X500 GR",
+          "cantidad_original": "1.000",
+          "tipo_cantidad_original": "unidad_logistica",
+          "factor_unidades": "10",
+          "cantidad": "10",
+          "precio_unitario_sin_iva_sin_descuento": "1677.46",
+          "precio_unitario_sin_iva": "1526.485",
+          "importe_neto_linea": "15264.85",
+          "ajustes_linea": [
+            {
+              "tipo": "bonificacion_porcentaje",
+              "valor": "9.00"
+            }
+          ],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "0004426",
+          "codigo_ean": null,
+          "descripcion": "MANANITA B C P GDE 10X1 KG",
+          "cantidad_original": "1.000",
+          "tipo_cantidad_original": "unidad_logistica",
+          "factor_unidades": "10",
+          "cantidad": "10",
+          "precio_unitario_sin_iva_sin_descuento": "3235.13",
+          "precio_unitario_sin_iva": "2943.965",
+          "importe_neto_linea": "29439.65",
+          "ajustes_linea": [
+            {
+              "tipo": "bonificacion_porcentaje",
+              "valor": "9.00"
+            }
+          ],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "0004425",
+          "codigo_ean": null,
+          "descripcion": "MANANITA B C P 10X500 GR",
+          "cantidad_original": "1.000",
+          "tipo_cantidad_original": "unidad_logistica",
+          "factor_unidades": "10",
+          "cantidad": "10",
+          "precio_unitario_sin_iva_sin_descuento": "1739.58",
+          "precio_unitario_sin_iva": "1583.021",
+          "importe_neto_linea": "15830.21",
+          "ajustes_linea": [
+            {
+              "tipo": "bonificacion_porcentaje",
+              "valor": "9.00"
+            }
+          ],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "0004510",
+          "codigo_ean": null,
+          "descripcion": "LA MERCED DE CAMPO 6X500 GR",
+          "cantidad_original": "1.000",
+          "tipo_cantidad_original": "unidad_logistica",
+          "factor_unidades": "6",
+          "cantidad": "6",
+          "precio_unitario_sin_iva_sin_descuento": "3350.54",
+          "precio_unitario_sin_iva": "3048.99",
+          "importe_neto_linea": "18293.94",
+          "ajustes_linea": [
+            {
+              "tipo": "bonificacion_porcentaje",
+              "valor": "9.00"
+            }
+          ],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "0000294",
+          "codigo_ean": null,
+          "descripcion": "CUMANA SARDINA ACEITE 50X125 G",
+          "cantidad_original": "0.010",
+          "tipo_cantidad_original": "desconocida",
+          "factor_unidades": null,
+          "cantidad": "10",
+          "precio_unitario_sin_iva_sin_descuento": "1757.66",
+          "precio_unitario_sin_iva": "1669.775",
+          "importe_neto_linea": "16697.75",
+          "ajustes_linea": [
+            {
+              "tipo": "bonificacion_porcentaje",
+              "valor": "5.00"
+            }
+          ],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "0000927",
+          "codigo_ean": null,
+          "descripcion": "CBSE SILUET. NAR. DR. CORM. 12",
+          "cantidad_original": "1.000",
+          "tipo_cantidad_original": "unidad_logistica",
+          "factor_unidades": "12",
+          "cantidad": "12",
+          "precio_unitario_sin_iva_sin_descuento": "1507.50",
+          "precio_unitario_sin_iva": "1371.829167",
+          "importe_neto_linea": "16461.95",
+          "ajustes_linea": [
+            {
+              "tipo": "bonificacion_porcentaje",
+              "valor": "9.00"
+            }
+          ],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "0006090",
+          "codigo_ean": null,
+          "descripcion": "NATURA ROCIO VEGETAL 12X120 CC",
+          "cantidad_original": "1.000",
+          "tipo_cantidad_original": "unidad_logistica",
+          "factor_unidades": "12",
+          "cantidad": "12",
+          "precio_unitario_sin_iva_sin_descuento": "3261.43",
+          "precio_unitario_sin_iva": "2706.985833",
+          "importe_neto_linea": "32483.83",
+          "ajustes_linea": [
+            {
+              "tipo": "bonificacion_porcentaje",
+              "valor": "17.00"
+            }
+          ],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "0000805",
+          "codigo_ean": null,
+          "descripcion": "MORENITA CAFE SAQUITO 1X20 U",
+          "cantidad_original": "4.000",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1",
+          "cantidad": "4",
+          "precio_unitario_sin_iva_sin_descuento": "4112.25",
+          "precio_unitario_sin_iva": "3742.1475",
+          "importe_neto_linea": "14968.59",
+          "ajustes_linea": [
+            {
+              "tipo": "bonificacion_porcentaje",
+              "valor": "9.00"
+            }
+          ],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "0004521",
+          "codigo_ean": null,
+          "descripcion": "UNION MATE COCIDO 5X50",
+          "cantidad_original": "1.000",
+          "tipo_cantidad_original": "unidad_logistica",
+          "factor_unidades": "5",
+          "cantidad": "5",
+          "precio_unitario_sin_iva_sin_descuento": "1841.09",
+          "precio_unitario_sin_iva": "1675.392",
+          "importe_neto_linea": "8376.96",
+          "ajustes_linea": [
+            {
+              "tipo": "bonificacion_porcentaje",
+              "valor": "9.00"
+            }
+          ],
+          "alicuota_iva": "21.0"
+        }
+      ],
+      "iva": [
+        {
+          "alicuota": "10.5",
+          "base_imponible": "14881.10",
+          "importe": "1562.52"
+        },
+        {
+          "alicuota": "21.0",
+          "base_imponible": "184647.69",
+          "importe": "38776.01"
+        }
+      ],
+      "tributos": [
+        {
+          "descripcion": "RG. 5329",
+          "jurisdiccion": null,
+          "alicuota": null,
+          "base_imponible": null,
+          "importe": "5762.65"
+        },
+        {
+          "descripcion": "Perc.IIBB",
+          "jurisdiccion": null,
+          "alicuota": null,
+          "base_imponible": null,
+          "importe": "2992.93"
+        }
+      ],
+      "totales": {
+        "subtotal": "199528.79",
+        "neto_gravado": "199528.79",
+        "no_gravado": null,
+        "exento": null,
+        "iva": "40338.53",
+        "tributos": null,
+        "percepciones": "8755.58",
+        "descuentos": null,
+        "recargos": null,
+        "total": "248622.90"
+      },
+      "cae": "86428619709241",
+      "caea": null,
+      "vencimiento_cae": "2026-10-30",
+      "vencimiento_caea": null,
+      "qr_afip_url": null,
+      "condicion_venta": null,
+      "forma_pago": null,
+      "orden_compra": null,
+      "remito": null,
+      "advertencias": [
+        "El comprobante viene en dos copias de idéntico contenido (Original y copia); se consolidó en una sola factura.",
+        "Datos del emisor (razón social, CUIT, domicilio, IIBB, inicio de actividades) tomados del encabezado en imagen; el texto del PDF no los trae en el cuerpo.",
+        "Moneda no indicada explícitamente en el comprobante; se asume ARS.",
+        "Venta por bulto: cantidad_original en bultos (formato decimal, '1.000' = 1 bulto). factor_unidades deducido por conciliación Importe/(P.Unit×(1-bonif)×Cantidad); dio entero exacto en 10 de los 11 ítems y coincide con el 'NxM' de la descripción.",
+        "0000294 CUMANA SARDINA ACEITE 50X125 G: Cantidad impresa '0.010'. La conciliación del importe (16697.75 / (1757.66 × 0.95)) da 10 unidades, lo que implicaría un factor 1000 incompatible con el '50X' de la descripción. Se interpreta, con confirmación del usuario, que el sistema del proveedor expresa la cantidad como bultos.unidades (0 bultos + 10 unidades sueltas): tipo_cantidad_original 'desconocida', factor_unidades null y cantidad = 10 deducida del importe.",
+        "La columna U.Final incluye IVA (P.Unit×(1-bonif)×(1+alícuota)), por eso no se usó como precio neto; precio_unitario_sin_iva = importe_neto_linea / cantidad.",
+        "Las bases por alícuota se obtuvieron agrupando los netos de línea (10,5%: 14881.10; 21%: 184647.69) y reconcilian con los importes de IVA impresos (1562.52 y 38776.01). La suma de los importes de línea coincide exactamente con el Subtotal impreso.",
+        "Las dos percepciones (RG. 5329 y Perc.IIBB) se informan por separado, sin alícuota ni base impresas, y el comprobante no las totaliza: alicuota y base_imponible quedan en null y totales.percepciones es la suma de ambos importes impresos (8755.58).",
+        "totales.iva (40338.53) es la suma de los dos importes de IVA impresos; el comprobante no lo totaliza en una sola cifra. Subtotal + IVA + percepciones = 248622.90, igual al TOTAL impreso."
+      ]
+    }
+  ]
+}

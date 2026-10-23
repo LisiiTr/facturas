@@ -1,0 +1,124 @@
+{
+  "facturas": [
+    {
+      "tipo_comprobante": "Factura",
+      "letra": "A",
+      "codigo_comprobante": "01",
+      "punto_venta": "00003",
+      "numero_comprobante": "00222159",
+      "fecha_emision": "2026-10-20",
+      "fecha_vencimiento_pago": "2026-10-30",
+      "emisor": {
+        "razon_social": "El Pad Tres S.A.",
+        "nombre_comercial": null,
+        "cuit": "30712201025",
+        "condicion_iva": "IVA Responsable Inscripto",
+        "domicilio": "Calle 4 y 43",
+        "localidad": "La Plata",
+        "provincia": "Buenos Aires",
+        "codigo_postal": null,
+        "ingresos_brutos": "30712201025",
+        "inicio_actividades": "2013-10-01"
+      },
+      "receptor": {
+        "razon_social": "EL ROBLE SOCIEDAD SIMPLE S.",
+        "cuit": "30719352681",
+        "dni": null,
+        "condicion_iva": "RESPONSABLE INSCRIPTO",
+        "domicilio": "MONTEVIDEO #4607 ESQ.18",
+        "localidad": "BERISSO",
+        "provincia": null,
+        "codigo_postal": null
+      },
+      "moneda": null,
+      "tipo_cambio": null,
+      "items": [
+        {
+          "codigo": "40022",
+          "codigo_ean": null,
+          "descripcion": "PLAYADITO SUAVE x500g",
+          "cantidad_original": "10.00",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1",
+          "cantidad": "10.00",
+          "precio_unitario_sin_iva_sin_descuento": "1680.57",
+          "precio_unitario_sin_iva": "1680.57",
+          "importe_neto_linea": "16805.70",
+          "ajustes_linea": [],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "40021",
+          "codigo_ean": null,
+          "descripcion": "PLAYADITO SUAVE x1kg",
+          "cantidad_original": "5.00",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1",
+          "cantidad": "5.00",
+          "precio_unitario_sin_iva_sin_descuento": "3142.87",
+          "precio_unitario_sin_iva": "3142.87",
+          "importe_neto_linea": "15714.35",
+          "ajustes_linea": [],
+          "alicuota_iva": "21.0"
+        }
+      ],
+      "iva": [
+        {
+          "alicuota": "21.0",
+          "base_imponible": "32520.05",
+          "importe": "6829.21"
+        }
+      ],
+      "tributos": [
+        {
+          "descripcion": "Perc. 212",
+          "jurisdiccion": null,
+          "alicuota": null,
+          "base_imponible": null,
+          "importe": "0.00"
+        },
+        {
+          "descripcion": "Perc I.I.B.B.",
+          "jurisdiccion": null,
+          "alicuota": null,
+          "base_imponible": null,
+          "importe": "0.00"
+        },
+        {
+          "descripcion": "Perc.Mun.LP",
+          "jurisdiccion": null,
+          "alicuota": null,
+          "base_imponible": null,
+          "importe": "0.00"
+        }
+      ],
+      "totales": {
+        "subtotal": "32520.05",
+        "neto_gravado": "32520.05",
+        "no_gravado": null,
+        "exento": "0.00",
+        "iva": "6829.21",
+        "tributos": null,
+        "percepciones": "0.00",
+        "descuentos": null,
+        "recargos": null,
+        "total": "39349.26"
+      },
+      "cae": "86428623203401",
+      "caea": null,
+      "vencimiento_cae": "2026-10-30",
+      "vencimiento_caea": null,
+      "qr_afip_url": null,
+      "condicion_venta": "6 DIAS FECHA FACTURA",
+      "forma_pago": null,
+      "orden_compra": null,
+      "remito": null,
+      "advertencias": [
+        "El PDF trae Original y Duplicado del mismo comprobante; se consolidó en una sola factura.",
+        "La alícuota de IVA no viene por ítem: el totalizador informa una única alícuota (21%) y se asignó a los 2 ítems. Reconcilia: 32520.05 × 21% = 6829.21 impreso.",
+        "Las tres percepciones del pie (Perc. 212, Perc I.I.B.B., Perc.Mun.LP) vienen en 0,00; se cargaron en tributos con importe 0.00 según el perfil del proveedor.",
+        "La factura no indica moneda de forma explícita: moneda queda en null."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,175 @@
+{
+  "facturas": [
+    {
+      "tipo_comprobante": "FACTURA",
+      "letra": "A",
+      "codigo_comprobante": null,
+      "punto_venta": "0004",
+      "numero_comprobante": "00354099",
+      "fecha_emision": "2026-10-03",
+      "fecha_vencimiento_pago": "2026-10-10",
+      "emisor": {
+        "razon_social": "Arcobag S.A.",
+        "nombre_comercial": null,
+        "cuit": "30709089419",
+        "condicion_iva": null,
+        "domicilio": "Calle 4",
+        "localidad": null,
+        "provincia": null,
+        "codigo_postal": "1900",
+        "ingresos_brutos": "30709089419",
+        "inicio_actividades": "2006-03-01"
+      },
+      "receptor": {
+        "razon_social": "EL ROBLE SOCIEDAD SIMPLES",
+        "cuit": "23137663589",
+        "dni": null,
+        "condicion_iva": "REG. SIMP. MONOTRIBUTO",
+        "domicilio": "MONTEVIDEO ESQ.18 4607",
+        "localidad": "LA PLATA",
+        "provincia": null,
+        "codigo_postal": null
+      },
+      "moneda": null,
+      "tipo_cambio": null,
+      "items": [
+        {
+          "codigo": "13136",
+          "codigo_ean": null,
+          "descripcion": "LOMO DE ATUN AL NAT. LC x 170",
+          "cantidad_original": "6.00",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1",
+          "cantidad": "6.00",
+          "precio_unitario_sin_iva_sin_descuento": "3997.079",
+          "precio_unitario_sin_iva": "3997.079",
+          "importe_neto_linea": "23982.47",
+          "ajustes_linea": [],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "14408",
+          "codigo_ean": null,
+          "descripcion": "TRAVIATA 324g",
+          "cantidad_original": "8.00",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1",
+          "cantidad": "8.00",
+          "precio_unitario_sin_iva_sin_descuento": "1371.289",
+          "precio_unitario_sin_iva": "1371.289",
+          "importe_neto_linea": "10970.31",
+          "ajustes_linea": [],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "7198",
+          "codigo_ean": null,
+          "descripcion": "REX ORIGINAL CAJA x125g",
+          "cantidad_original": "4.00",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1",
+          "cantidad": "4.00",
+          "precio_unitario_sin_iva_sin_descuento": "1428.426",
+          "precio_unitario_sin_iva": "1428.426",
+          "importe_neto_linea": "5713.70",
+          "ajustes_linea": [],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "14772",
+          "codigo_ean": null,
+          "descripcion": "SURTIDO BAGLEY x 400g",
+          "cantidad_original": "7.00",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1",
+          "cantidad": "7.00",
+          "precio_unitario_sin_iva_sin_descuento": "2285.481",
+          "precio_unitario_sin_iva": "2285.481",
+          "importe_neto_linea": "15998.37",
+          "ajustes_linea": [],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "9509",
+          "codigo_ean": null,
+          "descripcion": "OPERA AGRUPADA x220g",
+          "cantidad_original": "7.00",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1",
+          "cantidad": "7.00",
+          "precio_unitario_sin_iva_sin_descuento": "1750.859",
+          "precio_unitario_sin_iva": "1750.859",
+          "importe_neto_linea": "12256.01",
+          "ajustes_linea": [],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "15406",
+          "codigo_ean": null,
+          "descripcion": "TOP LINE 7 MENTA x 16 u.",
+          "cantidad_original": "1.00",
+          "tipo_cantidad_original": "unidad_logistica",
+          "factor_unidades": "16",
+          "cantidad": "16.00",
+          "precio_unitario_sin_iva_sin_descuento": "626.069125",
+          "precio_unitario_sin_iva": "626.069125",
+          "importe_neto_linea": "10017.11",
+          "ajustes_linea": [],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "10057",
+          "codigo_ean": null,
+          "descripcion": "MENTHOPLUS ZERO STRONG x12u",
+          "cantidad_original": "1.00",
+          "tipo_cantidad_original": "unidad_logistica",
+          "factor_unidades": "12",
+          "cantidad": "12.00",
+          "precio_unitario_sin_iva_sin_descuento": "576.83225",
+          "precio_unitario_sin_iva": "576.83225",
+          "importe_neto_linea": "6921.99",
+          "ajustes_linea": [],
+          "alicuota_iva": "21.0"
+        }
+      ],
+      "iva": [
+        {
+          "alicuota": "21.0",
+          "base_imponible": "85859.96",
+          "importe": "18030.59"
+        }
+      ],
+      "tributos": [],
+      "totales": {
+        "subtotal": "85859.96",
+        "neto_gravado": "85859.96",
+        "no_gravado": "0.00",
+        "exento": null,
+        "iva": "18030.59",
+        "tributos": "0.00",
+        "percepciones": "0.00",
+        "descuentos": null,
+        "recargos": null,
+        "total": "103890.55"
+      },
+      "cae": "86405966947723",
+      "caea": null,
+      "vencimiento_cae": "2026-10-13",
+      "vencimiento_caea": null,
+      "qr_afip_url": null,
+      "condicion_venta": "7 Dias",
+      "forma_pago": null,
+      "orden_compra": null,
+      "remito": null,
+      "advertencias": [
+        "Comprobante leído desde una FOTO (confianza de lectura baja). Los importes se validaron por conciliación: la suma de las 7 líneas coincide exactamente con el Subtotal Gravado impreso (85859.96), el IVA 21% reconcilia (18030.59) y el Total (103890.55).",
+        "RECEPTOR: la razón social impresa es 'EL ROBLE SOCIEDAD SIMPLES' pero el CUIT impreso es 23-13766358-9 con condición 'REG. SIMP. MONOTRIBUTO' (la factura trae además la leyenda de la Ley 27.618 para receptores monotributistas). Ese CUIT no coincide con el de EL ROBLE SOCIEDAD SIMPLE (30-71935268-1, Responsable Inscripto) que figura en facturas de otros proveedores. Se cargó tal cual está impreso; revisar con el proveedor porque afecta el cómputo del crédito fiscal.",
+        "Renglones con unidad de medida 'DI' (display): cantidad 1 y precio por display. El factor de unidades se tomó de la descripción (x12u = 12; x16u = 16) por indicación del usuario; la factura no imprime precio por unidad suelta que lo confirme. Por indicación del usuario, precio_unitario_sin_iva = Precio del display / factor (no es un precio unitario impreso).",
+        "Emisor: el número de calle del domicilio ('Calle 4 N°') y la localidad/provincia (cortada: 'BUENOS') no se leen completos en la foto; domicilio queda como 'Calle 4' y localidad/provincia en null. La condición frente al IVA del emisor no figura impresa.",
+        "fecha_vencimiento_pago (10/10/2026) se tomó de la fecha sin etiqueta del bloque del cliente; es consistente con la condición de venta '7 Dias' desde la emisión. Los valores sin etiqueta del bloque del cliente (34316, 92.989, 709881, 34, 9.00) no se mapearon.",
+        "Las columnas Percepción, Percepción I. Brutos, Percepción Seg e Hig e Impuestos Internos vienen en 0.00; no se cargaron en tributos.",
+        "La factura no indica moneda de forma explícita: moneda queda en null. Tampoco informa el código numérico de comprobante."
+      ]
+    }
+  ]
+}

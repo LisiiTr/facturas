@@ -1,0 +1,310 @@
+{
+  "facturas": [
+    {
+      "tipo_comprobante": "Factura",
+      "letra": "A",
+      "codigo_comprobante": "01",
+      "punto_venta": "0004",
+      "numero_comprobante": "00463142",
+      "fecha_emision": "2026-10-16",
+      "fecha_vencimiento_pago": "2026-10-17",
+      "emisor": {
+        "razon_social": "VEMART S.A.",
+        "nombre_comercial": null,
+        "cuit": "30662192712",
+        "condicion_iva": "IVA Responsable Inscripto",
+        "domicilio": null,
+        "localidad": null,
+        "provincia": null,
+        "codigo_postal": null,
+        "ingresos_brutos": "902-127073-2",
+        "inicio_actividades": "1994-12-07"
+      },
+      "receptor": {
+        "razon_social": "EL ROBLE SOCIEDAD SIMPLE S. CAP I SEC IV",
+        "cuit": "30719352681",
+        "dni": null,
+        "condicion_iva": "Responsable Inscripto",
+        "domicilio": "AV. MONTEVIDEO 1608",
+        "localidad": "BERISSO",
+        "provincia": "BUENOS AIRES",
+        "codigo_postal": "1923"
+      },
+      "moneda": "ARS",
+      "tipo_cambio": null,
+      "items": [
+        {
+          "codigo": "12740",
+          "codigo_ean": "7790070265333",
+          "descripcion": "FRITOLIM CLASICO COCINERO x 120g",
+          "cantidad_original": "12.00",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1.00",
+          "cantidad": "12.00",
+          "precio_unitario_sin_iva_sin_descuento": "2548.54",
+          "precio_unitario_sin_iva": "2548.54",
+          "importe_neto_linea": "30582.48",
+          "ajustes_linea": [],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "12603",
+          "codigo_ean": "7790070231598",
+          "descripcion": "ACEITE COCINERO OLIVA Y GIRASOL x 900cc.",
+          "cantidad_original": "6.00",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1.00",
+          "cantidad": "6.00",
+          "precio_unitario_sin_iva_sin_descuento": "3546.29",
+          "precio_unitario_sin_iva": "3546.29",
+          "importe_neto_linea": "21277.74",
+          "ajustes_linea": [],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "12000",
+          "codigo_ean": "7790070562258",
+          "descripcion": "HARINA FAVORITA \"000 \" VIT x 1 kg.",
+          "cantidad_original": "30.00",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1.00",
+          "cantidad": "30.00",
+          "precio_unitario_sin_iva_sin_descuento": "772.90",
+          "precio_unitario_sin_iva": "772.90",
+          "importe_neto_linea": "23187.00",
+          "ajustes_linea": [],
+          "alicuota_iva": "10.5"
+        },
+        {
+          "codigo": "12006",
+          "codigo_ean": "7790070562180",
+          "descripcion": "HARINA BLANCAFLOR LEUDANTE FORT. X 1kg.",
+          "cantidad_original": "30.00",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1.00",
+          "cantidad": "30.00",
+          "precio_unitario_sin_iva_sin_descuento": "1426.60",
+          "precio_unitario_sin_iva": "1426.60",
+          "importe_neto_linea": "42798.00",
+          "ajustes_linea": [],
+          "alicuota_iva": "10.5"
+        },
+        {
+          "codigo": "22002",
+          "codigo_ean": "7790070562265",
+          "descripcion": "HARINA FAVORITA \"0000\" VIT x 1kg.",
+          "cantidad_original": "30.00",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1.00",
+          "cantidad": "30.00",
+          "precio_unitario_sin_iva_sin_descuento": "1024.17",
+          "precio_unitario_sin_iva": "1024.17",
+          "importe_neto_linea": "30725.10",
+          "ajustes_linea": [],
+          "alicuota_iva": "10.5"
+        },
+        {
+          "codigo": "22102",
+          "codigo_ean": "7790070432971",
+          "descripcion": "BIZC. EXQUISITA CHOCOLATE FORTIF. x 540g.",
+          "cantidad_original": "6.00",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1.00",
+          "cantidad": "6.00",
+          "precio_unitario_sin_iva_sin_descuento": "2740.36",
+          "precio_unitario_sin_iva": "2740.36",
+          "importe_neto_linea": "16442.16",
+          "ajustes_linea": [],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "12108",
+          "codigo_ean": "7790070432933",
+          "descripcion": "BIZC. EXQUISITA VAINILLA LDG BOLSA x 450g.",
+          "cantidad_original": "4.00",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1.00",
+          "cantidad": "4.00",
+          "precio_unitario_sin_iva_sin_descuento": "2975.36",
+          "precio_unitario_sin_iva": "2975.36",
+          "importe_neto_linea": "11901.44",
+          "ajustes_linea": [],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "12109",
+          "codigo_ean": "7790070432940",
+          "descripcion": "BIZC. EXQUISITA CHOCOLATE LDG BOLSA x 450g.",
+          "cantidad_original": "4.00",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1.00",
+          "cantidad": "4.00",
+          "precio_unitario_sin_iva_sin_descuento": "3146.99",
+          "precio_unitario_sin_iva": "3146.99",
+          "importe_neto_linea": "12587.96",
+          "ajustes_linea": [],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "22114",
+          "codigo_ean": "7790070432957",
+          "descripcion": "BROWNIES SIN TACC EXQ. CHOCOLATE BOLSA x 400g.",
+          "cantidad_original": "4.00",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1.00",
+          "cantidad": "4.00",
+          "precio_unitario_sin_iva_sin_descuento": "3073.15",
+          "precio_unitario_sin_iva": "3073.15",
+          "importe_neto_linea": "12292.60",
+          "ajustes_linea": [],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "22115",
+          "codigo_ean": "7790070432858",
+          "descripcion": "BROWNIES EXQ. CHOCOLATE FORT x 425g.",
+          "cantidad_original": "6.00",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1.00",
+          "cantidad": "6.00",
+          "precio_unitario_sin_iva_sin_descuento": "3083.81",
+          "precio_unitario_sin_iva": "3083.81",
+          "importe_neto_linea": "18502.86",
+          "ajustes_linea": [],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "11006",
+          "codigo_ean": "7790070336323",
+          "descripcion": "FID. MATARAZZO BUCATTINI",
+          "cantidad_original": "10.00",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1.00",
+          "cantidad": "10.00",
+          "precio_unitario_sin_iva_sin_descuento": "1173.40",
+          "precio_unitario_sin_iva": "1173.40",
+          "importe_neto_linea": "11734.00",
+          "ajustes_linea": [],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "12403",
+          "codigo_ean": "7790070101938",
+          "descripcion": "PREFERIDO PAN RALLADO x 500g + 50g",
+          "cantidad_original": "20.00",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1.00",
+          "cantidad": "20.00",
+          "precio_unitario_sin_iva_sin_descuento": "1073.85",
+          "precio_unitario_sin_iva": "1073.85",
+          "importe_neto_linea": "21477.00",
+          "ajustes_linea": [],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "12410",
+          "codigo_ean": "7790070106261",
+          "descripcion": "PREFERIDO REBOZADOR x 500g.+ 50g",
+          "cantidad_original": "20.00",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1.00",
+          "cantidad": "20.00",
+          "precio_unitario_sin_iva_sin_descuento": "1073.85",
+          "precio_unitario_sin_iva": "1073.85",
+          "importe_neto_linea": "21477.00",
+          "ajustes_linea": [],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "6200",
+          "codigo_ean": "7795933703267",
+          "descripcion": "FRESITA CHAMPAGNE CON FRESAS x 750ml",
+          "cantidad_original": "6.00",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1.00",
+          "cantidad": "6.00",
+          "precio_unitario_sin_iva_sin_descuento": "9146.02",
+          "precio_unitario_sin_iva": "9146.02",
+          "importe_neto_linea": "54876.12",
+          "ajustes_linea": [],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "16177",
+          "codigo_ean": "7790070764027",
+          "descripcion": "COCKTAIL EMILIA ROSE x 750cc",
+          "cantidad_original": "6.00",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1.00",
+          "cantidad": "6.00",
+          "precio_unitario_sin_iva_sin_descuento": "6233.10",
+          "precio_unitario_sin_iva": "5369.815",
+          "importe_neto_linea": "32218.89",
+          "ajustes_linea": [
+            {
+              "tipo": "bonificacion_porcentaje",
+              "valor": "13.9"
+            }
+          ],
+          "alicuota_iva": "21.0"
+        }
+      ],
+      "iva": [
+        {
+          "alicuota": "21.0",
+          "base_imponible": "265370.25",
+          "importe": "55727.76"
+        },
+        {
+          "alicuota": "10.5",
+          "base_imponible": "96710.10",
+          "importe": "10154.57"
+        }
+      ],
+      "tributos": [
+        {
+          "descripcion": "Percepción IIBB",
+          "jurisdiccion": "Buenos Aires",
+          "alicuota": "1.50",
+          "base_imponible": null,
+          "importe": "5431.19"
+        },
+        {
+          "descripcion": "Percepción IVA",
+          "jurisdiccion": null,
+          "alicuota": null,
+          "base_imponible": null,
+          "importe": "9411.76"
+        }
+      ],
+      "totales": {
+        "subtotal": "362080.35",
+        "neto_gravado": "362080.35",
+        "no_gravado": null,
+        "exento": null,
+        "iva": "65882.33",
+        "tributos": "0.00",
+        "percepciones": "14842.95",
+        "descuentos": null,
+        "recargos": null,
+        "total": "442805.64"
+      },
+      "cae": "86427830605050",
+      "caea": null,
+      "vencimiento_cae": "2026-10-26",
+      "vencimiento_caea": null,
+      "qr_afip_url": null,
+      "condicion_venta": "CONTADO",
+      "forma_pago": "CONTADO",
+      "orden_compra": "WAPP91030572",
+      "remito": null,
+      "advertencias": [
+        "Moneda no indicada explícitamente en el comprobante; se asume ARS.",
+        "Las bases imponibles por alícuota no figuran como línea propia; se obtuvieron agrupando el importe neto de cada ítem por su alícuota explícita y reconcilian con el IVA impreso (21%: 265370.25 × 21% = 55727.75 vs 55727.76 impreso; 10,5%: 96710.10 × 10,5% = 10154.56 vs 10154.57 impreso; diferencias de redondeo).",
+        "Ítem 16177 COCKTAIL EMILIA ROSE: el Precio impreso (5369.82) está redondeado; 6 × 5369.82 = 32218.92 no coincide con el TOTAL impreso 32218.89. Se usó el TOTAL impreso como importe_neto_linea y precio_unitario_sin_iva = 32218.89 / 6 = 5369.815. La bonificación impresa (13,9%) también está redondeada: la relación real entre precio neto y Precio Lista es 13,85%.",
+        "La suma de los componentes del pie (subtotal + percepciones + IVA) da 442805.63, pero el TOTAL impreso es 442805.64 (diferencia de 0.01). Se conserva lo impreso.",
+        "Los conceptos Imp. Internos (0,00%) y Perc. IIBB (C.A.B.A.) figuran en 0 y no se cargaron en tributos."
+      ]
+    }
+  ]
+}

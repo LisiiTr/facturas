@@ -1,0 +1,161 @@
+{
+  "facturas": [
+    {
+      "tipo_comprobante": "FACTURA",
+      "letra": "A",
+      "codigo_comprobante": null,
+      "punto_venta": "0012",
+      "numero_comprobante": "00036829",
+      "fecha_emision": "2026-10-22",
+      "fecha_vencimiento_pago": null,
+      "emisor": {
+        "razon_social": "DI SANTO JOSE",
+        "nombre_comercial": "DISCAS",
+        "cuit": "20176819872",
+        "condicion_iva": "IVA RESPONSABLE INSCRIPTO",
+        "domicilio": "Calle 47 N°1554 esq.26",
+        "localidad": "La Plata",
+        "provincia": "Buenos Aires",
+        "codigo_postal": "1900",
+        "ingresos_brutos": "20176819872",
+        "inicio_actividades": "2006-10-02"
+      },
+      "receptor": {
+        "razon_social": "EL ROBLE SOC. SIMPLE",
+        "cuit": "30719352681",
+        "dni": null,
+        "condicion_iva": null,
+        "domicilio": "*18 ESQ. MONTEVIDEO 4603",
+        "localidad": null,
+        "provincia": null,
+        "codigo_postal": null
+      },
+      "moneda": "ARS",
+      "tipo_cambio": null,
+      "items": [
+        {
+          "codigo": "35250",
+          "codigo_ean": null,
+          "descripcion": "DULCYPAS MANTECADO (10 x 370 Gr)",
+          "cantidad_original": "0.5",
+          "tipo_cantidad_original": "unidad_logistica",
+          "factor_unidades": "10",
+          "cantidad": "5",
+          "precio_unitario_sin_iva_sin_descuento": "1845.699",
+          "precio_unitario_sin_iva": "1845.699",
+          "importe_neto_linea": "9228.49",
+          "ajustes_linea": [],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "122",
+          "codigo_ean": null,
+          "descripcion": "CILO PEPAS LIGHT Nueva ( 12 x 300 Gr )",
+          "cantidad_original": "0.5",
+          "tipo_cantidad_original": "unidad_logistica",
+          "factor_unidades": "12",
+          "cantidad": "6",
+          "precio_unitario_sin_iva_sin_descuento": "1164.431",
+          "precio_unitario_sin_iva": "1164.431",
+          "importe_neto_linea": "6986.58",
+          "ajustes_linea": [],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "10877",
+          "codigo_ean": null,
+          "descripcion": "POZO Madalena Dce Leche (10x220gr)04",
+          "cantidad_original": "0.5",
+          "tipo_cantidad_original": "unidad_logistica",
+          "factor_unidades": "10",
+          "cantidad": "5",
+          "precio_unitario_sin_iva_sin_descuento": "1384.619",
+          "precio_unitario_sin_iva": "1384.619",
+          "importe_neto_linea": "6923.10",
+          "ajustes_linea": [],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "50427",
+          "codigo_ean": null,
+          "descripcion": "GRANIX Frutigran Av. Pasas (24 x 250) x 1u",
+          "cantidad_original": "12",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1",
+          "cantidad": "12",
+          "precio_unitario_sin_iva_sin_descuento": "1717.892",
+          "precio_unitario_sin_iva": "1717.892",
+          "importe_neto_linea": "20614.70",
+          "ajustes_linea": [],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "50612",
+          "codigo_ean": null,
+          "descripcion": "GRANIX Frutigran Chips (24 x 255 Gr) x 1u",
+          "cantidad_original": "7",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1",
+          "cantidad": "7",
+          "precio_unitario_sin_iva_sin_descuento": "2392.523",
+          "precio_unitario_sin_iva": "2392.523",
+          "importe_neto_linea": "16747.66",
+          "ajustes_linea": [],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "8326",
+          "codigo_ean": null,
+          "descripcion": "SORIANO BISCUIT ( 16 x 125 Gr )",
+          "cantidad_original": "0.5",
+          "tipo_cantidad_original": "unidad_logistica",
+          "factor_unidades": "16",
+          "cantidad": "8",
+          "precio_unitario_sin_iva_sin_descuento": "1269.912",
+          "precio_unitario_sin_iva": "1269.912",
+          "importe_neto_linea": "10159.30",
+          "ajustes_linea": [],
+          "alicuota_iva": "21.0"
+        }
+      ],
+      "iva": [
+        {
+          "alicuota": "21.0",
+          "base_imponible": "70659.83",
+          "importe": "14838.56"
+        }
+      ],
+      "tributos": [],
+      "totales": {
+        "subtotal": "70659.83",
+        "neto_gravado": "70659.83",
+        "no_gravado": null,
+        "exento": null,
+        "iva": "14838.56",
+        "tributos": null,
+        "percepciones": null,
+        "descuentos": null,
+        "recargos": null,
+        "total": "85498.40"
+      },
+      "cae": "86438914511056",
+      "caea": null,
+      "vencimiento_cae": "2026-11-01",
+      "vencimiento_caea": null,
+      "qr_afip_url": null,
+      "condicion_venta": null,
+      "forma_pago": null,
+      "orden_compra": null,
+      "remito": null,
+      "advertencias": [
+        "Este comprobante y la factura 0012-00036830 (misma fecha, mismo cliente) llegaron en PDF separados; son dos comprobantes distintos (numero y CAE propios), por eso se generan en JSON separados.",
+        "La alicuota de IVA no viene por item: el comprobante informa una unica alicuota (21%) en el totalizador y se asigno a los 6 items. Reconcilia: 70659.83 x 21% = 14838.56 impreso.",
+        "factor_unidades y la cantidad en unidades comerciales fueron DEDUCIDOS de la relacion Precio (por bulto) / Paq (por unidad); la columna Cant del comprobante expresa bultos. Los 6 factores dieron enteros limpios. Los renglones 'x 1u' son por unidad (factor 1).",
+        "SUBTOTAL + IVA impresos = 85498.39, pero el TOTAL impreso es 85498.40 (diferencia de 0.01). Se conserva lo impreso.",
+        "La descripcion 'POZO Madalena Dce Leche (10x220gr)04' termina en un codigo suelto cuyo significado no figura en el comprobante; se conservo como parte de la descripcion.",
+        "La condicion frente al IVA del receptor no figura en el comprobante; tampoco su localidad, provincia ni codigo postal. El comprobante trae un codigo de cliente 'RE2004' que no se mapeo a ningun campo del schema.",
+        "El comprobante no imprime codigo EAN de los articulos: codigo_ean queda en null. Tampoco informa condicion de venta ni el codigo numerico de comprobante (solo la letra A)."
+      ]
+    }
+  ]
+}

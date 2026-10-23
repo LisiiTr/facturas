@@ -1,0 +1,322 @@
+{
+  "facturas": [
+    {
+      "tipo_comprobante": "FACTURA",
+      "letra": "A",
+      "codigo_comprobante": "01",
+      "punto_venta": "0135",
+      "numero_comprobante": "00079115",
+      "fecha_emision": "2026-10-21",
+      "fecha_vencimiento_pago": null,
+      "emisor": {
+        "razon_social": "CONURBANO",
+        "nombre_comercial": null,
+        "cuit": "30710422946",
+        "condicion_iva": "Responsable Inscripto",
+        "domicilio": "COLECTORA PANAMERICANA RAMAL PILAR KM 49.5",
+        "localidad": null,
+        "provincia": null,
+        "codigo_postal": null,
+        "ingresos_brutos": "30710422946",
+        "inicio_actividades": null
+      },
+      "receptor": {
+        "razon_social": "EL ROBLE SOCIEDAD SIMPLE S. CAP I SECC IV",
+        "cuit": "30719352681",
+        "dni": null,
+        "condicion_iva": "Responsable Inscripto",
+        "domicilio": "25 DE MAYO 4603 e 18, BERISSO",
+        "localidad": "BERISSO",
+        "provincia": null,
+        "codigo_postal": null
+      },
+      "moneda": null,
+      "tipo_cambio": null,
+      "items": [
+        {
+          "codigo": "23165",
+          "codigo_ean": null,
+          "descripcion": "HEINEKEN LATA RUB X 473CC NR 4X6",
+          "cantidad_original": "11",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1",
+          "cantidad": "11",
+          "precio_unitario_sin_iva_sin_descuento": "2598.74",
+          "precio_unitario_sin_iva": "2598.74",
+          "importe_neto_linea": "28586.14",
+          "ajustes_linea": [],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "23165",
+          "codigo_ean": null,
+          "descripcion": "HEINEKEN LATA RUB X 473CC NR 4X6",
+          "cantidad_original": "1",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1",
+          "cantidad": "1",
+          "precio_unitario_sin_iva_sin_descuento": null,
+          "precio_unitario_sin_iva": "0.78",
+          "importe_neto_linea": "0.78",
+          "ajustes_linea": [
+            {
+              "tipo": "descuento_porcentaje",
+              "valor": "99.97"
+            }
+          ],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "23382",
+          "codigo_ean": null,
+          "descripcion": "SCHNEIDER REMIX LIMON 473CC 4X6",
+          "cantidad_original": "5",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1",
+          "cantidad": "5",
+          "precio_unitario_sin_iva_sin_descuento": "1750.78",
+          "precio_unitario_sin_iva": "1750.78",
+          "importe_neto_linea": "8753.90",
+          "ajustes_linea": [],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "23382",
+          "codigo_ean": null,
+          "descripcion": "SCHNEIDER REMIX LIMON 473CC 4X6",
+          "cantidad_original": "1",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1",
+          "cantidad": "1",
+          "precio_unitario_sin_iva_sin_descuento": null,
+          "precio_unitario_sin_iva": "0.53",
+          "importe_neto_linea": "0.53",
+          "ajustes_linea": [
+            {
+              "tipo": "descuento_porcentaje",
+              "valor": "99.97"
+            }
+          ],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "23397",
+          "codigo_ean": null,
+          "descripcion": "SCHNEIDER REMIX POMELO LAT 473 NR 4X6 LOC V1",
+          "cantidad_original": "6",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1",
+          "cantidad": "6",
+          "precio_unitario_sin_iva_sin_descuento": "1750.78",
+          "precio_unitario_sin_iva": "1750.78",
+          "importe_neto_linea": "10504.68",
+          "ajustes_linea": [],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "23179",
+          "codigo_ean": null,
+          "descripcion": "SCHNEIDER LATA X 710 CC 4X6",
+          "cantidad_original": "11",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1",
+          "cantidad": "11",
+          "precio_unitario_sin_iva_sin_descuento": "2303.64",
+          "precio_unitario_sin_iva": "2303.64",
+          "importe_neto_linea": "25340.04",
+          "ajustes_linea": [],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "23179",
+          "codigo_ean": null,
+          "descripcion": "SCHNEIDER LATA X 710 CC 4X6",
+          "cantidad_original": "1",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1",
+          "cantidad": "1",
+          "precio_unitario_sin_iva_sin_descuento": null,
+          "precio_unitario_sin_iva": "0.69",
+          "importe_neto_linea": "0.69",
+          "ajustes_linea": [
+            {
+              "tipo": "descuento_porcentaje",
+              "valor": "99.97"
+            }
+          ],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "23186",
+          "codigo_ean": null,
+          "descripcion": "HEINEKEN LATA RUB 710CC 4X6",
+          "cantidad_original": "11",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1",
+          "cantidad": "11",
+          "precio_unitario_sin_iva_sin_descuento": "3779.99",
+          "precio_unitario_sin_iva": "3779.99",
+          "importe_neto_linea": "41579.89",
+          "ajustes_linea": [],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "23186",
+          "codigo_ean": null,
+          "descripcion": "HEINEKEN LATA RUB 710CC 4X6",
+          "cantidad_original": "1",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1",
+          "cantidad": "1",
+          "precio_unitario_sin_iva_sin_descuento": null,
+          "precio_unitario_sin_iva": "1.13",
+          "importe_neto_linea": "1.13",
+          "ajustes_linea": [
+            {
+              "tipo": "descuento_porcentaje",
+              "valor": "99.97"
+            }
+          ],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "196776",
+          "codigo_ean": null,
+          "descripcion": "AD VILLAVICENCIO PET SG 2000CC X6",
+          "cantidad_original": "1",
+          "tipo_cantidad_original": "unidad_logistica",
+          "factor_unidades": "6",
+          "cantidad": "6",
+          "precio_unitario_sin_iva_sin_descuento": null,
+          "precio_unitario_sin_iva": "1769.87",
+          "importe_neto_linea": "10619.22",
+          "ajustes_linea": [
+            {
+              "tipo": "descuento_porcentaje",
+              "valor": "4.00"
+            }
+          ],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "125855",
+          "codigo_ean": null,
+          "descripcion": "VILLA DEL SUR PET S/G 2250CC 1 X 6",
+          "cantidad_original": "1",
+          "tipo_cantidad_original": "unidad_logistica",
+          "factor_unidades": "6",
+          "cantidad": "6",
+          "precio_unitario_sin_iva_sin_descuento": null,
+          "precio_unitario_sin_iva": "1495.23",
+          "importe_neto_linea": "8971.38",
+          "ajustes_linea": [
+            {
+              "tipo": "descuento_porcentaje",
+              "valor": "4.00"
+            }
+          ],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "195141",
+          "codigo_ean": null,
+          "descripcion": "VILLA DEL SUR BIDON 6.2 LTS X2",
+          "cantidad_original": "1",
+          "tipo_cantidad_original": "unidad_logistica",
+          "factor_unidades": "2",
+          "cantidad": "2",
+          "precio_unitario_sin_iva_sin_descuento": null,
+          "precio_unitario_sin_iva": "0.85",
+          "importe_neto_linea": "1.70",
+          "ajustes_linea": [
+            {
+              "tipo": "descuento_porcentaje",
+              "valor": "99.97"
+            }
+          ],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "125973",
+          "codigo_ean": null,
+          "descripcion": "BRIO NARANJA PET SG 1500CC 1 X 6",
+          "cantidad_original": "1",
+          "tipo_cantidad_original": "unidad_logistica",
+          "factor_unidades": "6",
+          "cantidad": "6",
+          "precio_unitario_sin_iva_sin_descuento": null,
+          "precio_unitario_sin_iva": "884.93",
+          "importe_neto_linea": "5309.58",
+          "ajustes_linea": [
+            {
+              "tipo": "descuento_porcentaje",
+              "valor": "4.00"
+            }
+          ],
+          "alicuota_iva": "21.0"
+        }
+      ],
+      "iva": [
+        {
+          "alicuota": "21.0",
+          "base_imponible": "139669.78",
+          "importe": "29330.65"
+        }
+      ],
+      "tributos": [
+        {
+          "descripcion": "Impuestos Internos",
+          "jurisdiccion": null,
+          "alicuota": null,
+          "base_imponible": null,
+          "importe": "13457.70"
+        },
+        {
+          "descripcion": "Perc. IIBB Bs.As.",
+          "jurisdiccion": "Buenos Aires",
+          "alicuota": "1.5",
+          "base_imponible": null,
+          "importe": "2095.05"
+        },
+        {
+          "descripcion": "Perc. IVA",
+          "jurisdiccion": null,
+          "alicuota": null,
+          "base_imponible": null,
+          "importe": "4190.09"
+        }
+      ],
+      "totales": {
+        "subtotal": "139669.78",
+        "neto_gravado": "139669.78",
+        "no_gravado": null,
+        "exento": null,
+        "iva": "29330.65",
+        "tributos": "13457.70",
+        "percepciones": "6285.14",
+        "descuentos": null,
+        "recargos": null,
+        "total": "188743.25"
+      },
+      "cae": "86428783307477",
+      "caea": null,
+      "vencimiento_cae": "2026-10-31",
+      "vencimiento_caea": null,
+      "qr_afip_url": null,
+      "condicion_venta": "CONTADO",
+      "forma_pago": null,
+      "orden_compra": null,
+      "remito": null,
+      "advertencias": [
+        "Comprobante leído desde una FOTO; la lectura se validó por conciliación: cada renglón cumple Cantidad x (PRECIO + IVA) + IMP INT = SUBTOTAL (diferencias de 1 a 4 centavos por redondeo), el IVA 21% del pie reconcilia con el SUBTOTAL (139669.78 x 21% = 29330.65) y las percepciones con sus alícuotas (1,5% y 3%).",
+        "importe_neto_linea NO está impreso: la columna SUBTOTAL de cada renglón incluye IVA e impuestos internos. Con acuerdo del usuario se calculó importe_neto_linea = cantidad x PRECIO (neto sin IVA, ya descontado). La suma de esos netos da 139669.66, contra el SUBTOTAL impreso 139669.78 (diferencia de 0.12 por el redondeo del PRECIO impreso); se conservó el SUBTOTAL impreso en totales.",
+        "La columna IVA de la tabla es el IMPORTE de IVA por unidad, no la alícuota; en los renglones con precio significativo da 21% exacto, y el pie informa solo IVA 21%. Se asignó 21% a todos los ítems.",
+        "Cantidad = BULT x UxB + UND. Renglones con UND (cervezas) se cargaron por unidad (factor 1); renglones con BULT se cargaron como bulto con factor = UxB impreso.",
+        "Columna DTO (descuento % por ítem): el PRECIO impreso ya está descontado, por eso precio_unitario_sin_iva = PRECIO y precio_unitario_sin_iva_sin_descuento queda en null en los renglones con descuento (el precio de lista no está impreso). Los renglones con DTO 99,97% son unidades bonificadas de promoción (1 unidad a precio casi cero); se cargaron como ítems separados, tal cual vienen, por acuerdo con el usuario.",
+        "La suma de los componentes del pie (SUBTOTAL + Perc.IIBB + Perc.IVA + Imp. Int. + IVA) da 188743.27, pero el TOTAL impreso es 188743.25 (diferencia de 0.02). Se conserva lo impreso.",
+        "Perc. IVA (4190.09) equivale al 3% del SUBTOTAL, pero la alícuota no está impresa: alicuota queda en null. El código de cliente '880262-' en el nombre del receptor no se cargó como parte de la razón social.",
+        "La factura no indica moneda de forma explícita: moneda queda en null. El inicio de actividades del emisor figura en blanco."
+      ]
+    }
+  ]
+}

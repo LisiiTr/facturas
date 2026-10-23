@@ -1,0 +1,145 @@
+{
+  "facturas": [
+    {
+      "tipo_comprobante": "REMITO / NOTA DE PEDIDO",
+      "letra": null,
+      "codigo_comprobante": null,
+      "punto_venta": null,
+      "numero_comprobante": "16",
+      "fecha_emision": "2026-10-22",
+      "fecha_vencimiento_pago": null,
+      "emisor": {
+        "razon_social": "AXEL MAXIMILIANO KUZEMKA",
+        "nombre_comercial": "DISTRIBUIDORA KUBBER",
+        "cuit": "23345067469",
+        "condicion_iva": null,
+        "domicilio": null,
+        "localidad": null,
+        "provincia": null,
+        "codigo_postal": null,
+        "ingresos_brutos": null,
+        "inicio_actividades": null
+      },
+      "receptor": {
+        "razon_social": "La Esquina",
+        "cuit": null,
+        "dni": null,
+        "condicion_iva": null,
+        "domicilio": "18 y Montevideo n 4607",
+        "localidad": null,
+        "provincia": null,
+        "codigo_postal": null
+      },
+      "moneda": null,
+      "tipo_cambio": null,
+      "items": [
+        {
+          "codigo": "1325",
+          "codigo_ean": null,
+          "descripcion": "QUENTO Papas jamon Serrano x 82 Grs.",
+          "cantidad_original": "3.00",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1",
+          "cantidad": "3.00",
+          "precio_unitario_sin_iva_sin_descuento": "1584.46281",
+          "precio_unitario_sin_iva": "1584.46281",
+          "importe_neto_linea": "4753.40",
+          "ajustes_linea": [],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "1363",
+          "codigo_ean": null,
+          "descripcion": "QUENTO Papas mostaza x 82 Grs.",
+          "cantidad_original": "3.00",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1",
+          "cantidad": "3.00",
+          "precio_unitario_sin_iva_sin_descuento": "1584.46281",
+          "precio_unitario_sin_iva": "1584.46281",
+          "importe_neto_linea": "4753.40",
+          "ajustes_linea": [],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "1368",
+          "codigo_ean": null,
+          "descripcion": "QUENTO Papas crema y ciboulette x 82 Grs.",
+          "cantidad_original": "3.00",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1",
+          "cantidad": "3.00",
+          "precio_unitario_sin_iva_sin_descuento": "1584.46281",
+          "precio_unitario_sin_iva": "1584.46281",
+          "importe_neto_linea": "4753.40",
+          "ajustes_linea": [],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "9114",
+          "codigo_ean": null,
+          "descripcion": "QUENTO Nachos Queso x 82 Grs.",
+          "cantidad_original": "3.00",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1",
+          "cantidad": "3.00",
+          "precio_unitario_sin_iva_sin_descuento": "1585.363636",
+          "precio_unitario_sin_iva": "1585.363636",
+          "importe_neto_linea": "4756.09",
+          "ajustes_linea": [],
+          "alicuota_iva": "21.0"
+        },
+        {
+          "codigo": "22707",
+          "codigo_ean": null,
+          "descripcion": "Noisettes x 400 Grs",
+          "cantidad_original": "3.00",
+          "tipo_cantidad_original": "unidad_comercial",
+          "factor_unidades": "1",
+          "cantidad": "3.00",
+          "precio_unitario_sin_iva_sin_descuento": "2156.404959",
+          "precio_unitario_sin_iva": "2156.404959",
+          "importe_neto_linea": "6469.21",
+          "ajustes_linea": [],
+          "alicuota_iva": "21.0"
+        }
+      ],
+      "iva": [
+        {
+          "alicuota": "21.0",
+          "base_imponible": "25485.50",
+          "importe": "5351.95"
+        }
+      ],
+      "tributos": [],
+      "totales": {
+        "subtotal": "25485.50",
+        "neto_gravado": "25485.50",
+        "no_gravado": null,
+        "exento": null,
+        "iva": "5351.95",
+        "tributos": null,
+        "percepciones": null,
+        "descuentos": null,
+        "recargos": null,
+        "total": "30837.45"
+      },
+      "cae": null,
+      "caea": null,
+      "vencimiento_cae": null,
+      "vencimiento_caea": null,
+      "qr_afip_url": null,
+      "condicion_venta": null,
+      "forma_pago": null,
+      "orden_compra": null,
+      "remito": "16",
+      "advertencias": [
+        "NO ES UN COMPROBANTE FISCAL: es un remito / nota de pedido de 'DISTRIBUIDORA KUBBER' (foto), sin letra, punto de venta, número fiscal, CUIT, CAE ni IVA discriminado. Se cargó por indicación del usuario. Como numero_comprobante se usó '16' (número que figura en el encabezado, probablemente de pedido) y punto_venta queda en null. Cuando llegue la factura de esta entrega, este registro podría duplicarla.",
+        "Emisor identificado como AXEL MAXIMILIANO KUZEMKA (CUIT 23-34506746-9) a partir de una factura A anterior del mismo proveedor (logo y productos coincidentes); el remito no imprime CUIT ni razón social.",
+        "IVA NO IMPRESO: por indicación del usuario, todos los ítems llevan IVA 21% y los precios del remito YA INCLUYEN IVA. importe_neto_linea = Importe impreso / 1,21 (redondeado a 2 decimales) y precio_unitario_sin_iva = Precio impreso / 1,21; no son valores impresos. El IVA total se obtuvo como Total impreso - suma de netos, para que el total coincida con el impreso (30837.45).",
+        "Ítems 1325, 1363 y 1368: 3 x 1917.20 = 5751.60, pero el importe impreso es 5751.61 (precio impreso redondeado). Se usó el importe impreso.",
+        "Receptor: el remito indica 'La Esquina' (cliente B11, rubro Autoservicio, 18 y Montevideo n 4607), sin CUIT ni razón social fiscal. La descripción incluye la marca de la columna 'Linea' (QUENTO) cuando viene informada."
+      ]
+    }
+  ]
+}

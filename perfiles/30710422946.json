@@ -1,0 +1,11 @@
+{
+  "cuit_emisor": "30710422946",
+  "razon_social": "CONURBANO",
+  "reglas": {
+    "cantidad": "mixto",
+    "iva": "por_item",
+    "descuentos": "por_item",
+    "percepciones": true
+  },
+  "notas": "Tabla: Codigo | DESCRIPCION | BULT | UxB | UND | PRECIO | IVA | DTO | IMP INT | SUBTOTAL. Formato numerico: punto = miles, coma = decimal. CANTIDAD = BULT x UxB + UND: renglon con UND -> unidad_comercial, factor 1; renglon con BULT -> unidad_logistica, factor = UxB (columna impresa). PRECIO = neto sin IVA por unidad, YA descontado -> precio_unitario_sin_iva. IVA = IMPORTE de IVA POR UNIDAD (no alicuota); alicuota = IVA/PRECIO (21% en la primera factura) y el pie discrimina 'IVA 21%'. IMP INT = impuestos internos de la linea -> tributos[] 'Impuestos Internos' y totales.tributos (pie 'Imp. Int.'). SUBTOTAL de linea = Cantidad x (PRECIO + IVA) + IMP INT (incluye IVA e internos): NO es neto. importe_neto_linea no esta impreso: acordado con el usuario calcularlo como cantidad x PRECIO, con advertencia (la suma puede diferir unos centavos del SUBTOTAL del pie). DTO = descuento % por item -> ajustes_linea descuento_porcentaje; precio_unitario_sin_iva_sin_descuento null en esas lineas (precio de lista no impreso); sin DTO -> igual a PRECIO. Lineas con DTO 99,97% = unidad bonificada de promo (ej. 11 + 1): se cargan como items separados, tal cual. Pie: SUBTOTAL (neto gravado) | Perc.IIBB (Bs.As. 1,5%) | Perc.IVA (3%, alicuota no impresa) | Imp. Int. | IVA 21% | TOTAL; el TOTAL puede diferir 1-2 centavos de la suma de componentes: conservar impreso. Codigo de cliente antes del guion en el nombre del receptor (ej. '880262-') no se carga. CAE y VTO (formato YYYYMMDD) al pie."
+}
